@@ -50,6 +50,7 @@ src/
   CNAME                  # www.123stranky.cz (kopíruje se do kořene _site)
   .nojekyll              # vypne Jekyll na GitHub Pages (kopíruje se do kořene _site)
 .github/workflows/pages.yml   # build + deploy na GitHub Pages
+eleventy.config.js            # filtry, kolekce, transform relativeLinks (root-relative → relativní odkazy)
 ```
 
 ## Design / brand
@@ -119,6 +120,7 @@ src/
 17. **Diakritika ve jméně souboru** funguje i na GitHub Pages: request `/uk%C3%A1zky` se dekóduje na `ukázky` a najde `ukázky.html` / `ukázky/index.html` (proto generujeme obě varianty redirectu).
 18. **Paginované stránky nejsou v kolekcích**, dokud nemá paginace `addAllPagesToCollections: true`. Bez toho `collections.sitemapPages` vidí od každé šablony **jen první** vygenerovanou stránku (sitemap pak měla 10 URL místo 36). Platí pro `lokalita.njk` i `obor.njk`.
 19. **`{% set %}` platí pro celý zbytek šablony** — proměnné nastavené pro jeden `{% include %}` musí další include vždy přenastavit (i na `false`), jinak zdědí staré hodnoty. Týká se hlavně parametrů `link-*.njk`.
+20. **Interní odkazy v šablonách jsou root-relative** (`/kontakt/`) a teprve transform `relativeLinks` z nich při buildu udělá relativní (`../kontakt/`). Nikdy nepočítej hloubku ručně a nepiš `../` přímo do šablony — rozbilo by to build na kořeni domény. Nový atribut s cestou musíš přidat do regexu v transformu.
 
 ## Kontrola kvality (audit)
 
@@ -190,10 +192,10 @@ Cíl: být relevantní tvůrce webů pro **města a obce kolem Slaného** (Praha
 
 ## Nasazení (GitHub Pages)
 
-- **Repozitář**: `https://github.com/Staticke-weby/123stranky.cz.git` (veřejný, výchozí branch `main`), lokálně `origin`. `gh` (GitHub CLI) na stroji **není** — pracuje se přes `git` + web GitHubu.
-- Repozitář se nasazuje workflowem `.github/workflows/pages.yml` (build `_site` → `actions/upload-pages-artifact` → `actions/deploy-pages`). V nastavení repa: **Settings → Pages → Source = GitHub Actions**. Dokud Pages nejsou zapnuté, workflow spadne na `actions/configure-pages` — po zapnutí je potřeba ho znovu spustit.
-- Vlastní doména: `src/CNAME` = `www.123stranky.cz` (kopíruje se do kořene `_site`). `site.url` je `https://www.123stranky.cz`, canonical i sitemap míří na www.
-- **Web musí běžet v kořeni domény** — všechny odkazy v šablonách jsou root-relative (`/kontakt/`). Do podadresáře (`staticke-weby.github.io/123stranky.cz/`) by se musel přidat `pathPrefix` a přepsat odkazy, proto se testuje přes vlastní doménu (nebo lokálně).
+- Repozitář: `https://github.com/Staticke-weby/123stranky.cz` (veřejný, výchozí branch `main`), lokálně `origin`. GitHub Pages jsou zapnuté (Source = GitHub Actions); web běží na `https://staticke-weby.github.io/123stranky.cz/`, vlastní doména `www.123stranky.cz` se teprve nastavuje (DNS na ni zatím míří na starý Google Sites). `gh` (GitHub CLI) na stroji **není** — pracuje se přes `git` + web GitHubu.
+- Nasadit ručně: `git push origin main` (běží workflow `.github/workflows/pages.yml`: build `_site` → `actions/upload-pages-artifact` → `actions/deploy-pages`).
+- Vlastní doména: `src/CNAME` = `www.123stranky.cz` (kopíruje se do kořene `_site`), ale **nasadit ji musíš v Settings → Pages → Custom domain** — při deployi přes Actions se soubor `CNAME` do nastavení nepropíše (nasazený `/CNAME` je prázdný, dokud doména není vyplněná v nastavení). `site.url` je `https://www.123stranky.cz`, canonical, OG i sitemap míří na www.
+- **Web funguje z kořene domény i z podadresáře.** V šablonách se interní odkazy píšou root-relative (`/kontakt/`), ale transform `relativeLinks` v `eleventy.config.js` je při buildu přepíše na relativní podle hloubky stránky (`./`, `../`, `../../`). Díky tomu funguje jak `https://www.123stranky.cz/…`, tak `https://staticke-weby.github.io/123stranky.cz/…`. Když přidáš nový atribut s cestou (`data-bg`, `srcset`…), musíš ho přidat i do regexu v transformu.
 - DNS je na **Cloudflare** (NS `ajay.ns`/`zoe.ns.cloudflare.com`, provoz přes Google Sites). Pro GitHub Pages:
   - apex `123stranky.cz`: `A` na `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (+ volitelně `AAAA 2606:50c0:8000::153` … `::803`)
   - `www`: `CNAME` na `staticke-weby.github.io`
