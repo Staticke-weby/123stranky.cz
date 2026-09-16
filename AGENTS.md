@@ -190,12 +190,13 @@ Cíl: být relevantní tvůrce webů pro **města a obce kolem Slaného** (Praha
 
 ## Nasazení (GitHub Pages)
 
-- Repozitář se nasazuje workflowem `.github/workflows/pages.yml` (build `_site` → `actions/upload-pages-artifact` → `actions/deploy-pages`). V nastavení repa: **Settings → Pages → Source = GitHub Actions**.
+- **Repozitář**: `https://github.com/Staticke-weby/123stranky.cz.git` (veřejný, výchozí branch `main`), lokálně `origin`. `gh` (GitHub CLI) na stroji **není** — pracuje se přes `git` + web GitHubu.
+- Repozitář se nasazuje workflowem `.github/workflows/pages.yml` (build `_site` → `actions/upload-pages-artifact` → `actions/deploy-pages`). V nastavení repa: **Settings → Pages → Source = GitHub Actions**. Dokud Pages nejsou zapnuté, workflow spadne na `actions/configure-pages` — po zapnutí je potřeba ho znovu spustit.
 - Vlastní doména: `src/CNAME` = `www.123stranky.cz` (kopíruje se do kořene `_site`). `site.url` je `https://www.123stranky.cz`, canonical i sitemap míří na www.
-- **Web musí běžet v kořeni domény** — všechny odkazy v šablonách jsou root-relative (`/kontakt/`). Do podadresáře (`user.github.io/repo/`) by se musel přidat `pathPrefix` a přepsat odkazy.
+- **Web musí běžet v kořeni domény** — všechny odkazy v šablonách jsou root-relative (`/kontakt/`). Do podadresáře (`staticke-weby.github.io/123stranky.cz/`) by se musel přidat `pathPrefix` a přepsat odkazy, proto se testuje přes vlastní doménu (nebo lokálně).
 - DNS je na **Cloudflare** (NS `ajay.ns`/`zoe.ns.cloudflare.com`, provoz přes Google Sites). Pro GitHub Pages:
   - apex `123stranky.cz`: `A` na `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (+ volitelně `AAAA 2606:50c0:8000::153` … `::803`)
-  - `www`: `CNAME` na `<účet>.github.io`
+  - `www`: `CNAME` na `staticke-weby.github.io`
   - Nejdřív nechat **DNS only** (šedý mrak), ať GitHub vystaví certifikát, pak teprve případně zapnout proxy. Zapnout **Enforce HTTPS**.
 - **Přesměrování ze starých URL** (GitHub Pages neumí serverové redirecty): `_data/redirects.json` + šablony `redirecty.njk` (`/{{ from }}/index.html`) a `redirecty-bez-lomitka.njk` (`/{{ from }}.html`). Generují se obě varianty, protože se liší chování statického serveru. Stránka má `meta refresh`, `canonical` na cíl a `noindex`.
 - Namapované staré adresy (Google Sites, ověřeno, že vracely 200):
