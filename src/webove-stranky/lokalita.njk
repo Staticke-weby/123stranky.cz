@@ -29,7 +29,7 @@ eleventyComputed:
 
     <div class="local-note">
       <span class="local-note-icon">{{ icon("pin", 20) }}</span>
-      <p><strong>{{ site.branch.label }}:</strong> {{ site.branch.street }}, {{ site.branch.zip }} {{ site.branch.city }} · <a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p>
+      <p><strong>{{ site.branch.label }}:</strong> {{ site.branch.street }}, {{ site.branch.zip }} {{ site.branch.city }} · <a href="tel:{{ site.phoneHref }}" data-umami-event="kontakt-telefon" data-umami-event-misto="sekce">{{ site.phone }}</a></p>
     </div>
   </div>
 </section>
@@ -134,7 +134,7 @@ eleventyComputed:
     </div>
     <div class="cta-actions">
       <a class="btn btn-light btn-lg" href="/kontakt/">Nezávazně poptat</a>
-      <a class="btn btn-ghost-light btn-lg" href="{{ site.emailHref }}">Napsat e-mail</a>
+      <a class="btn btn-ghost-light btn-lg" href="{{ site.emailHref }}" data-umami-event="kontakt-email" data-umami-event-misto="cta">Napsat e-mail</a>
     </div>
   </div>
 </section>

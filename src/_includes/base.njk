@@ -12,13 +12,13 @@
   {% include "footer.njk" %}
 
   <nav class="mobile-bar" aria-label="Rychlý kontakt">
-    <a class="mobile-bar-item" href="tel:{{ site.phoneHref }}">
+    <a class="mobile-bar-item" href="tel:{{ site.phoneHref }}" data-umami-event="kontakt-telefon" data-umami-event-misto="mobilni-lista">
       {{ icon("phone", 20) }}<span>Zavolat</span>
     </a>
-    <a class="mobile-bar-item" href="{{ site.whatsappHref }}" target="_blank" rel="noopener">
+    <a class="mobile-bar-item" href="{{ site.whatsappHref }}" target="_blank" rel="noopener" data-umami-event="kontakt-whatsapp" data-umami-event-misto="mobilni-lista">
       {{ icon("whatsapp", 20) }}<span>WhatsApp</span>
     </a>
-    <a class="mobile-bar-item" href="{{ site.emailHref }}">
+    <a class="mobile-bar-item" href="{{ site.emailHref }}" data-umami-event="kontakt-email" data-umami-event-misto="mobilni-lista">
       {{ icon("mail", 20) }}<span>E-mail</span>
     </a>
   </nav>

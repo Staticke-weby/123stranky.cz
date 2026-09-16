@@ -17,21 +17,21 @@ description: "Napište nebo zavolejte. Ozveme se obvykle do 24 hodin a nezávazn
 <section class="section">
   <div class="container">
     <div class="contact-grid">
-      <a class="contact-card" href="{{ site.emailHref }}">
+      <a class="contact-card" href="{{ site.emailHref }}" data-umami-event="kontakt-email" data-umami-event-misto="kontakt">
         <span class="card-icon">{{ icon("mail", 22) }}</span>
         <h2>E-mail</h2>
         <p class="contact-value">{{ site.email }}</p>
         <span class="contact-hint">Odpovídáme obvykle do 24 hodin</span>
       </a>
 
-      <a class="contact-card" href="tel:{{ site.phoneHref }}">
+      <a class="contact-card" href="tel:{{ site.phoneHref }}" data-umami-event="kontakt-telefon" data-umami-event-misto="kontakt">
         <span class="card-icon">{{ icon("phone", 22) }}</span>
         <h2>Telefon</h2>
         <p class="contact-value">{{ site.phone }}</p>
         <span class="contact-hint">Po–Pá, 9:00–17:00</span>
       </a>
 
-      <a class="contact-card" href="{{ site.whatsappHref }}" target="_blank" rel="noopener">
+      <a class="contact-card" href="{{ site.whatsappHref }}" target="_blank" rel="noopener" data-umami-event="kontakt-whatsapp" data-umami-event-misto="kontakt">
         <span class="card-icon">{{ icon("whatsapp", 22) }}</span>
         <h2>WhatsApp</h2>
         <p class="contact-value">{{ site.whatsapp }}</p>
@@ -62,7 +62,7 @@ description: "Napište nebo zavolejte. Ozveme se obvykle do 24 hodin a nezávazn
         <div class="person-body">
           <strong>{{ p.name }}</strong>
           <span class="person-role">{{ p.role }}</span>
-          <a class="person-phone" href="tel:{{ p.phoneHref }}">{{ icon("phone", 16) }} {{ p.phone }}</a>
+          <a class="person-phone" href="tel:{{ p.phoneHref }}" data-umami-event="kontakt-telefon" data-umami-event-misto="kontakt-osoby">{{ icon("phone", 16) }} {{ p.phone }}</a>
         </div>
       </div>
       {% endfor %}
@@ -88,7 +88,7 @@ description: "Napište nebo zavolejte. Ozveme se obvykle do 24 hodin a nezávazn
           <li>{{ icon("check", 18) }} Máte už doménu a hosting, nebo je máme zařídit?</li>
           <li>{{ icon("check", 18) }} Do kdy by měl být web hotový</li>
         </ul>
-        <a class="btn btn-primary" href="{{ site.emailHref }}">Napsat poptávku {{ icon("arrow", 18) }}</a>
+        <a class="btn btn-primary" href="{{ site.emailHref }}" data-umami-event="kontakt-email" data-umami-event-misto="kontakt-formular">Napsat poptávku {{ icon("arrow", 18) }}</a>
       </div>
       <div class="split-visual">
         <div class="info-card">
@@ -133,11 +133,11 @@ description: "Napište nebo zavolejte. Ozveme se obvykle do 24 hodin a nezávazn
   <div class="container cta-inner">
     <div>
       <h2>Stačí jedna zpráva a rozjedeme to</h2>
-      <p>Napište nám na <a class="cta-link" href="{{ site.emailHref }}">{{ site.email }}</a>, zavolejte na <a class="cta-link" href="tel:{{ site.phoneHref }}">{{ site.phone }}</a> nebo napište na WhatsApp.</p>
+      <p>Napište nám na <a class="cta-link" href="{{ site.emailHref }}" data-umami-event="kontakt-email" data-umami-event-misto="cta">{{ site.email }}</a>, zavolejte na <a class="cta-link" href="tel:{{ site.phoneHref }}" data-umami-event="kontakt-telefon" data-umami-event-misto="cta">{{ site.phone }}</a> nebo napište na WhatsApp.</p>
     </div>
     <div class="cta-actions">
-      <a class="btn btn-light btn-lg" href="{{ site.emailHref }}">Napsat e-mail</a>
-      <a class="btn btn-ghost-light btn-lg" href="{{ site.whatsappHref }}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-light btn-lg" href="{{ site.emailHref }}" data-umami-event="kontakt-email" data-umami-event-misto="cta">Napsat e-mail</a>
+      <a class="btn btn-ghost-light btn-lg" href="{{ site.whatsappHref }}" target="_blank" rel="noopener" data-umami-event="kontakt-whatsapp" data-umami-event-misto="cta">WhatsApp</a>
     </div>
   </div>
 </section>

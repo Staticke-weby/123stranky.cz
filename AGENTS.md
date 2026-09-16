@@ -78,6 +78,7 @@ eleventy.config.js            # filtry, kolekce, transform relativeLinks (root-r
 
 - **Umami** (self-hosted `navstevnost.pikapod.net`), konfigurace v `_data/site.json` pod `analytics` (`script` + `websiteId`). `head.njk` z toho vygeneruje `<script defer src="…" data-website-id="…">` na všech stránkách s layoutem (38 stránek) — **nepřesměrovací** stránky a `404` mají `layout: false`/redirect šablonu, takže skript nemají.
 - Umami je **bez cookies** a nesbírá osobní údaje → není potřeba cookie lišta ani souhlas.
+- **Kontaktní odkazy nesou události** (bez dalšího JS, Umami je sbírá z atributů): `data-umami-event="kontakt-telefon|kontakt-whatsapp|kontakt-email"` + `data-umami-event-misto="mobilni-lista|paticka|cta|kontakt|kontakt-osoby|kontakt-formular|sekce|mapa-webu"`. **Nový kontaktní odkaz musí atributy dostat taky**, jinak se v datech neobjeví (kontrola: v `_site/**/*.html` nesmí být `<a href="tel:|mailto:|wa.me/">` bez `data-umami-event`).
 - Skript běží na všech doménách, takže se v datech objeví i `staticke-weby.github.io` a `localhost` (v Umami se dají odfiltrovat podle hostname). Když se má měřit jen na produkci, přidej do `head.njk` atribut `data-domains="www.123stranky.cz"`.
 - **Návštěvnost se neměří na přesměrovacích stránkách** (staré URL) — jsou záměrně mimo layout.
 

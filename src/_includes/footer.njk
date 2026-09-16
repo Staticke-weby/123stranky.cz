@@ -24,9 +24,9 @@
     <div class="footer-col">
       <h2 class="footer-title">Kontakt</h2>
       <ul class="footer-links">
-        <li><a href="{{ site.emailHref }}">{{ site.email }}</a></li>
-        <li><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></li>
-        <li><a href="{{ site.whatsappHref }}" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="{{ site.emailHref }}" data-umami-event="kontakt-email" data-umami-event-misto="paticka">{{ site.email }}</a></li>
+        <li><a href="tel:{{ site.phoneHref }}" data-umami-event="kontakt-telefon" data-umami-event-misto="paticka">{{ site.phone }}</a></li>
+        <li><a href="{{ site.whatsappHref }}" target="_blank" rel="noopener" data-umami-event="kontakt-whatsapp" data-umami-event-misto="paticka">WhatsApp</a></li>
         <li>{{ site.branch.label }}<br>{{ site.branch.street }}, {{ site.branch.zip }} {{ site.branch.city }}</li>
       </ul>
     </div>
