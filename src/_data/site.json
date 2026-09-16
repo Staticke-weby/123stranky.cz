@@ -10,6 +10,11 @@
   "phoneHref": "+420731819760",
   "whatsapp": "+420 731 819 760",
   "whatsappHref": "https://wa.me/420731819760?text=Dobr%C3%BD%20den%2C%20m%C3%A1m%20z%C3%A1jem%20o%20tvorbu%20webov%C3%BDch%20str%C3%A1nek.",
+  "analytics": {
+    "name": "Umami",
+    "script": "https://navstevnost.pikapod.net/script.js",
+    "websiteId": "07de47b5-7dab-4266-aca2-32546e70864d"
+  },
   "contacts": [
     {
       "name": "Ing. Kamila Baloun",

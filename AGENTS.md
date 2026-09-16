@@ -74,6 +74,13 @@ eleventy.config.js            # filtry, kolekce, transform relativeLinks (root-r
 - Sdílené funkce balíčků jsou v `includes.json` (pole objektů `{ "text": "...", "highlight": true }`) a zobrazují se v sekci „V každém balíčku" na `/cenik/`. `highlight` zvýrazní bod tučně (např. „.CZ doména a hosting na 1. rok").
 - **Kontaktní formulář se nedělá** (jen když je nutný) — používají se kontaktní tlačítka a výzvy k akci. Logo dodává klient, školení správy obsahu se nenabízí.
 
+## Měření návštěvnosti
+
+- **Umami** (self-hosted `navstevnost.pikapod.net`), konfigurace v `_data/site.json` pod `analytics` (`script` + `websiteId`). `head.njk` z toho vygeneruje `<script defer src="…" data-website-id="…">` na všech stránkách s layoutem (38 stránek) — **nepřesměrovací** stránky a `404` mají `layout: false`/redirect šablonu, takže skript nemají.
+- Umami je **bez cookies** a nesbírá osobní údaje → není potřeba cookie lišta ani souhlas.
+- Skript běží na všech doménách, takže se v datech objeví i `staticke-weby.github.io` a `localhost` (v Umami se dají odfiltrovat podle hostname). Když se má měřit jen na produkci, přidej do `head.njk` atribut `data-domains="www.123stranky.cz"`.
+- **Návštěvnost se neměří na přesměrovacích stránkách** (staré URL) — jsou záměrně mimo layout.
+
 ## Kontakty a provozovatel (reálné)
 
 - E-mail: `123stranky.cz@gmail.com`, telefon: `+420 731 819 760`
@@ -220,6 +227,7 @@ Cíl: být relevantní tvůrce webů pro **města a obce kolem Slaného** (Praha
 ## TODO (nedodělané)
 
 - Kontaktní formulář (web je zatím bez formuláře — jen e-mail/telefon).
+- **Soukromí vs. měření**: na webu běží Umami (bez cookies), ale právní text na `/zpracovani-osobnich-udaju/` zmiňuje jen Google Analytics/Ads a Facebook pixel (doslovné znění ze starého webu). Mělo by se doplnit, že se návštěvnost měří přes Umami — **rozhodnutí je na firmě** (text se nemění bez jejího souhlasu).
 - Právní text na `/zpracovani-osobnich-udaju/` je **doslovné znění ze starého webu** (Google Sites) — neměnit formulace, jen struktura je nová (`.legal` + `.legal-toc` = obsah s kotvami). Zachované jsou i původní údaje: správce `Hell Solutions s.r.o.`, `info@hellsolutions.cz`, `+420605540167`, adresa `Tuřany 77, 27379 Tuřany`, účinnost `20.3.2024`, zmínky o Google cookies (Analytics, Ads, Facebook pixel) a okně „Nastavení cookies". Kontakt na webu je `123stranky.cz@gmail.com` / `+420 731 819 760` → **rozpor, měla by ho potvrdit/opravit firma**.
 - Zvážit self-hosted fonty místo Google Fonts (nyní se Inter + Plus Jakarta Sans načítají z `fonts.googleapis.com` v `head.njk`).
 - Získat skutečné citace od klientů (recenze jsou zatím smyšlené, přiřazené k referenčním firmám: MUCHOVA, Rychlé Čištění Praha, Biorezonance BICOM).
