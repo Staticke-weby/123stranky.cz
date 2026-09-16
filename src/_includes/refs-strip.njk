@@ -1,0 +1,29 @@
+{% from "icon.njk" import icon %}
+<section class="section{% if refsSoft %} section--soft{% endif %}">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Reference</p>
+      <h2>{{ refsTitle or "Weby, které už fungují" }}</h2>
+      <p class="section-lead">{{ refsNote or "Podívejte se na weby, které jsme postavili skutečným klientům." }}</p>
+    </div>
+
+    <div class="showcase">
+      {% for r in references %}
+      <a class="showcase-item" href="{{ r.url }}" target="_blank" rel="noopener">
+        <span class="showcase-thumb">
+          <img src="{{ r.image }}" alt="Náhled webu {{ r.name }}" width="800" height="500" loading="lazy">
+        </span>
+        <span class="showcase-meta">
+          <h3>{{ r.name }}</h3>
+          <p>{{ r.desc }}</p>
+          <span class="showcase-link">Zobrazit web {{ icon("arrow", 16) }}</span>
+        </span>
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="section-cta">
+      <a class="btn btn-outline" href="/ukazky/">Všechny ukázky {{ icon("arrow", 18) }}</a>
+    </div>
+  </div>
+</section>

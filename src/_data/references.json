@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MUCHOVA — Ovocnářství a vinařství",
+    "desc": "Rodinný web s přehledem ovoce, moštů a vín, samosběry a prodejnou ve Slaném.",
+    "url": "https://www.ovocnarstvi-vinarstvi.cz/",
+    "image": "/assets/reference/ovocnarstvi-vinarstvi.jpg"
+  },
+  {
+    "name": "Rychlé Čištění Praha",
+    "desc": "Mobilní čištění vozidel a úklidové služby pro Prahu a okolí s přehledným ceníkem.",
+    "url": "https://www.rychlecistenipraha.cz/",
+    "image": "/assets/reference/rychlecistenipraha.jpg"
+  },
+  {
+    "name": "Atelier Mentolka",
+    "desc": "Multifunkční prostor v Tuřanech u Slaného k pronájmu pro akce, kurzy a oslavy.",
+    "url": "https://www.ateliermentolka.cz/",
+    "image": "/assets/reference/ateliermentolka.jpg"
+  },
+  {
+    "name": "Biorezonance BICOM Slaný",
+    "desc": "Terapie přístrojem BICOM Optima — vysvětlení metody, ceník a objednání.",
+    "url": "https://www.biorezonanceslany.cz/",
+    "image": "/assets/reference/biorezonanceslany.jpg"
+  }
+]

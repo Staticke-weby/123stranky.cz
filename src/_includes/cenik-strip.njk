@@ -1,0 +1,27 @@
+{% from "icon.njk" import icon %}
+<section class="section{% if pricingSoft %} section--soft{% endif %}">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Ceník</p>
+      <h2>{{ pricingTitle or "Jasné ceny bez překvapení" }}</h2>
+      <p class="section-lead">{{ pricingText or "Jeden pokročilý web, tři časové fondy. Všechny balíčky mají stejné funkce a liší se jen časem, který vám věnujeme. Ceny jsou bez DPH." }}</p>
+    </div>
+
+    <div class="pricing">
+      {% for p in packages %}
+      <article class="price-card{% if p.featured %} price-card--featured{% endif %}">
+        {% if p.badge %}<span class="price-badge">{{ p.badge }}</span>{% endif %}
+        <h3 class="price-name">{{ p.name }}</h3>
+        <p class="price-desc">{{ p.desc }}</p>
+        <p class="price-amount"><strong>{{ p.price }}</strong> <span>{{ p.period }}</span></p>
+        <p class="price-fund"><strong>{{ p.hours }} hodin</strong> spolupráce v ceně</p>
+        <a class="btn {% if p.featured %}btn-primary{% else %}btn-outline{% endif %} price-cta" href="/kontakt/">{{ p.cta }}</a>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="section-cta">
+      <a class="btn btn-outline" href="/cenik/">Kompletní ceník včetně doplňků {{ icon("arrow", 18) }}</a>
+    </div>
+  </div>
+</section>

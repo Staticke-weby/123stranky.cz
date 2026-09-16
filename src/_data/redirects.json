@@ -1,0 +1,8 @@
+[
+  { "from": "/123stranky", "to": "/", "note": "původní homepage na Google Sites" },
+  { "from": "/reference", "to": "/#reference", "note": "reference jsou na úvodu" },
+  { "from": "/ukázky", "to": "/ukazky/", "note": "ukázky" },
+  { "from": "/poptávka", "to": "/kontakt/", "note": "formulář nahradily kontaktní tlačítka" },
+  { "from": "/návod-na-weby-google", "to": "/", "note": "návod na Google Sites už neplatí" },
+  { "from": "/zpracování-osobních-údajů", "to": "/zpracovani-osobnich-udaju/", "note": "stránka zpracování osobních údajů" }
+]

@@ -1,0 +1,28 @@
+{% from "icon.njk" import icon %}<!doctype html>
+<html lang="cs">
+<head>
+{% include "head.njk" %}
+</head>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+  <a class="skip-link" href="#main">Přeskočit na obsah</a>
+  {% include "header.njk" %}
+  <main id="main" tabindex="-1">
+    {{ content | safe }}
+  </main>
+  {% include "footer.njk" %}
+
+  <nav class="mobile-bar" aria-label="Rychlý kontakt">
+    <a class="mobile-bar-item" href="tel:{{ site.phoneHref }}">
+      {{ icon("phone", 20) }}<span>Zavolat</span>
+    </a>
+    <a class="mobile-bar-item" href="{{ site.whatsappHref }}" target="_blank" rel="noopener">
+      {{ icon("whatsapp", 20) }}<span>WhatsApp</span>
+    </a>
+    <a class="mobile-bar-item" href="{{ site.emailHref }}">
+      {{ icon("mail", 20) }}<span>E-mail</span>
+    </a>
+  </nav>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

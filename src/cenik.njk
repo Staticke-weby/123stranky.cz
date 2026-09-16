@@ -1,0 +1,145 @@
+---
+title: Ceník
+description: "Přehledný ceník tvorby webových stránek. Balíčky Start, Business a Premium a doplňkové služby bez skrytých poplatků."
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <span aria-current="page">Ceník</span>
+    </nav>
+    <h1>Cenu znáte dřív, než začneme</h1>
+    <p class="lead">Jeden pokročilý web, tři časové fondy. Vyberte si, kolik času spolu strávíme. Ceny jsou bez DPH.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="pricing">
+      {% for p in packages %}
+      <article class="price-card{% if p.featured %} price-card--featured{% endif %}">
+        {% if p.badge %}<span class="price-badge">{{ p.badge }}</span>{% endif %}
+        <h2 class="price-name">{{ p.name }}</h2>
+        <p class="price-desc">{{ p.desc }}</p>
+        <p class="price-amount"><strong>{{ p.price }}</strong> <span>{{ p.period }}</span></p>
+        <p class="price-fund"><strong>{{ p.hours }} hodin</strong> spolupráce v ceně</p>
+        <a class="btn {% if p.featured %}btn-primary{% else %}btn-outline{% endif %} price-cta" href="/kontakt/">{{ p.cta }}</a>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="includes">
+      <div class="includes-head">
+        <p class="eyebrow">V každém balíčku</p>
+        <h3>Vždy dostanete stejný pokročilý web se vším, co umíme</h3>
+      </div>
+      <ul class="includes-list">
+        {% for f in includes %}
+        <li{% if f.highlight %} class="is-highlight"{% endif %}>{{ icon("check", 18) }}<span>{{ f.text }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <p class="pricing-note">{{ icon("spark", 16) }} Platíte stavbu webu a čas na spolupráci. Sazba je stejná v balíčku i nad rámec — 990 Kč/hod. Ceny jsou bez DPH.</p>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Jak účtujeme</p>
+      <h2>Jedna kvalita, jen jiný časový fond</h2>
+      <p class="section-lead">Žádné „základní" a „pokročilé" balíčky. Všechny jsou pokročilé a liší se jen časem, který vám věnujeme.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <span class="card-icon">{{ icon("wallet", 22) }}</span>
+        <h3>Pokročilý web vždy</h3>
+        <p>Každý balíček obsahuje stejný rozsah funkcí i stejnou péči. Nic podstatného neschováváme do dražšího tarifu.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon">{{ icon("refresh", 22) }}</span>
+        <h3>Liší se jen časem</h3>
+        <p>Start 3 hodiny, Business 6 hodin, Premium 10 hodin na workshop, sběr podkladů a korekce.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon">{{ icon("spark", 22) }}</span>
+        <h3>Stejná sazba 990 Kč/hod</h3>
+        <p>Za hodiny v balíčku i nad jeho rámec účtujeme stejně. Vždy s výkazem a odsouhlasením předem.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Doplňky</p>
+      <h2>Doména, e-maily a správa</h2>
+      <p class="section-lead">Něco nad rámec balíčku? Doménu prodloužíme, e-maily zprovozníme a web kdykoliv upravíme.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table class="price-table">
+        <thead>
+          <tr><th scope="col">Služba</th><th scope="col">Popis</th><th scope="col">Cena</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Prodloužení .CZ domény</td><td>Prodloužení domény na další 3 roky</td><td>1 490 Kč</td></tr>
+          <tr><td>Zprovoznění e-mailů</td><td>Zřízení e-mailových schránek na Email Profi</td><td>990 Kč</td></tr>
+          <tr><td>Správa webů a konzultace</td><td>Úpravy, konzultace a pomoc s podklady</td><td>990 Kč / hod</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container faq-wrap">
+    <div class="section-head section-head--left">
+      <p class="eyebrow">Časté dotazy k cenám</p>
+      <h2>Ještě než se zeptáte</h2>
+    </div>
+
+    <div class="faq">
+      <details class="faq-item">
+        <summary>Co je v ceně balíčku a co se účtuje zvlášť?</summary>
+        <p>Každý balíček obsahuje stejný pokročilý web — kompletní funkce, administraci i péči. Liší se jen časovým fondem na spolupráci (workshop, sběr a třídění podkladů, korekce). Za hodiny v balíčku i nad jeho rámec účtujeme stejně, 990 Kč/hod, vždy s odsouhlasením předem.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Jsou ceny konečné?</summary>
+        <p>Cena balíčku je pevná a znáte ji předem. Pokud vyčerpáte časový fond, další hodiny dopředu odsouhlasíme.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Platí se něco měsíčně?</summary>
+        <p>Za tvorbu webu platíte jednorázově. Pravidelně se hradí jen provozní náklady — doména, hosting a případně e-mailové schránky. Práci na hodiny účtujeme, jen když ji potřebujete.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Jak probíhá platba?</summary>
+        <p>Při objednání platíte 50 % ceny, zbylých 50 % po dodání a spuštění webu. Ceny jsou uvedeny bez DPH a na vyžádání vystavíme fakturu.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Co když nemám hotové texty ani podklady?</summary>
+        <p>Nevadí. Dáme vám jasný seznam, co dodat, a se sběrem a tříděním podkladů vám pomůžeme v rámci časového fondu. Když budete chtít, podklady a texty zpracujeme za vás — účtujeme 990 Kč/hod.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Dostanu na web záruku?</summary>
+        <p>Ano, na funkčnost. Kdyby něco nefungovalo tak, jak jsme se domluvili, opravíme to bez poplatku. Úpravy a rozšíření nad rámec zadání jsou ale práce navíc — ty účtujeme hodinově, 990 Kč/hod.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Chcete nabídku na míru?</h2>
+      <p>Řekněte nám, co potřebujete, a my vám připravíme konkrétní cenu do 24 hodin.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Chci nabídku</a>
+    </div>
+  </div>
+</section>

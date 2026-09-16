@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "layout",
+    "title": "Tvorba webu na míru",
+    "text": "Postavíme vám rychlý a moderní web přesně podle vašeho oboru, značky a cílů. Žádné univerzální šablony, které vypadají jako všechny ostatní."
+  },
+  {
+    "icon": "device",
+    "title": "Responzivní design",
+    "text": "Web bude perfektně vypadat na mobilu, tabletu i velkém monitoru. Většina návštěvníků dnes přichází z telefonu a podle toho se k tomu stavíme."
+  },
+  {
+    "icon": "gauge",
+    "title": "Rychlost, která drží zákazníka",
+    "text": "Web se načte okamžitě. Návštěvník nečeká, nikam neodchází a vy nepřicházíte o poptávky, které jste mohli získat."
+  },
+  {
+    "icon": "search",
+    "title": "SEO a viditelnost",
+    "text": "Sitemap, meta tagy, čistá struktura a srozumitelné texty. Postaráme se o technický základ, aby vás lidé vůbec našli."
+  },
+  {
+    "icon": "pen",
+    "title": "Obsah a texty",
+    "text": "Nemáte hotové texty ani fotky? Pomůžeme vám je připravit tak, aby návštěvníka zaujaly a dovedly ho k poptávce."
+  },
+  {
+    "icon": "refresh",
+    "title": "Jednoduchá administrace",
+    "text": "Ke každému webu dostanete jednoduchou administraci. Texty, ceny i kontakty si upravíte sami, kdykoliv potřebujete, a bez programování."
+  }
+]

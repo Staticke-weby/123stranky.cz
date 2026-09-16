@@ -1,0 +1,159 @@
+---
+pagination:
+  data: obor
+  size: 1
+  alias: obor
+  addAllPagesToCollections: true
+permalink: "/web-pro/{{ obor.slug }}/"
+eleventyComputed:
+  title: "{{ obor.h1 }}"
+  description: "{{ obor.description }}"
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <a href="/web-pro/">Weby podle oboru</a> <span>/</span> <span aria-current="page">{{ obor.label }}</span>
+    </nav>
+    <h1>{{ obor.h1 }}</h1>
+    <p class="lead">{{ obor.lead }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="prose">
+      {% for p in obor.intro %}<p>{{ p }}</p>{% endfor %}
+    </div>
+
+    <div class="local-note">
+      <span class="local-note-icon">{{ icon("rocket", 20) }}</span>
+      <p><strong>Působíme po celé ČR:</strong> spolupracujeme online i osobně, schůzku domluvíme podle vašich možností.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Kde weby v tomto oboru selhávají</p>
+      <h2>S čím se potýká většina firem</h2>
+    </div>
+
+    <div class="cards">
+      {% for p in obor.problems %}
+      <article class="card">
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Co web musí umět</p>
+      <h2>Základ, bez kterého to nepůjde</h2>
+      <p class="section-lead">Tohle na webech v tomto oboru vidíme pořád dokola. Když to chybí, zákazník hledá jinde.</p>
+    </div>
+
+    <ul class="check-list check-list--2">
+      {% for m in obor.mustHave %}
+      <li>{{ icon("check", 18) }}<span>{{ m }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Co pro vás postavíme</p>
+      <h2>Web, který pracuje za vás</h2>
+    </div>
+
+    <div class="features">
+      {% for f in obor.features %}
+      <div class="feature">
+        <span class="feature-icon">{{ icon(f.icon, 22) }}</span>
+        <h3>{{ f.title }}</h3>
+        <p>{{ f.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Obsah</p>
+      <h2>Texty a struktura, které vedou k poptávce</h2>
+    </div>
+
+    <div class="cards">
+      {% for c in obor.content %}
+      <article class="card">
+        <h3>{{ c.title }}</h3>
+        <p>{{ c.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% set pricingSoft = true %}
+{% set pricingTitle = "Ceny pro tento obor jsou stejné jako pro ostatní" %}
+{% set pricingText = "Jeden pokročilý web, tři časové fondy. Všechny balíčky mají stejné funkce a liší se jen časem, který vám věnujeme. Ceny jsou bez DPH." %}
+{% include "cenik-strip.njk" %}
+
+{% set refsSoft = false %}
+{% set refsTitle = "Ukázky webů, které jsme postavili" %}
+{% set refsNote = "Každý z nich vznikl pro jiný obor, ale princip je stejný: rychlý web, jasné sdělení a snadná cesta k poptávce." %}
+{% include "refs-strip.njk" %}
+
+{% set faqEyebrow = "Časté dotazy" %}
+{% set faqTitle = "Na co se v tomto oboru ptají nejčastěji" %}
+{% set faqSoft = true %}
+{% set faqItems = obor.faq %}
+{% include "faq-strip.njk" %}
+
+{% set linkSet = "lokalita" %}
+{% set linkEyebrow = "Kde máme zázemí" %}
+{% set linkTitle = "Známe dobře především Slaný a okolí" %}
+{% set linkText = "Weby stavíme po celé republice, ale nejblíž máme k firmám v tomto regionu. Přečtěte si, co pro ně děláme." %}
+{% set linkSlugs = false %}
+{% set linkSoft = false %}
+{% set linkExclude = false %}
+{% set linkLimit = 6 %}
+{% set linkCtaHref = "/webove-stranky/" %}
+{% set linkCtaLabel = "Všechna města" %}
+{% include "link-cards.njk" %}
+
+{% set linkSet = "obor" %}
+{% set linkEyebrow = "Související obory" %}
+{% set linkTitle = "Podívejte se i na další obory" %}
+{% set linkText = "" %}
+{% set linkSlugs = obor.related %}
+{% set linkSoft = true %}
+{% set linkExclude = false %}
+{% set linkLimit = false %}
+{% set linkCtaHref = "/web-pro/" %}
+{% set linkCtaLabel = "Všechny obory" %}
+{% include "link-cards.njk" %}
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Postavíme vám web, který sedne vašemu oboru</h2>
+      <p>Napište nám, co děláte a co od webu očekáváte. Ozveme se obvykle do 24 hodin s návrhem dalšího postupu.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Nezávazně poptat</a>
+      <a class="btn btn-ghost-light btn-lg" href="{{ site.emailHref }}">Napsat e-mail</a>
+    </div>
+  </div>
+</section>

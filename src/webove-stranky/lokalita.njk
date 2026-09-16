@@ -1,0 +1,140 @@
+---
+pagination:
+  data: lokalita
+  size: 1
+  alias: mesto
+  addAllPagesToCollections: true
+permalink: "/webove-stranky/{{ mesto.slug }}/"
+eleventyComputed:
+  title: "{{ mesto.h1 }}"
+  description: "{{ mesto.description }}"
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <a href="/webove-stranky/">Weby ve vašem městě</a> <span>/</span> <span aria-current="page">{{ mesto.name }}</span>
+    </nav>
+    <h1>{{ mesto.h1 }}</h1>
+    <p class="lead">{{ mesto.lead }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="prose">
+      {% for p in mesto.intro %}<p>{{ p }}</p>{% endfor %}
+    </div>
+
+    <div class="local-note">
+      <span class="local-note-icon">{{ icon("pin", 20) }}</span>
+      <p><strong>{{ site.branch.label }}:</strong> {{ site.branch.street }}, {{ site.branch.zip }} {{ site.branch.city }} · <a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Pro koho pracujeme</p>
+      <h2>Komu {{ mesto.in }} weby nejčastěji stavíme</h2>
+    </div>
+
+    <div class="cards">
+      {% for s in mesto.segments %}
+      <article class="card">
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Proč my</p>
+      <h2>Proč si vybrat nás {{ mesto.in }}</h2>
+    </div>
+
+    <div class="features features--3">
+      {% for w in mesto.why %}
+      <div class="feature">
+        <span class="feature-icon">{{ icon("check", 22) }}</span>
+        <h3>{{ w.title }}</h3>
+        <p>{{ w.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head section-head--left">
+      <p class="eyebrow">Dojezd</p>
+      <h2>Kam za vámi dojíždíme {{ mesto.in }}</h2>
+      <p class="section-lead">{{ mesto.villagesNote }}</p>
+    </div>
+
+    <ul class="tag-list">
+      {% for v in mesto.villages %}
+      <li class="tag">{{ icon("pin", 15) }} {{ v }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{% set pricingSoft = false %}
+{% set pricingTitle = "Ceny, které znáte předem" %}
+{% set pricingText = "Web pro firmu " ~ mesto.in ~ " stavíme za stejných podmínek jako všude jinde. Jeden pokročilý web, tři časové fondy, ceny bez DPH." %}
+{% include "cenik-strip.njk" %}
+
+{% set refsSoft = true %}
+{% set refsTitle = "Ukázky našich webů" %}
+{% set refsNote = mesto.refsNote %}
+{% include "refs-strip.njk" %}
+
+{% set faqEyebrow = "Časté dotazy" %}
+{% set faqTitle = "Na co se nás firmy " ~ mesto.in ~ " ptají" %}
+{% set faqItems = mesto.faq %}
+{% include "faq-strip.njk" %}
+
+{% set linkSet = "obor" %}
+{% set linkEyebrow = "Podle oboru" %}
+{% set linkTitle = "Podívejte se, co umíme pro váš obor" %}
+{% set linkText = "" %}
+{% set linkSlugs = false %}
+{% set linkSoft = true %}
+{% set linkExclude = false %}
+{% set linkLimit = 8 %}
+{% set linkCtaHref = "/web-pro/" %}
+{% set linkCtaLabel = "Všechny obory" %}
+{% include "link-cards.njk" %}
+
+{% set linkSet = "lokalita" %}
+{% set linkEyebrow = "Blízké okolí" %}
+{% set linkTitle = "Weby v dalších městech" %}
+{% set linkText = "" %}
+{% set linkSlugs = mesto.nearby %}
+{% set linkSoft = false %}
+{% set linkExclude = mesto.slug %}
+{% set linkLimit = false %}
+{% set linkCtaHref = "/webove-stranky/" %}
+{% set linkCtaLabel = "Všechna města" %}
+{% include "link-cards.njk" %}
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Pojďme postavit web pro vaši firmu {{ mesto.in }}</h2>
+      <p>Napište nám pár vět o svém projektu. Ozveme se obvykle do 24 hodin s návrhem dalšího postupu.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Nezávazně poptat</a>
+      <a class="btn btn-ghost-light btn-lg" href="{{ site.emailHref }}">Napsat e-mail</a>
+    </div>
+  </div>
+</section>

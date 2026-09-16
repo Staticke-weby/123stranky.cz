@@ -1,0 +1,113 @@
+---
+title: Weby podle oboru
+description: "Weby pro řemeslníky, restaurace, autoservisy, kosmetiku, zdravotní služby, farmáře a další obory. Podívejte se, co musí web ve vaší branži umět."
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <span aria-current="page">Weby podle oboru</span>
+    </nav>
+    <h1>Weby pro konkrétní obory</h1>
+    <p class="lead">Každý obor prodává jinak. Vyberte si ten svůj a podívejte se, co musí web umět, aby přiváděl poptávky — ať působíte ve velkém městě, nebo v malé obci.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="prose">
+      <p>Obecné weby nefungují. Řemeslník potřebuje ukázat hotové zakázky, hospoda aktuální menu a fyzioterapeut srozumitelné vysvětlení metody. Rozdíl není v designu, ale v obsahu a struktuře stránek.</p>
+      <p>Na stránkách podle oborů najdete, co web musí umět, na co se zákazníci ptají a co pro vás postavíme. Oborové weby stavíme pro klienty po celé České republice — schůzky běžně zvládáme online.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Výhody</p>
+      <h2>Proč stavět web podle oboru</h2>
+      <p class="section-lead">Když web mluví jazykem vašeho oboru, návštěvník se pozná v prvních sekundách — a zůstane.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon">{{ icon("pen", 22) }}</span>
+        <h3>Mluví jazykem zákazníka</h3>
+        <p>Píšeme o tom, co vaši zákazníci skutečně řeší. Ne o technologiích, které je nezajímají.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("layout", 22) }}</span>
+        <h3>Obsah místo šablony</h3>
+        <p>Struktura stránek vychází z toho, jak se ve vašem oboru lidé rozhodují.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("search", 22) }}</span>
+        <h3>Vyhledávání podle oboru</h3>
+        <p>Lidé hledají konkrétní službu, ne obecný web. Obsah nastavíme tak, aby vás našli.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("rocket", 22) }}</span>
+        <h3>Rychlé spuštění</h3>
+        <p>Máme hotový postup i osvědčené bloky. Web tak spouštíme do sedmi pracovních dnů.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% set linkSet = "obor" %}
+{% set linkEyebrow = "Obory" %}
+{% set linkTitle = "Vyberte si svůj obor" %}
+{% set linkText = "Šestnáct oborů, se kterými máme zkušenost. Pokud mezi nimi není ten váš, ozvěte se — ozveme se s tím, co by web potřeboval." %}
+{% set linkSlugs = false %}
+{% set linkSoft = false %}
+{% set linkExclude = false %}
+{% set linkLimit = false %}
+{% set linkCtaHref = false %}
+{% include "link-cards.njk" %}
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Kde působíme</p>
+      <h2>Weby stavíme po celé České republice</h2>
+      <p class="section-lead">Základnu máme v Tuřanech u Slaného, ale na místě nezáleží. Nejčastěji se potkáváme online a osobně se sejdeme, když je to potřeba.</p>
+    </div>
+
+    <ul class="tag-list tag-list--links">
+      {% for l in lokalita %}
+      <li><a class="tag" href="/webove-stranky/{{ l.slug }}/">{{ l.name }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <div class="section-cta">
+      <a class="btn btn-outline" href="/webove-stranky/">Weby ve vašem městě {{ icon("arrow", 18) }}</a>
+    </div>
+  </div>
+</section>
+
+{% set faqEyebrow = "Časté dotazy" %}
+{% set faqTitle = "Na co se nás k oborovým webům ptáte" %}
+{% set faqSoft = false %}
+{% set faqItems = [
+  { "q": "Máme firmu mimo vaše město, můžeme spolupracovat?", "a": "Ano. Oborové weby stavíme pro klienty po celé České republice. Celý projekt můžeme vyřídit online, včetně konzultací a předání." },
+  { "q": "Na co se při návrhu webu zaměřujete?", "a": "Na to, aby web odpovídal oboru, ve kterém podnikáte. Ukázky práce, ceny, ordinační hodiny, menu nebo rozvrh — podle toho, co vaši zákazníci potřebují vědět." },
+  { "q": "Kolik web stojí a jak se platí?", "a": "Stavba webu začíná na 9 990 Kč bez DPH. Platíte 50 % při objednání a 50 % po dodání webu." },
+  { "q": "Co když můj obor v seznamu není?", "a": "Napište nám, co děláte. Většina postupů je přenositelná a web postavíme i pro obor, který v seznamu chybí." },
+  { "q": "Za jak dlouho bude web hotový?", "a": "Běžně do sedmi pracovních dnů od dodání podkladů. U rozsáhlejších webů se termín domluvíme individuálně." }
+] %}
+{% include "faq-strip.njk" %}
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Chcete web, který zná váš obor?</h2>
+      <p>Řekněte nám, co děláte a co od webu čekáte. Ozveme se obvykle do 24 hodin s návrhem postupu.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Nezávazně poptat</a>
+      <a class="btn btn-ghost-light btn-lg" href="/cenik/">Prohlédnout ceník</a>
+    </div>
+  </div>
+</section>

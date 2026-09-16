@@ -1,0 +1,143 @@
+---
+title: Kontakt
+description: "Napište nebo zavolejte. Ozveme se obvykle do 24 hodin a nezávazně vám poradíme, jak web pojmout."
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <span aria-current="page">Kontakt</span>
+    </nav>
+    <h1>Pojďme se domluvit</h1>
+    <p class="lead">Ozvěte se e-mailem, telefonem nebo na WhatsAppu. Napište nám pár vět o svém projektu a my se vám ozveme s dalším postupem.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <a class="contact-card" href="{{ site.emailHref }}">
+        <span class="card-icon">{{ icon("mail", 22) }}</span>
+        <h2>E-mail</h2>
+        <p class="contact-value">{{ site.email }}</p>
+        <span class="contact-hint">Odpovídáme obvykle do 24 hodin</span>
+      </a>
+
+      <a class="contact-card" href="tel:{{ site.phoneHref }}">
+        <span class="card-icon">{{ icon("phone", 22) }}</span>
+        <h2>Telefon</h2>
+        <p class="contact-value">{{ site.phone }}</p>
+        <span class="contact-hint">Po–Pá, 9:00–17:00</span>
+      </a>
+
+      <a class="contact-card" href="{{ site.whatsappHref }}" target="_blank" rel="noopener">
+        <span class="card-icon">{{ icon("whatsapp", 22) }}</span>
+        <h2>WhatsApp</h2>
+        <p class="contact-value">{{ site.whatsapp }}</p>
+        <span class="contact-hint">Napište nám, kdykoliv se to hodí</span>
+      </a>
+
+      <div class="contact-card contact-card--static">
+        <span class="card-icon">{{ icon("pin", 22) }}</span>
+        <h2>{{ site.branch.label }}</h2>
+        <p class="contact-value">{{ site.branch.street }}<br>{{ site.branch.zip }} {{ site.branch.city }}</p>
+        <span class="contact-hint">Osobní schůzka po domluvě</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Kontaktní osoby</p>
+      <h2>Rádi se vám budeme věnovat</h2>
+    </div>
+
+    <div class="people">
+      {% for p in site.contacts %}
+      <div class="person">
+        <span class="person-avatar" aria-hidden="true">{{ p.name | initials }}</span>
+        <div class="person-body">
+          <strong>{{ p.name }}</strong>
+          <span class="person-role">{{ p.role }}</span>
+          <a class="person-phone" href="tel:{{ p.phoneHref }}">{{ icon("phone", 16) }} {{ p.phone }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <p class="operator">
+      Provozovatel: <strong>{{ site.company.name }}</strong> · {{ site.company.street }}, {{ site.company.zip }} {{ site.company.city }} · IČO {{ site.company.ico }} · DIČ {{ site.company.dic }}
+    </p>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="split">
+      <div class="split-copy">
+        <p class="eyebrow">Co nám napsat</p>
+        <h2>Ať vám můžeme odpovědět rovnou</h2>
+        <p>Čím víc toho o projektu víme, tím konkrétnější nabídku vám pošleme. Nemusíte mít nic připravené, stačí odpovědět na pár otázek.</p>
+        <ul class="check-list">
+          <li>{{ icon("check", 18) }} Co děláte a komu chcete web ukázat</li>
+          <li>{{ icon("check", 18) }} Jaký má být rozsah a co má web umět</li>
+          <li>{{ icon("check", 18) }} Máte logo, barvy nebo hotové texty?</li>
+          <li>{{ icon("check", 18) }} Máte už doménu a hosting, nebo je máme zařídit?</li>
+          <li>{{ icon("check", 18) }} Do kdy by měl být web hotový</li>
+        </ul>
+        <a class="btn btn-primary" href="{{ site.emailHref }}">Napsat poptávku {{ icon("arrow", 18) }}</a>
+      </div>
+      <div class="split-visual">
+        <div class="info-card">
+          <h3>Co se stane dál</h3>
+          <ol class="mini-steps">
+            <li><em>1</em> Ozveme se do 24 hodin</li>
+            <li><em>2</em> Probereme rozsah a cenu</li>
+            <li><em>3</em> Pošleme nezávaznou nabídku</li>
+            <li><em>4</em> Rozjedeme spolupráci</li>
+          </ol>
+          <p class="info-note">Konzultace je vždy zdarma a k ničemu se nezavazujete.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-wrap">
+    <div class="section-head section-head--left">
+      <p class="eyebrow">Časté dotazy</p>
+      <h2>Než se ozvete</h2>
+    </div>
+    <div class="faq">
+      <details class="faq-item">
+        <summary>Jak dlouho dopředu se mám ozvat?</summary>
+        <p>Ideálně 3–4 týdny před tím, než chcete web spustit. Jednodušší weby ale zvládneme i v řádu dnů.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Pracujete po celé ČR?</summary>
+        <p>Ano. Většinu věcí vyřešíme na dálku a osobní schůzku domluvíme, když je to potřeba.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Můžete převzít web po někom jiném?</summary>
+        <p>Ano, ozvěte se a podíváme se na stav současného webu. Navrhneme, jestli má smysl ho upravit, nebo postavit znovu.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Stačí jedna zpráva a rozjedeme to</h2>
+      <p>Napište nám na <a class="cta-link" href="{{ site.emailHref }}">{{ site.email }}</a>, zavolejte na <a class="cta-link" href="tel:{{ site.phoneHref }}">{{ site.phone }}</a> nebo napište na WhatsApp.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="{{ site.emailHref }}">Napsat e-mail</a>
+      <a class="btn btn-ghost-light btn-lg" href="{{ site.whatsappHref }}" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</section>

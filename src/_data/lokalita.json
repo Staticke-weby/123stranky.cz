@@ -1,0 +1,1067 @@
+[
+  {
+    "slug": "slany",
+    "name": "Slaný",
+    "in": "ve Slaném",
+    "to": "do Slaného",
+    "gen": "Slaného",
+    "h1": "Tvorba webových stránek ve Slaném",
+    "description": "Tvoříme weby pro firmy a živnostníky ve Slaném a okolí. Osobní schůzka u nás v Tuřanech, web hotový do 7 dnů.",
+    "lead": "Jsme odsud. Naše pobočka je v Tuřanech u Slaného, pět minut od náměstí — takže si můžeme sednout osobně a web probereme tváří v tvář.",
+    "intro": [
+      "Slaný je naše domovské město. Působíme tady od začátku a většinu klientů známe osobně — od živnostníků z centra přes řemeslníky z okolních obcí až po terapeutické a zdravotní služby v okolí nemocnice. Víme, co lidé ve Slaném hledají, a umíme zařídit, aby to našli právě u vás.",
+      "Web pro slánskou firmu nemá smysl stavět jako katalog, který se otevře dvakrát ročně. Mnohem víc se vyplatí web, který na první pohled řekne, co děláte, kde vás najdou a proč si zavolat právě vám. Přesně takové weby stavíme."
+    ],
+    "why": [
+      {
+        "title": "Jsme z Tuřan u Slaného",
+        "text": "Setkat se můžeme u nás v pobočce, v kavárně na náměstí nebo přímo u vás v provozovně. Žádná dlouhá e-mailová vlákna."
+      },
+      {
+        "title": "Známe místní prostředí",
+        "text": "Slaný a jeho spádové obce nejsou anonymní trh. Víme, že tu lidé hledají řemeslníka na konkrétní práci, terapeuta nebo obchod s čerstvým zbožím, a podle toho stavíme obsah i strukturu webu."
+      },
+      {
+        "title": "Držíme se i po spuštění",
+        "text": "Jsme patnáct minut od centra. Když bude potřeba něco doplnit nebo přepsat, ozveme se a vyřešíme to. Nemusíte hledat nového dodavatele ani se učit nový systém."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemeslníci a živnostníci",
+        "text": "Instalatéři, elektrikáři, truhláři nebo zedníci ze Slaného a okolních obcí. Web, na kterém je vidět telefon a ukázky hotových prací."
+      },
+      {
+        "title": "Gastronomie a obchody",
+        "text": "Restaurace, kavárny, cukrárny a obchody v centru. Jídelníček, otevírací doba, akce a odkaz na mapu, aby lidé věděli, že jste otevření."
+      },
+      {
+        "title": "Zdraví a terapie",
+        "text": "Ordinace, fyzioterapie, masáže a alternativní terapie v okolí slánské nemocnice. Srozumitelné vysvětlení, ceník a snadné objednání."
+      },
+      {
+        "title": "Spolky a akce",
+        "text": "Sportovní kluby, spolky a pořadatelé akcí. Přehledný program, fotogalerie a kontakt pro nové členy i dobrovolníky."
+      }
+    ],
+    "villages": [
+      "Tuřany",
+      "Beřovice",
+      "Hobšovice",
+      "Přelíc",
+      "Studeněves",
+      "Žižice",
+      "Drnovice",
+      "Neprobylice",
+      "Kutrovice",
+      "Třebichovice",
+      "Knovíz",
+      "Královice",
+      "Netovice",
+      "Kvíc",
+      "Lotouš"
+    ],
+    "villagesNote": "Do zhruba dvaceti kilometrů od Slaného k vám přijedeme na konzultaci nebo pro podklady. Cestu neúčtujeme, je součástí spolupráce.",
+    "refsNote": "Přímo ze Slaného a z Tuřan máme tři reference: ovocnářství s prodejnou ve Slaném, biorezonanční praxi a ateliér k pronájmu. Můžete si je proklikat níže.",
+    "faq": [
+      {
+        "q": "Kde se můžeme osobně potkat?",
+        "a": "Nejjednodušší je schůzka u nás v Tuřanech u Slaného, kde máme pobočku. Když se vám to hodí víc, dorazíme do vaší provozovny ve Slaném nebo v okolních obcích."
+      },
+      {
+        "q": "Děláte weby jen pro firmy ze Slaného?",
+        "a": "Ne. Slaný a okolí je naše domácí půda, ale weby stavíme po celé České republice. Většinu schůzek zvládneme online, když je to pro vás pohodlnější."
+      },
+      {
+        "q": "Jak rychle bude web hotový?",
+        "a": "Běžný web zvládneme do sedmi pracovních dnů od chvíle, kdy máme texty a fotky. Čím dřív dodáte podklady, tím dřív se web spustí."
+      },
+      {
+        "q": "Kolik web pro slánskou firmu stojí?",
+        "a": "Stavba webu začíná na 9 990 Kč podle balíčku. Ceny jsou bez DPH, platíte polovinu při objednání a polovinu po dodání."
+      },
+      {
+        "q": "Můžu si obsah upravovat sám?",
+        "a": "Ano, ke každému webu dostanete jednoduchou administraci. Přepíšete texty, ceny i otevírací dobu bez programování."
+      }
+    ],
+    "nearby": [
+      "zlonice",
+      "smecno",
+      "velvary"
+    ],
+    "short": "Tvoříme weby pro firmy a živnostníky ve Slaném a okolí."
+  },
+  {
+    "slug": "kladno",
+    "name": "Kladno",
+    "in": "v Kladně",
+    "to": "do Kladna",
+    "gen": "Kladna",
+    "h1": "Tvorba webových stránek v Kladně",
+    "description": "Weby pro kladenské živnostníky a firmy, které se neztratí mezi pražskou konkurencí. Osobní jednání v Kladně i okolí.",
+    "lead": "Kladno je jen patnáct minut od naší pobočky. Řešíme tu weby pro řemeslníky, služby i menší firmy, které potřebují vypadat věrohodně vedle konkurence z Prahy.",
+    "intro": [
+      "Kladno je největší město v okolí a zároveň nejtěžší trh — působí tu hodně firem a ještě víc jich sem dojíždí z Prahy. Zákazník proto vybírá podle toho, jak na něj působíte, a web je často první místo, kde se o vás dozví.",
+      "Stavíme weby, které vypadají profesionálně a rychle se načtou i na mobilu v tramvaji. Řemeslníkům dáváme do popředí ukázky práce, službám zase jasný ceník, otevírací dobu a kontakt."
+    ],
+    "why": [
+      {
+        "title": "Patnáct minut od Kladna",
+        "text": "Na schůzku dorazíme do vaší provozovny nebo si sedneme na neutrální půdě. Kladno máme za rohem, není to pro nás žádná výjezdní zakázka."
+      },
+      {
+        "title": "Konkurence z Prahy? Máte výhodu.",
+        "text": "Lokální firma působí důvěryhodněji, když se o ní klient dozví v místě, kde obchoduje. Umíme tuhle výhodu promítnout do textů i do struktury webu."
+      },
+      {
+        "title": "Více oborů, jedna kvalita",
+        "text": "V Kladně stavíme weby stavebním firmám, autoservisům, kosmetickým studiím i účetním. Postup je vždy stejný, jen obsah se liší podle oboru."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemeslníci a stavební firmy",
+        "text": "Čtvrti jako Rozdělov, Kročehlavy nebo Švermov jsou plné řemeslníků. Web s ukázkami realizací a telefonem na první obrazovce funguje nejlíp."
+      },
+      {
+        "title": "Autoservisy a doprava",
+        "text": "Servisy, pneuservisy, autodoprava a stěhování. Přehled služeb, otevírací doba a objednání bez zbytečného telefonování."
+      },
+      {
+        "title": "Služby pro domácnosti",
+        "text": "Úklid, údržba zeleně, prádelny a servisy spotřebičů. Ceník, oblasti působení a poptávkový kontakt na jednom místě."
+      },
+      {
+        "title": "Gastronomie a volný čas",
+        "text": "Restaurace, kavárny, posilovny a volnočasové aktivity. Aktuální program, akce a fotky, které lidi přivedou na místo."
+      }
+    ],
+    "villages": [
+      "Kročehlavy",
+      "Rozdělov",
+      "Švermov",
+      "Dubí",
+      "Motyčín",
+      "Hnidousy",
+      "Vinařice",
+      "Pchery",
+      "Brandýsek",
+      "Buštěhrad",
+      "Hřebeč",
+      "Velká Dobrá",
+      "Tuchlovice",
+      "Kamenné Žehrovice",
+      "Stehelčeves"
+    ],
+    "villagesNote": "Za zakázkou dojedeme po celém Kladně — od Kročehlav a Rozdělova po Švermov — i do obcí v okolí.",
+    "refsNote": "Ukázky našich webů si můžete prohlédnout níže. V Kladně si základnu místních referencí teprve budujeme, takže si o to víc zakládáme na tom, aby web skutečně fungoval.",
+    "faq": [
+      {
+        "q": "Vyplatí se web, když je v Kladně taková konkurence?",
+        "a": "Právě proto. Ve městě, kde je firem hodně, rozhoduje první dojem. Kvalitní web s jasným sdělením a rychlým načtením je často to jediné, co vás odliší."
+      },
+      {
+        "q": "Můžeme se sejít v Kladně?",
+        "a": "Ano. Kladno máme patnáct minut od pobočky, takže schůzku domluvíme buď u vás v provozovně, nebo v centru města."
+      },
+      {
+        "q": "Jak dlouho tvorba webu trvá?",
+        "a": "U běžné firemní prezentace počítáme se sedmi pracovními dny od dodání podkladů. U rozsáhlejších webů se termín domluvíme individuálně."
+      },
+      {
+        "q": "Kolik web stojí?",
+        "a": "Ceny začínají na 9 990 Kč bez DPH. Všechny balíčky obsahují stejný pokročilý web a liší se jen časovým fondem na spolupráci."
+      },
+      {
+        "q": "Zvládnu si web spravovat sám?",
+        "a": "Ano. Administraci vám vysvětlíme při předání a zůstáváme k dispozici, když si nebudete vědět rady."
+      }
+    ],
+    "nearby": [
+      "libusin",
+      "stochov",
+      "lany"
+    ],
+    "short": "Weby pro kladenské živnostníky a firmy, které se neztratí mezi pražskou konkurencí."
+  },
+  {
+    "slug": "kralupy-nad-vltavou",
+    "name": "Kralupy nad Vltavou",
+    "in": "v Kralupech nad Vltavou",
+    "to": "do Kralup nad Vltavou",
+    "gen": "Kralup nad Vltavou",
+    "h1": "Tvorba webových stránek v Kralupech nad Vltavou",
+    "description": "Weby pro firmy a živnostníky v Kralupech nad Vltavou a okolí. Osobní jednání, rychlé spuštění a jednoduchá správa obsahu.",
+    "lead": "Kralupy mají silné průmyslové zázemí a spoustu menších firem, které stojí na doporučení. Web pro ně musí hlavně rychle fungovat na mobilu a srozumitelně říct, co umí.",
+    "intro": [
+      "Kralupy nad Vltavou jsou městem, kde se mísí průmysl, doprava a služby. Vedle velkých podniků tu fungují desítky malých firem a živnostníků — od opravárenství a dopravy po kosmetiku a gastronomii. Většina z nich nikdy neměla web, který by skutečně něco přinášel.",
+      "Myslíme na to, že velká část poptávek u vás chodí z mobilu, často z místa, kde zákazník právě stojí. Web proto stavíme od začátku jako mobilní: velké kontaktní tlačítko, přehledné služby a rychlé načtení."
+    ],
+    "why": [
+      {
+        "title": "Stavíte na doporučeních",
+        "text": "Většina kralupských firem jede na doporučení. Web je pak místo, kam doporučení pošlete — musí být rychlý a přesvědčivý, protože se na něj kouká klidně při telefonátu."
+      },
+      {
+        "title": "Působíme v okolí",
+        "text": "Do Kralup a okolních obcí dojedeme za jednu cestu. Nejsme anonymní agentura z druhého konce republiky."
+      },
+      {
+        "title": "Technicky v pořádku",
+        "text": "Statický web se nemá jak rozbít. Žádné pluginy, žádné pravidelné aktualizace, žádné bezpečnostní díry. Jen rychlá stránka, která funguje roky."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemesla a opravy",
+        "text": "Zámečníci, elektrikáři, instalatéři a servisy. Ukázky práce, obsluhované oblasti a telefon hned na očích."
+      },
+      {
+        "title": "Doprava a logistika",
+        "text": "Autodoprava, stěhování a půjčovny. Přehled vozového parku, ceník a poptávka na pár kliknutí."
+      },
+      {
+        "title": "Kosmetika a zdraví",
+        "text": "Studia krásy, masáže a fyzioterapie. Ceník procedur, fotky a objednání, které zvládne i nový klient."
+      },
+      {
+        "title": "Gastro a volný čas",
+        "text": "Restaurace, kavárny a sportoviště. Aktuální menu, akce a otevírací doba, kterou si upravíte sami."
+      }
+    ],
+    "villages": [
+      "Lobeček",
+      "Minice",
+      "Mikovice",
+      "Zeměchy",
+      "Nelahozeves",
+      "Veltrusy",
+      "Chvatěruby",
+      "Dolany",
+      "Zlosyň",
+      "Všestudy",
+      "Olovnice",
+      "Otvovice",
+      "Chržín",
+      "Nová Ves",
+      "Hostín"
+    ],
+    "villagesNote": "Kromě Kralup a jejich částí dojíždíme i do obcí na obou březích Vltavy — od Nelahozevsi a Veltrus po Olovnici a Chržín.",
+    "refsNote": "Ukázky našich webů najdete níže. Mezi klienty máme ovocnářství, úklidovou firmu, biorezonanční praxi i prostory k pronájmu — princip je u všech stejný.",
+    "faq": [
+      {
+        "q": "Kde sídlíte a kam dojíždíte?",
+        "a": "Pobočku máme v Tuřanech u Slaného. Do Kralup to zvládneme autem za třicet minut a za podklady dojedeme i do okolních obcí."
+      },
+      {
+        "q": "Máme malou firmu, vyplatí se nám web?",
+        "a": "Vyplatí se právě malým firmám. Web je jediné místo, kde můžete ukázat svou práci a získat poptávku i ve chvíli, kdy zrovna nemůžete telefonovat."
+      },
+      {
+        "q": "Umíte i e-shop?",
+        "a": "Ano. Když prodáváte produkty, postavíme buď jednoduchý katalog s poptávkou, nebo napojení na e-shop podle toho, co pro vás dává smysl."
+      },
+      {
+        "q": "Jak probíhá platba?",
+        "a": "Padesát procent při objednání, padesát po dodání. Ceny jsou bez DPH a na vyžádání vystavíme fakturu."
+      },
+      {
+        "q": "Co když nemáme texty ani fotky?",
+        "a": "Nevadí. Dáme vám jasný seznam, co dodat, a s texty i uspořádáním obsahu vám pomůžeme."
+      }
+    ],
+    "nearby": [
+      "velvary",
+      "slany",
+      "zlonice"
+    ],
+    "short": "Weby pro firmy a živnostníky v Kralupech nad Vltavou a okolí."
+  },
+  {
+    "slug": "rakovnik",
+    "name": "Rakovník",
+    "in": "v Rakovníku",
+    "to": "do Rakovníka",
+    "gen": "Rakovníka",
+    "h1": "Tvorba webových stránek v Rakovníku",
+    "description": "Weby pro rakovnické firmy, živnostníky a farmáře. Osobní jednání i online, web hotový do 7 dnů a bez měsíčních paušálů.",
+    "lead": "Rakovnicko je kraj chmele, zemědělství a řemesel. Firmám odsud stavíme weby, které srozumitelně prodají práci, produkty i sezónní nabídku.",
+    "intro": [
+      "Rakovník je okresní město obklopené vesnicemi a zemědělskou krajinou. Místní firmy často odvádějí poctivou práci nebo prodávají vlastní produkty, ale na webu to není vidět — a přesně tam přicházejí o zákazníky.",
+      "Stavíme weby pro rakovnické řemeslníky, zemědělce, obchody i služby. Web má ukázat, co umíte, kde vás najít a jak se ozvat — a to nejlépe na mobilu, protože právě z telefonu chodí většina poptávek."
+    ],
+    "why": [
+      {
+        "title": "Rozumíme venkovským firmám",
+        "text": "Farmy, sadaři, řemeslníci i malé provozovny prodávají jinak než e-shopy v Praze. Web musí počítat se sezónností, dojezdem a osobním kontaktem."
+      },
+      {
+        "title": "Dojedeme do Rakovníka",
+        "text": "Do Rakovníka a okolí to máme asi třicet kilometrů. Na schůzku přivezeme i návrh, jak by web mohl vypadat."
+      },
+      {
+        "title": "Jednoduchá správa",
+        "text": "Sezónní nabídku, otevírací dobu nebo aktuální ceny si upravíte sami. Nemusíte kvůli každé změně volat dodavateli."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Farmáři a pěstitelé",
+        "text": "Ovoce, zelenina, mošty, víno a samosběry. Web s termíny, sezónní nabídkou a informací o prodejně."
+      },
+      {
+        "title": "Řemeslníci",
+        "text": "Zedníci, truhláři, tesaři a kovoobráběči z Rakovnicka. Web s ukázkami práce a rychlým kontaktem."
+      },
+      {
+        "title": "Obchody a služby",
+        "text": "Potraviny, dílny, autoservisy a opravny. Otevírací doba, ceník a mapa, aby vás zákazník nezastihl zavřené."
+      },
+      {
+        "title": "Turistika a volný čas",
+        "text": "Penziony, kempy, sportoviště a akce na Křivoklátsku. Program, fotky a rezervace na jednom místě."
+      }
+    ],
+    "villages": [
+      "Lubná",
+      "Senomaty",
+      "Pavlíkov",
+      "Krupá",
+      "Lišany",
+      "Olešná",
+      "Lužná",
+      "Hředle",
+      "Mutějovice",
+      "Kounov",
+      "Rynholec",
+      "Řevničov",
+      "Třtice"
+    ],
+    "villagesNote": "Dojíždíme po celém okrese — přes Lubnou a Senomaty až na Křivoklátsko a k Novému Strašecí.",
+    "refsNote": "Ukázky najdete níže. Mezi nimi je i ovocnářství a vinařství s prodejnou, které je podobnému typu podnikání blízké.",
+    "faq": [
+      {
+        "q": "Sídlíte přímo v Rakovníku?",
+        "a": "Pobočku máme v Tuřanech u Slaného, do Rakovníka to je asi třicet kilometrů. Na osobní schůzku běžně dojíždíme."
+      },
+      {
+        "q": "Umíte nastavit i prodej ze dvora nebo samosběry?",
+        "a": "Ano. Pro farmáře a pěstitele stavíme weby, kde snadno aktualizujete sezónní nabídku, termíny samosběrů i otevírací dobu prodejny."
+      },
+      {
+        "q": "Kolik web stojí?",
+        "a": "Základní balíček začíná na 9 990 Kč bez DPH. V ceně je stejný pokročilý web i čas na konzultace."
+      },
+      {
+        "q": "Jaké máte zkušenosti?",
+        "a": "Stavěli jsme weby pro ovocnářství a vinařství, biorezonanční praxi, úklidové služby i prostory k pronájmu. Všechny si můžete prohlédnout na webu."
+      },
+      {
+        "q": "Jak dlouho tvorba trvá?",
+        "a": "Jednodušší web zvládneme za sedm pracovních dnů od dodání podkladů, rozsáhlejší projekty podle domluvy."
+      }
+    ],
+    "nearby": [
+      "nove-straseci",
+      "louny",
+      "slany"
+    ],
+    "short": "Weby pro rakovnické firmy, živnostníky a farmáře."
+  },
+  {
+    "slug": "louny",
+    "name": "Louny",
+    "in": "v Lounech",
+    "to": "do Loun",
+    "gen": "Loun",
+    "h1": "Tvorba webových stránek v Lounech",
+    "description": "Weby pro lounské živnostníky, firmy a vinaře. Osobní jednání, rychlé spuštění a obsah, který si upravíte sami.",
+    "lead": "Lounsko je kraj chmele a zemědělství, ale také město s živou gastronomií a službami. Web umíme nastavit tak, aby pracoval v sezóně i přes zimu.",
+    "intro": [
+      "Louny jsou okresní město s památkovou zónou, bohatou chmelařskou tradicí a okolím, které žije zemědělstvím. Najdete tu spoustu firem, které se o zákazníky starají osobně, ale na webu to vidět není.",
+      "Web pro lounskou firmu stavíme tak, aby se rychle načetl, dobře vypadal na mobilu a hlavně dovedl návštěvníka k jedné věci — zavolat, napsat nebo se zastavit. Vše ostatní je až druhé."
+    ],
+    "why": [
+      {
+        "title": "Známe sezónní byznys",
+        "text": "Chmelařství, zemědělství i cestovní ruch v okolí mají svá silná období. Web umíme postavit tak, aby v sezóně fungoval naplno a přes zimu se dal snadno upravit."
+      },
+      {
+        "title": "Osobní jednání",
+        "text": "Do Loun a okolních obcí dojedeme. Probereme obsah, domluvíme fotky provozovny a doladíme detaily na místě."
+      },
+      {
+        "title": "Bez paušálů",
+        "text": "Za web platíte jednorázově. Pravidelně se hradí jen doména a hosting, tedy provozní náklady."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Gastronomie",
+        "text": "Restaurace, hospody a kavárny v centru. Menu, akce a otevírací doba, které měníte sami podle potřeby."
+      },
+      {
+        "title": "Zemědělství a potraviny",
+        "text": "Farmy, vinaři a výrobci. Představení produktů, sezónní nabídka a informace pro odběratele."
+      },
+      {
+        "title": "Řemesla a služby",
+        "text": "Instalatéři, elektrikáři, autoservisy a úklidové firmy. Jasně řečeno, co děláte a kde působíte."
+      },
+      {
+        "title": "Turistika a ubytování",
+        "text": "Penziony, vinařství a volnočasové atrakce. Fotky, ceník, rezervace a tipy, kam na výlet."
+      }
+    ],
+    "villages": [
+      "Dobroměřice",
+      "Lenešice",
+      "Černčice",
+      "Postoloprty",
+      "Vršovice",
+      "Raná",
+      "Obora",
+      "Smolnice",
+      "Hříškov",
+      "Chožov",
+      "Veltěže",
+      "Bitozeves"
+    ],
+    "villagesNote": "Dojíždíme po celém Lounsku — od Dobroměřic a Lenešic po Postoloprty i do obcí směrem na Žatec.",
+    "refsNote": "Ukázky našich webů jsou níže. Na webech pro gastronomii, farmy a služby pracujeme opakovaně, takže víme, co se v nich osvědčuje.",
+    "faq": [
+      {
+        "q": "Dojíždíte do Loun osobně?",
+        "a": "Ano. Louny jsou od naší pobočky necelou hodinu, na schůzku dorazíme a přivezeme i ukázky podobných webů."
+      },
+      {
+        "q": "Můžeme spolupracovat jen online?",
+        "a": "Samozřejmě. Pokud je pro vás online schůzka pohodlnější, vyřídíme celý projekt po telefonu a e-mailem."
+      },
+      {
+        "q": "Vyplatí se web pro hospodu nebo kavárnu?",
+        "a": "Vyplatí. Zákazníci si nejčastěji hledají aktuální menu, akce a otevírací dobu. Web s jednoduchou administrací zvládnete aktualizovat i během provozu."
+      },
+      {
+        "q": "Jaká je cena?",
+        "a": "Stavba webu začíná na 9 990 Kč bez DPH. Platí se polovina při objednání a polovina po dodání."
+      },
+      {
+        "q": "Co potřebujete ode mě?",
+        "a": "Základní informace o firmě, co nabízíte, komu prodáváte a ideálně fotky. Zbytek obsahu s vámi připravíme."
+      }
+    ],
+    "nearby": [
+      "rakovnik",
+      "slany",
+      "nove-straseci"
+    ],
+    "short": "Weby pro lounské živnostníky, firmy a vinaře."
+  },
+  {
+    "slug": "nove-straseci",
+    "name": "Nové Strašecí",
+    "in": "v Novém Strašecí",
+    "to": "do Nového Strašecí",
+    "gen": "Nového Strašecí",
+    "h1": "Tvorba webových stránek v Novém Strašecí",
+    "description": "Weby pro firmy a živnostníky v Novém Strašecí a na Rakovnicku. Osobní schůzka, web hotový do 7 dnů, bez paušálů.",
+    "lead": "Nové Strašecí leží na hlavním tahu mezi Kladnem a Rakovníkem. Místní firmy obsluhují zákazníky ze širokého okolí — a web jim v tom umí výrazně pomoct.",
+    "intro": [
+      "Nové Strašecí má tradici hrnčířství a keramiky a dnes je hlavně městem služeb pro široké okolí. Firmy odsud často jezdí za zákazníkem, ať už jde o řemesla, dopravu nebo servis.",
+      "Web pro takovou firmu musí rychle říct, co děláte, kam dojedete a jak se objednat. Zaměřujeme se proto na přehlednou strukturu, kontakt na první pohled a obsah, který si sami upravíte."
+    ],
+    "why": [
+      {
+        "title": "Blízko od nás",
+        "text": "Do Nového Strašecí to máme asi patnáct kilometrů. Na schůzku přijedeme ve chvíli, která se hodí vám, klidně i odpoledne po práci."
+      },
+      {
+        "title": "Web pro firmy, co jezdí za zákazníkem",
+        "text": "Služby působící v okolí potřebují na webu hlavně obsluhovanou oblast a jasný způsob objednání. Přesně tomu strukturu přizpůsobujeme."
+      },
+      {
+        "title": "Klid na změny i po spuštění",
+        "text": "Když budete potřebovat změnit text, cenu nebo přidat fotku, ozvete se a vyřešíme to. Nebo si to upravíte sami v administraci."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemeslníci a servisy",
+        "text": "Živnostníci z Nového Strašecí i okolních obcí. Web s ukázkami, oblastí působení a telefonem na první pohled."
+      },
+      {
+        "title": "Doprava a stěhování",
+        "text": "Autodoprava, stěhování a vyklízení. Ceník, informace o vozech a poptávka přes formulář nebo telefon."
+      },
+      {
+        "title": "Obchody a výroba",
+        "text": "Menší výrobci a obchody, kteří prodávají z dílny nebo z prodejny. Produkty, fotky a otevírací doba."
+      },
+      {
+        "title": "Služby pro domácnost",
+        "text": "Úklid, zahrada, hlídání a servis. Přehledně, komu sloužíte a jak vás kontaktovat."
+      }
+    ],
+    "villages": [
+      "Pecínov",
+      "Rynholec",
+      "Mšec",
+      "Třtice",
+      "Řevničov",
+      "Kroučová",
+      "Smilovice",
+      "Bdín",
+      "Kalivody",
+      "Lány",
+      "Stochov"
+    ],
+    "villagesNote": "Působíme v Novém Strašecí, jeho části Pecínově i v obcích směrem na Rakovník, Kladno a Lány.",
+    "refsNote": "Ukázky našich webů si prohlédněte níže. Princip je u všech stejný: rychlý web, jasné sdělení a snadný kontakt.",
+    "faq": [
+      {
+        "q": "Jak daleko od Nového Strašecí sídlíte?",
+        "a": "Pobočka je v Tuřanech u Slaného, do Nového Strašecí jezdíme asi patnáct minut autem."
+      },
+      {
+        "q": "Umíte web i pro malou firmu do pěti lidí?",
+        "a": "Ano, většina našich klientů jsou malé firmy a živnostníci. Web je pro ně často největší zdroj poptávek."
+      },
+      {
+        "q": "Kolik stojí web?",
+        "a": "Nejnižší balíček začíná na 9 990 Kč bez DPH a obsahuje kompletní web včetně administrace."
+      },
+      {
+        "q": "Za jak dlouho bude hotový?",
+        "a": "Běžná firemní prezentace do sedmi pracovních dnů od dodání podkladů."
+      },
+      {
+        "q": "Nabízíte i správu webu?",
+        "a": "Ano. Pokud nechcete nic řešit sami, úpravy a rozvoj webu zajistíme za 990 Kč za hodinu."
+      }
+    ],
+    "nearby": [
+      "stochov",
+      "rakovnik",
+      "lany"
+    ],
+    "short": "Weby pro firmy a živnostníky v Novém Strašecí a na Rakovnicku."
+  },
+  {
+    "slug": "velvary",
+    "name": "Velvary",
+    "in": "ve Velvárích",
+    "to": "do Velvar",
+    "gen": "Velvar",
+    "h1": "Tvorba webových stránek ve Velvárích",
+    "description": "Weby pro živnostníky a firmy ve Velvárích a okolí. Osobní jednání, jednoduchá správa obsahu a férové ceny bez paušálů.",
+    "lead": "Velvary jsou malé město s velkým srdcem. Firmám a živnostníkům odsud stavíme weby, které jim sednou na míru i do rozpočtu.",
+    "intro": [
+      "Velvary leží mezi Slaným a Kralupy, obklopené zemědělskou krajinou. Působí tu menší obchody, řemeslníci, dopravci a služby, které zná skoro celé město. Právě proto se jim vyplatí web, který doporučení podpoří.",
+      "Nemusí to být složité. Stačí pár přehledných stránek, aktuální informace a jasný kontakt. Postavíme vám web, který se pohodlně čte na mobilu a ve kterém si sami přepíšete ceny i otevírací dobu."
+    ],
+    "why": [
+      {
+        "title": "Menší město, osobní přístup",
+        "text": "Ve Velvárích se zná skoro každý. Web stavíme tak, aby odpovídal tomu, jak u vás byznys skutečně funguje — přes známé a doporučení."
+      },
+      {
+        "title": "Dojedeme za vámi",
+        "text": "Z Tuřan u Slaného je to kousek. Na konzultaci dorazíme k vám do provozovny, nemusíte nikam cestovat."
+      },
+      {
+        "title": "Rozumná cena",
+        "text": "Nemusíte platit za funkce, které nikdy nevyužijete. Navrhneme web v rozsahu, který odpovídá velikosti vaší firmy."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemeslníci",
+        "text": "Zedníci, elektrikáři, instalatéři a truhláři. Ukázky práce, oblast působení a rychlý kontakt."
+      },
+      {
+        "title": "Obchody a služby",
+        "text": "Potraviny, drogerie, kadeřnictví a opravny. Otevírací doba a mapa, aby vás lidé našli."
+      },
+      {
+        "title": "Zemědělství a zahrada",
+        "text": "Pěstitelé, sadaři a zahradnické služby. Sezónní nabídka a kontakt na prodej ze dvora."
+      },
+      {
+        "title": "Doprava",
+        "text": "Autodoprava, stěhování a půjčovny. Přehled služeb, ceník a objednání."
+      }
+    ],
+    "villages": [
+      "Ješín",
+      "Chržín",
+      "Sazená",
+      "Nová Ves",
+      "Vrbno nad Lesy",
+      "Uhy",
+      "Blevice",
+      "Nabdín",
+      "Olovnice",
+      "Otvovice"
+    ],
+    "villagesNote": "Kromě Velvar působíme v obcích směrem na Kralupy, Chržín a Olovnici i na Slaný.",
+    "refsNote": "Ukázky webů najdete níže. Děláme je pro firmy podobné té vaší — malé, osobní a postavené na doporučení.",
+    "faq": [
+      {
+        "q": "Kde sídlíte?",
+        "a": "V Tuřanech u Slaného, což je od Velvar přibližně patnáct minut autem."
+      },
+      {
+        "q": "Vyplatí se web pro malé město?",
+        "a": "Určitě. Lidé se ptají známých, ale ještě předtím si vás vygooglí. Když web nemáte nebo je zastaralý, doporučení nepodpoříte."
+      },
+      {
+        "q": "Můžu web kdykoliv upravit?",
+        "a": "Ano. Dostanete jednoduchou administraci, ve které změníte texty, ceny i otevírací dobu."
+      },
+      {
+        "q": "Jaká je cena a jak se platí?",
+        "a": "Od 9 990 Kč bez DPH. Platíte 50 % při objednání a 50 % po dodání webu."
+      },
+      {
+        "q": "Trvá to dlouho?",
+        "a": "Nejčastěji týden od dodání podkladů. Termín vždy potvrdíme předem."
+      }
+    ],
+    "nearby": [
+      "kralupy-nad-vltavou",
+      "slany",
+      "zlonice"
+    ],
+    "short": "Weby pro živnostníky a firmy ve Velvárích a okolí."
+  },
+  {
+    "slug": "stochov",
+    "name": "Stochov",
+    "in": "ve Stochově",
+    "to": "do Stochova",
+    "gen": "Stochova",
+    "h1": "Tvorba webových stránek ve Stochově",
+    "description": "Weby pro firmy a živnostníky ve Stochově a okolí. Rychlý web, který zvládnete spravovat sami, bez měsíčních paušálů.",
+    "lead": "Stochov žije dopravou, řemesly i turistikou na Slovance a v okolí Lánské obory. Firmám odsud stavíme weby, které jsou rychlé a přehledné.",
+    "intro": [
+      "Stochov leží mezi Kladnem a Novým Strašecím, v místě, kudy denně projíždějí tisíce aut. Místní firmy proto často cílí na zákazníky z blízkého i širšího okolí, ať už jde o servisy, řemesla nebo služby.",
+      "Web pro ně stavíme jako jednoduchý, rychlý a mobilní. Návštěvník musí na prvním místě vidět, co umíte, kde vás najít a jak se objednat — nic víc k rozhodnutí nepotřebuje."
+    ],
+    "why": [
+      {
+        "title": "Působíme v sousedství",
+        "text": "Do Stochova to máme chvíli autem. Rádi se sejdeme osobně, probereme provoz a obsah doladíme na místě."
+      },
+      {
+        "title": "Turisté i místní",
+        "text": "Stochov má turistické zázemí díky Slovance a blízkosti Lán. Web umíme postavit tak, aby fungoval pro obě skupiny zákazníků."
+      },
+      {
+        "title": "Rychlost na prvním místě",
+        "text": "Čím rychleji se web načte, tím méně lidí odejde. Statický web bez zbytečných systémů je nejrychlejší řešení."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemeslníci a servisy",
+        "text": "Autoservisy, pneuservisy, instalatéři a elektrikáři. Ceník, působnost a kontakt bez zbytečných kroků."
+      },
+      {
+        "title": "Obchody a služby",
+        "text": "Prodejny, kadeřnictví a studia. Aktuální otevírací doba a mapa, aby vás zákazník našel."
+      },
+      {
+        "title": "Ubytování a volný čas",
+        "text": "Penziony, sportoviště a akce pro veřejnost. Program, fotky a rezervace."
+      },
+      {
+        "title": "Doprava",
+        "text": "Přeprava, stěhování a rozvoz. Přehled vozového parku a rychlá poptávka."
+      }
+    ],
+    "villages": [
+      "Honice",
+      "Kačice",
+      "Tuchlovice",
+      "Kamenné Žehrovice",
+      "Lány",
+      "Rynholec",
+      "Hradečno",
+      "Nové Strašecí"
+    ],
+    "villagesNote": "Dojíždíme do Stochova, jeho části Honic i do okolních obcí směrem na Lány, Kladno a Nové Strašecí.",
+    "refsNote": "Ukázky našich webů si prohlédněte níže. Ať jde o služby nebo lokální podnikání, postup je stejný — postavit web, který přivede poptávku.",
+    "faq": [
+      {
+        "q": "Jak daleko od Stochova jste?",
+        "a": "Pobočku máme v Tuřanech u Slaného. Do Stochova jezdíme asi dvacet minut."
+      },
+      {
+        "q": "Umíte web i pro provozovnu otevřenou každý den?",
+        "a": "Ano. Otevírací dobu, aktuální akce i ceny si můžete měnit sami kdykoliv, klidně z mobilu v provozu."
+      },
+      {
+        "q": "Jaká je cena?",
+        "a": "Základní web začíná na 9 990 Kč bez DPH, v ceně je administrace i čas na konzultace."
+      },
+      {
+        "q": "Kdy bude web hotový?",
+        "a": "Obvykle do sedmi pracovních dnů od předání podkladů. U rozsáhlejších webů podle domluvy."
+      },
+      {
+        "q": "Musím platit měsíční paušál?",
+        "a": "Ne. Platíte jednorázově za tvorbu a pak už jen provozní náklady na doménu a hosting."
+      }
+    ],
+    "nearby": [
+      "lany",
+      "kladno",
+      "nove-straseci"
+    ],
+    "short": "Weby pro firmy a živnostníky ve Stochově a okolí."
+  },
+  {
+    "slug": "libusin",
+    "name": "Libušín",
+    "in": "v Libušíně",
+    "to": "do Libušína",
+    "gen": "Libušína",
+    "h1": "Tvorba webových stránek v Libušíně",
+    "description": "Weby pro libušínské živnostníky a firmy. Osobní jednání, rychlé spuštění a obsah, který si snadno upravíte sami.",
+    "lead": "Libušín má bohatou historii a dnes v něm žije spousta lidí, kteří dojíždějí za prací do Kladna. Místní služby a řemesla na tom mohou jen získat.",
+    "intro": [
+      "Libušín je spojený s hornickou minulostí Kladenska i s novou výstavbou, do které se stěhují mladé rodiny. Tahle kombinace znamená jednu věc — lidé tu hledají služby, řemeslníky a obchody v blízkosti svého domova.",
+      "Když máte v Libušíně provozovnu, web z vás dělá první volbu. Ukážeme na něm, co umíte, jak se objednat a proč je výhodné vyřešit to u vás, a ne dojíždět do Kladna."
+    ],
+    "why": [
+      {
+        "title": "Hned za rohem",
+        "text": "Libušín máme přes Kladno zhruba dvacet minut. Osobní schůzku domluvíme podle vašich možností, klidně i večer."
+      },
+      {
+        "title": "Nové rodiny hledají online",
+        "text": "Do Libušína se stěhují mladé rodiny, které si služby i řemeslníky hledají na internetu. Kdo tam není, jako by nebyl."
+      },
+      {
+        "title": "Zkušenosti z Kladenska",
+        "text": "V okolí Kladna stavíme weby řemeslníkům, firmám i službám. Víme, jaké dotazy lidé v regionu řeší."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemeslníci",
+        "text": "Instalatéři, elektrikáři, malíři a truhláři. Web s ukázkami zakázek a telefonem na první obrazovce."
+      },
+      {
+        "title": "Služby pro rodiny",
+        "text": "Hlídání dětí, doučování, úklid a údržba zahrady. Jasně, komu sloužíte a jak vás kontaktovat."
+      },
+      {
+        "title": "Obchody a provozovny",
+        "text": "Prodejny a studia s kamenným provozem. Otevírací doba, mapa a aktuální nabídka."
+      },
+      {
+        "title": "Sport a volný čas",
+        "text": "Kluby, kroužky a akce pro děti i dospělé. Rozpis, přihlášky a kontakty na vedoucí."
+      }
+    ],
+    "villages": [
+      "Svinařov",
+      "Vinařice",
+      "Třebichovice",
+      "Pchery",
+      "Knovíz",
+      "Motyčín",
+      "Hnidousy"
+    ],
+    "villagesNote": "Dojíždíme do Libušína, Knovíze, Třebichovic a Pcher i do okolních částí Kladna.",
+    "refsNote": "Ukázky webů najdete níže. Vedle firem děláme i weby pro služby a menší provozy, které stojí na osobním kontaktu.",
+    "faq": [
+      {
+        "q": "Dojíždíte do Libušína?",
+        "a": "Ano, Libušín máme přes Kladno asi dvacet minut. Na schůzku dorazíme k vám, případně se potkáme v Kladně."
+      },
+      {
+        "q": "Mám malou živnost, má smysl řešit web?",
+        "a": "Má. Web je dnes vizitka, kterou si lidé najdou místo telefonátu. Stačí pár stránek, které řeknou, co děláte a jak se objednat."
+      },
+      {
+        "q": "Kolik to stojí?",
+        "a": "Od 9 990 Kč bez DPH, s padesátiprocentní zálohou při objednání a doplatkem po dodání."
+      },
+      {
+        "q": "Budu moct web upravovat sám?",
+        "a": "Ano. Administraci vám při předání vysvětlíme a zůstáváme k dispozici i poté."
+      },
+      {
+        "q": "Jak dlouho trvá tvorba?",
+        "a": "Běžný web do sedmi dnů od dodání podkladů, u větších projektů se domluvíme na termínu."
+      }
+    ],
+    "nearby": [
+      "kladno",
+      "smecno",
+      "slany"
+    ],
+    "short": "Weby pro libušínské živnostníky a firmy."
+  },
+  {
+    "slug": "zlonice",
+    "name": "Zlonice",
+    "in": "ve Zlonicích",
+    "to": "do Zlonic",
+    "gen": "Zlonic",
+    "h1": "Tvorba webových stránek ve Zlonicích",
+    "description": "Weby pro živnostníky a firmy ve Zlonicích a na Slánsku. Jsme pár minut odsud, takže se můžeme sejít osobně.",
+    "lead": "Zlonice jsou známé díky Antonínu Dvořákovi, ale žije v nich i řada firem a živnostníků. Weby pro ně stavíme osobně — jsme pár minut odsud.",
+    "intro": [
+      "Zlonice leží v údolí Zlonického potoka a proslavily se pobytem Antonína Dvořáka, který tu v mládí působil jako varhaník. Dnes jsou klidným městysem, odkud lidé dojíždějí za prací do Slaného, Kladna i Prahy.",
+      "Pro místní živnostníky a služby je proto web důležitý. Podle něj se rozhoduje, koho si zavolají na opravu, úklid nebo hlídání. Postavíme vám stránky, které tenhle první dojem zvládnou."
+    ],
+    "why": [
+      {
+        "title": "Pár minut od Slaného",
+        "text": "Z Tuřan u Slaného jsme u vás za deset minut. Schůzku domluvíme kdykoliv, i odpoledne po práci."
+      },
+      {
+        "title": "Penězi neplýtváme",
+        "text": "Víme, že menší obec znamená menší rozpočet. Navrhneme web v rozsahu, který odpovídá tomu, co skutečně potřebujete."
+      },
+      {
+        "title": "Kultura i byznys",
+        "text": "Zlonicemi žije kulturní i spolkový život. Umíme postavit weby pro spolky a akce stejně jako pro komerční firmy."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemeslníci a údržba",
+        "text": "Řemesla, opravy a údržba domů. Web s ukázkami práce a jasným kontaktem."
+      },
+      {
+        "title": "Zemědělství a zahrady",
+        "text": "Pěstitelé, sadaři a zahradnické služby. Sezónní nabídka a informace o prodeji ze dvora."
+      },
+      {
+        "title": "Obchody a služby",
+        "text": "Menší prodejny a služby v obci. Otevírací doba, ceny a mapa na jednom místě."
+      },
+      {
+        "title": "Spolky a akce",
+        "text": "Kulturní akce, spolky a kroužky. Program, fotogalerie a kontakty na organizátory."
+      }
+    ],
+    "villages": [
+      "Lisovice",
+      "Břešťany",
+      "Beřovice",
+      "Hobšovice",
+      "Neprobylice",
+      "Přelíc",
+      "Klobuky",
+      "Páleč",
+      "Vraný"
+    ],
+    "villagesNote": "Kromě Zlonic působíme v obcích směrem na Slaný, Klobuky i Vraný.",
+    "refsNote": "Níže najdete ukázky našich webů. Pro menší obce a spolky umíme web připravit v rozsahu, který dává smysl i rozpočtu.",
+    "faq": [
+      {
+        "q": "Dojíždíte do Zlonic?",
+        "a": "Ano, Zlonice jsou od naší pobočky v Tuřanech u Slaného přibližně deset minut autem."
+      },
+      {
+        "q": "Vyplatí se web pro firmu v malé obci?",
+        "a": "Vyplatí. Zákazníci si vás vygooglí, i když vám vás někdo doporučil. Kvalitní web doporučení potvrdí a přinese další poptávky."
+      },
+      {
+        "q": "Jaká je cena webu?",
+        "a": "Od 9 990 Kč bez DPH podle rozsahu a balíčku. Cenu vždy potvrdíme předem."
+      },
+      {
+        "q": "Jak rychle je web hotový?",
+        "a": "Nejčastěji do týdne od dodání podkladů. Záleží hlavně na tom, jak rychle dodáte texty a fotky."
+      },
+      {
+        "q": "Umíte i web pro spolek?",
+        "a": "Ano. Spolkům a neziskovkám stavíme přehledné weby s programem, fotogalerií a kontakty na vedení."
+      }
+    ],
+    "nearby": [
+      "slany",
+      "smecno",
+      "velvary"
+    ],
+    "short": "Weby pro živnostníky a firmy ve Zlonicích a na Slánsku."
+  },
+  {
+    "slug": "smecno",
+    "name": "Smečno",
+    "in": "ve Smečně",
+    "to": "do Smečna",
+    "gen": "Smečna",
+    "h1": "Tvorba webových stránek ve Smečně",
+    "description": "Weby pro smečenské živnostníky a firmy. Jsme pět minut odsud, takže se můžeme sejít osobně a web doladit na místě.",
+    "lead": "Smečno najdete kousek od Slaného, s renesančním zámkem a klidnou polohou. Firmám a živnostníkům odsud stavíme weby na míru.",
+    "intro": [
+      "Smečno je malé město s výraznou historií — zámek tu připomíná dobu Jaroslava Bořity z Martinic i starý pivovarský provoz. Dnes je hlavně klidným místem, odkud lidé dojíždějí do Slaného a Kladna.",
+      "Pro živnostníky a služby ve Smečně a okolí je web často jediná cesta, jak získat zákazníky mimo známý okruh lidí. Postavíme vám stránky, které shrnou, co děláte, a dovedou zákazníka k zavolání nebo poptávce."
+    ],
+    "why": [
+      {
+        "title": "Pět minut od nás",
+        "text": "Z Tuřan u Slaného jsme ve Smečně za pár minut. Schůzku nemusíme plánovat měsíc dopředu, stačí se domluvit na konkrétní den."
+      },
+      {
+        "title": "Lokální znalost",
+        "text": "Víme, kdo ve Smečně podniká a co místní lidé hledají. Texty i strukturu webu stavíme podle toho."
+      },
+      {
+        "title": "Postup bez zdržování",
+        "text": "Známe rozsah běžného webu pro malou firmu, takže se nemusíte vyznat v technikáliích. Stačí říct, co děláte a co chcete ukázat."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Řemeslníci",
+        "text": "Řemesla a stavební práce ve Smečně i okolí. Ukázky, obsluhované obce a rychlý kontakt."
+      },
+      {
+        "title": "Služby pro domácnost",
+        "text": "Úklid, zahrada, malování a servis. Ceník a oblast působení na jednom místě."
+      },
+      {
+        "title": "Obchody a provozovny",
+        "text": "Menší prodejny a studia. Otevírací doba, mapa a aktuální nabídka."
+      },
+      {
+        "title": "Ubytování a akce",
+        "text": "Penziony, prostory k pronájmu a akce pro veřejnost. Program, fotky a rezervace."
+      }
+    ],
+    "villages": [
+      "Hradečno",
+      "Kačice",
+      "Ledce",
+      "Kvílice",
+      "Studeněves",
+      "Přelíc",
+      "Třebíz"
+    ],
+    "villagesNote": "Dojíždíme do Smečna i do obcí v okolí — od Hradečna a Ledců po Kvílice a Třebíz.",
+    "refsNote": "Ukázky našich webů najdete níže. Patří mezi ně i prostory k pronájmu v nedalekých Tuřanech, tedy obor, který je Smečnu blízký.",
+    "faq": [
+      {
+        "q": "Jak blízko od Smečna jste?",
+        "a": "Naše pobočka je v Tuřanech u Slaného, do Smečna to je asi pět minut autem."
+      },
+      {
+        "q": "Má smysl web pro tak malé město?",
+        "a": "Má. Lidé si vás nejdřív vyhledají na internetu, i když vám vás někdo doporučil. Web rozhoduje o tom, jestli zavolají."
+      },
+      {
+        "q": "Kolik web stojí?",
+        "a": "Od 9 990 Kč bez DPH. Cena se odvíjí od rozsahu a balíčku, který si vyberete."
+      },
+      {
+        "q": "Trvá dlouho, než je web hotový?",
+        "a": "Běžně týden od dodání textů a fotek. Termín potvrdíme předem."
+      },
+      {
+        "q": "Musím se starat o technické věci?",
+        "a": "Ne. Doménu, hosting i spuštění zařídíme za vás. Vy dostanete hotový web a přístupy."
+      }
+    ],
+    "nearby": [
+      "slany",
+      "zlonice",
+      "libusin"
+    ],
+    "short": "Weby pro smečenské živnostníky a firmy."
+  },
+  {
+    "slug": "lany",
+    "name": "Lány",
+    "in": "v Lánech",
+    "to": "do Lán",
+    "gen": "Lán",
+    "h1": "Tvorba webových stránek v Lánech",
+    "description": "Weby pro firmy a služby v Lánech a okolí. Zaměřujeme se na turistiku, gastronomii i místní služby, které potřebují být vidět.",
+    "lead": "Lány zná celá republika díky zámku a Lánské oboře. Místní podnikání stojí na turistech i lidech z okolních obcí — a my umíme obojí spojit.",
+    "intro": [
+      "Lány jsou známé jako místo, kde stojí zámek s tradicí letního sídla prezidentů, a také díky rozsáhlé Lánské oboře a okolním lesům. Díky tomu sem míří turisté i lidé na výlet z Kladna a Rakovnicka.",
+      "Firmy a služby v Lánech tak mají dvě publikum — místní a návštěvníky. Web umíme postavit tak, aby fungoval pro obě: místní najdou otevírací dobu a kontakt, turisté zase program, ceník a tipy v okolí."
+    ],
+    "why": [
+      {
+        "title": "Dvě publikum, jeden web",
+        "text": "Turista hledá jiné informace než místní zákazník. Web umíme rozdělit tak, aby každý našel rychle to své."
+      },
+      {
+        "title": "Blízký dojezd",
+        "text": "Z Tuřan u Slaného do Lán dojedeme za půl hodiny. Na schůzku přivezeme i návrh struktury webu."
+      },
+      {
+        "title": "Provoz bez starostí",
+        "text": "Statický web nepotřebuje aktualizace ani pluginy, takže funguje roky. Obsah si upravíte sami v jednoduché administraci."
+      }
+    ],
+    "segments": [
+      {
+        "title": "Turistika a ubytování",
+        "text": "Penziony, kempy a atrakce v okolí Lánské obory. Fotky, ceník, otevírací doba a rezervace."
+      },
+      {
+        "title": "Gastronomie",
+        "text": "Restaurace a hospůdky. Menu, akce a otevírací doba, kterou si měníte sami."
+      },
+      {
+        "title": "Řemesla a služby",
+        "text": "Řemeslníci, servisy a služby pro domácnosti z Lán a okolních obcí."
+      },
+      {
+        "title": "Volný čas a spolky",
+        "text": "Sportoviště, kroužky a akce pro veřejnost. Program, přihlášky a kontakty."
+      }
+    ],
+    "villages": [
+      "Kačice",
+      "Stochov",
+      "Rynholec",
+      "Tuchlovice",
+      "Kamenné Žehrovice",
+      "Hradečno",
+      "Nové Strašecí"
+    ],
+    "villagesNote": "Působíme v Lánech i v obcích kolem — ve Stochově, Rynholci, Kačicích či Tuchlovicích.",
+    "refsNote": "Ukázky našich webů si prohlédněte níže. Mezi klienty máme i provozy, které žijí z turistů a návštěvníků.",
+    "faq": [
+      {
+        "q": "Jak daleko do Lán dojíždíte?",
+        "a": "Z Tuřan u Slaného je to přibližně půl hodiny autem. Schůzku domluvíme podle vašich možností."
+      },
+      {
+        "q": "Umíte web i pro penzion nebo atrakci?",
+        "a": "Ano. Pro ubytování a turistické cíle stavíme weby s fotogalerií, ceníkem, otevírací dobou a možností rezervace."
+      },
+      {
+        "q": "Kolik web stojí?",
+        "a": "Od 9 990 Kč bez DPH podle balíčku. Cenu znáte předem, žádné skryté poplatky."
+      },
+      {
+        "q": "Za jak dlouho bude spuštěný?",
+        "a": "Běžně do sedmi pracovních dnů od dodání podkladů."
+      },
+      {
+        "q": "Můžu si web aktualizovat sám?",
+        "a": "Ano, dostanete jednoduchou administraci a při předání vám ukážeme, jak na to."
+      }
+    ],
+    "nearby": [
+      "stochov",
+      "nove-straseci",
+      "kladno"
+    ],
+    "short": "Weby pro firmy a služby v Lánech a okolí."
+  }
+]

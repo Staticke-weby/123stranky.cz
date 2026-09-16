@@ -1,0 +1,54 @@
+---
+title: Ukázky
+description: "Ukázky statických webů podle témat — služby, CRM a AI, srovnání i akce. Vše postavené jen z HTML a CSS."
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <span aria-current="page">Ukázky</span>
+    </nav>
+    <h1>Ukázky</h1>
+    <p class="lead">Tady si hrajeme s tím, co všechno se dá postavit jen ze statického HTML a CSS. Prohlédněte si ukázky podle témat — klidně si je proklikejte.</p>
+  </div>
+</section>
+
+{% for group in demos %}
+<section class="section{% if loop.index % 2 == 0 %} section--soft{% endif %}">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">{{ group.name }}</p>
+      <h2>{{ group.name }}</h2>
+      <p class="section-lead">{{ group.desc }}</p>
+    </div>
+
+    <div class="showcase">
+      {% for p in group.items %}
+      <a class="showcase-item" href="{{ p.url }}" target="_blank" rel="noopener">
+        <span class="showcase-thumb">
+          <img src="{{ p.image }}" alt="Náhled ukázky: {{ p.title }}" width="800" height="500" loading="lazy">
+        </span>
+        <span class="showcase-meta">
+          <h3>{{ p.title }}</h3>
+          <span class="showcase-link">Zobrazit ukázku {{ icon("arrow", 16) }}</span>
+        </span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Chcete něco podobného pro sebe?</h2>
+      <p>Postavíme vám statický web na míru — rychlý, bezpečný a s jednoduchou administrací.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Nezávazně poptat</a>
+      <a class="btn btn-ghost-light btn-lg" href="/cenik/">Prohlédnout ceník</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,107 @@
+---
+title: Weby ve vašem městě
+description: "Tvoříme weby pro firmy a živnostníky ve Slaném, Kladně, Kralupech, Rakovníku, Lounech a dalších městech v okolí. Osobně, rychle a bez paušálů."
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <span aria-current="page">Weby ve vašem městě</span>
+    </nav>
+    <h1>Tvorba webových stránek ve Slaném a okolí</h1>
+    <p class="lead">Jsme z Tuřan u Slaného a weby stavíme pro firmy z dvanácti měst a desítek obcí v okolí. Osobní schůzka, rychlé spuštění a web, který se v místním hledání prosadí.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="prose">
+      <p>Působíme na Slánsku, Kladensku, Rakovnicku a Lounsku. Není to náhoda — jsme místní, známe tu firmy i to, co místní lidé hledají. Díky tomu umíme web postavit tak, aby fungoval pro konkrétní město, a ne jen obecně pro celou republiku.</p>
+      <p>Na každé stránce níže najdete, pro koho ve městě weby nejčastěji stavíme, kam až za vámi dojedeme a jaké máme zkušenosti. Když vaše město v seznamu není, napište nám — dojezd po domluvě není problém.</p>
+    </div>
+
+    <div class="local-note">
+      <span class="local-note-icon">{{ icon("pin", 20) }}</span>
+      <p><strong>{{ site.branch.label }}:</strong> {{ site.branch.street }}, {{ site.branch.zip }} {{ site.branch.city }} · <a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></p>
+    </div>
+  </div>
+</section>
+
+{% set linkSet = "lokalita" %}
+{% set linkEyebrow = "Města a obce" %}
+{% set linkTitle = "Vyberte si svoje město" %}
+{% set linkText = "Ke každému městu máme vlastní stránku s tím, pro koho tam weby stavíme, kam dojíždíme a jak se s námi spojit." %}
+{% set linkSlugs = false %}
+{% set linkSoft = true %}
+{% set linkCtaHref = false %}
+{% include "link-cards.njk" %}
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Proč místní tvůrce webů</p>
+      <h2>Výhody, které agentura z druhého konce republiky nemá</h2>
+      <p class="section-lead">Web není jen design. Je to obsah, který musí sedět na konkrétní město a jeho zákazníky.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon">{{ icon("search", 22) }}</span>
+        <h3>Místní vás najdou snáz</h3>
+        <p>Vyhledávání dnes pracuje s polohou. Když se na webu objeví město a obce, kam dojíždíte, lidé z okolí vás najdou dřív než anonymní konkurenci.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("pin", 22) }}</span>
+        <h3>Můžeme se sejít osobně</h3>
+        <p>Web se staví líp, když se vidíme. Projdeme spolu provozovnu, probereme, co má web umět, a doladíme obsah na místě.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("pen", 22) }}</span>
+        <h3>Víme, co místní hledají</h3>
+        <p>U řemeslníka v Kladně rozhoduje něco jiného než u penzionu v Lánech. Obsah proto stavíme podle konkrétního města, ne podle šablony.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("refresh", 22) }}</span>
+        <h3>Jsme tu i po spuštění</h3>
+        <p>Nezůstanete sami s webem, kterému nerozumíte. Když bude potřeba něco upravit nebo doplnit, ozvete se a vyřešíme to.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% set linkSet = "obor" %}
+{% set linkEyebrow = "Podle oboru" %}
+{% set linkTitle = "Hledáte web pro konkrétní obor?" %}
+{% set linkText = "Oborové stránky stavíme pro klienty po celé České republice — poradí vám, co musí web ve vaší branži umět." %}
+{% set linkSlugs = false %}
+{% set linkSoft = true %}
+{% set linkExclude = false %}
+{% set linkCtaHref = "/web-pro/" %}
+{% set linkCtaLabel = "Všechny obory" %}
+{% include "link-cards.njk" %}
+
+{% set faqEyebrow = "Časté dotazy" %}
+{% set faqTitle = "Na co se nás k působení v regionu ptáte" %}
+{% set faqSoft = false %}
+{% set faqItems = [
+  { "q": "Do jakých měst a obcí dojíždíte?", "a": "Naše pobočka je v Tuřanech u Slaného. Pravidelně dojíždíme do Slaného, Kladna, Kralup nad Vltavou, Rakovníka, Loun, Nového Strašecí, Velvar, Stochova, Libušína, Zlonic, Smečna a Lán a do desítek menších obcí v jejich okolí." },
+  { "q": "Stavíte weby i mimo tento region?", "a": "Ano. Oborové weby a weby pro klienty z jiných částí republiky běžně řešíme online — přes telefon, e-mail a videohovory." },
+  { "q": "Musím kvůli schůzce někam dojíždět?", "a": "Ne. Můžeme se sejít u nás v Tuřanech u Slaného, u vás v provozovně, nebo celý projekt vyřídit online." },
+  { "q": "Kolik web stojí?", "a": "Stavba webu začíná na 9 990 Kč bez DPH. Platí se polovina při objednání a polovina po dodání webu." },
+  { "q": "Za jak dlouho bude web hotový?", "a": "Běžný web zvládneme do sedmi pracovních dnů od chvíle, kdy máme texty a fotky." }
+] %}
+{% include "faq-strip.njk" %}
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Pojďme postavit web, který vás v regionu zviditelní</h2>
+      <p>Napište nám pár vět o svém projektu. Ozveme se obvykle do 24 hodin s návrhem dalšího postupu.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Nezávazně poptat</a>
+      <a class="btn btn-ghost-light btn-lg" href="{{ site.emailHref }}">Napsat e-mail</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,25 @@
+---
+title: Přesměrování
+noindex: true
+layout: false
+eleventyExcludeFromCollections: true
+sitemap_exclude: true
+pagination:
+  data: redirects
+  size: 1
+  alias: red
+permalink: "{{ red.from }}/index.html"
+---
+{% set target = red.to | absoluteUrl(site.url) %}<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Přesměrování | {{ site.name }}</title>
+<link rel="canonical" href="{{ target }}">
+<meta http-equiv="refresh" content="0; url={{ red.to }}">
+</head>
+<body>
+<p>Tato adresa se změnila. Pokračujte na <a href="{{ target }}">{{ target }}</a>.</p>
+</body>
+</html>

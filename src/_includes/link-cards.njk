@@ -1,0 +1,40 @@
+{% from "icon.njk" import icon %}
+{%- set source = obor if linkSet == "obor" else lokalita -%}
+{%- set prefix = "/web-pro/" if linkSet == "obor" else "/webove-stranky/" -%}
+{%- set items = [] -%}
+{%- if linkSlugs -%}
+  {%- for slug in linkSlugs -%}
+    {%- for item in source -%}
+      {%- if item.slug == slug %}{% set items = (items.push(item), items) %}{% endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- for item in source %}{% set items = (items.push(item), items) %}{% endfor -%}
+{%- endif -%}
+<section class="section{% if linkSoft %} section--soft{% endif %}">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">{{ linkEyebrow }}</p>
+      <h2>{{ linkTitle }}</h2>
+      {% if linkText %}<p class="section-lead">{{ linkText }}</p>{% endif %}
+    </div>
+    <div class="link-grid">
+      {% for item in items %}
+        {% if (not linkExclude) or (item.slug != linkExclude) %}
+          {% if (not linkLimit) or (loop.index <= linkLimit) %}
+          <a class="link-card" href="{{ prefix }}{{ item.slug }}/">
+            <span class="link-card-title">{{ item.label or item.name }}</span>
+            <span class="link-card-text">{{ item.short }}</span>
+            <span class="link-card-more">Zobrazit {{ icon("arrow", 16) }}</span>
+          </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% if linkCtaHref %}
+    <div class="section-cta">
+      <a class="btn btn-outline" href="{{ linkCtaHref }}">{{ linkCtaLabel }} {{ icon("arrow", 18) }}</a>
+    </div>
+    {% endif %}
+  </div>
+</section>

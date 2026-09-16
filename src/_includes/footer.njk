@@ -1,0 +1,39 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <a class="brand brand--light" href="/" aria-label="{{ site.name }} — úvod">
+        <span class="brand-num">123</span>
+        <span class="brand-badge">stránky<span aria-hidden="true">.</span></span>
+      </a>
+      <p>{{ site.tagline }}.</p>
+      <p class="footer-note">Stavíme weby pro živnostníky, malé firmy i spolky po celé ČR.</p>
+    </div>
+
+    <nav class="footer-col" aria-label="Navigace">
+      <h2 class="footer-title">Web</h2>
+      <ul class="footer-links">
+        {% for item in site.nav %}
+          <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+        <li><a href="/webove-stranky/">Weby ve vašem městě</a></li>
+        <li><a href="/web-pro/">Weby podle oboru</a></li>
+        <li><a href="/mapa-webu/">Mapa webu</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h2 class="footer-title">Kontakt</h2>
+      <ul class="footer-links">
+        <li><a href="{{ site.emailHref }}">{{ site.email }}</a></li>
+        <li><a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></li>
+        <li><a href="{{ site.whatsappHref }}" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li>{{ site.branch.label }}<br>{{ site.branch.street }}, {{ site.branch.zip }} {{ site.branch.city }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p class="footer-legal">&copy; {{ "" | year }} 123stranky.cz · Provozovatel: {{ site.company.name }}, IČO {{ site.company.ico }}, DIČ {{ site.company.dic }} ·       <a href="/zpracovani-osobnich-udaju/">Zpracování osobních údajů</a></p>
+    <p class="footer-credit">{{ site.company.street }}, {{ site.company.zip }} {{ site.company.city }}</p>
+  </div>
+</footer>

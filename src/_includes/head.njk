@@ -1,0 +1,94 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{%- if title %}{% set shareTitle = title ~ " | " ~ site.name %}{% else %}{% set shareTitle = site.title %}{% endif -%}
+{%- set shareDesc = description or site.description -%}
+{%- set shareImg = ogImage or "/assets/og-image.png" -%}
+{%- set shareImgAlt = ogImageAlt or (site.name ~ " — " ~ site.tagline) %}
+<title>{{ shareTitle }}</title>
+<meta name="description" content="{{ shareDesc }}">
+<meta name="author" content="{{ site.name }}">
+{% if noindex %}<meta name="robots" content="noindex, nofollow">{% else %}<meta name="robots" content="index, follow">{% endif %}
+<meta name="googlebot" content="{% if noindex %}noindex, nofollow{% else %}index, follow, max-image-preview:large{% endif %}">
+<link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:title" content="{{ shareTitle }}">
+<meta property="og:description" content="{{ shareDesc }}">
+<meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}">
+<meta property="og:image" content="{{ shareImg | absoluteUrl(site.url) }}">
+<meta property="og:image:secure_url" content="{{ shareImg | absoluteUrl(site.url) }}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ shareImgAlt }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ shareTitle }}">
+<meta name="twitter:description" content="{{ shareDesc }}">
+<meta name="twitter:image" content="{{ shareImg | absoluteUrl(site.url) }}">
+<meta name="twitter:image:alt" content="{{ shareImgAlt }}">
+
+<meta name="theme-color" content="#0a1a18">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "{{ site.url }}/#business",
+      "name": "{{ site.name }}",
+      "legalName": "{{ site.company.name }}",
+      "description": "{{ site.description }}",
+      "url": "{{ site.url }}",
+      "email": "{{ site.email }}",
+      "telephone": "{{ site.phone }}",
+      "image": "{{ shareImg | absoluteUrl(site.url) }}",
+      "priceRange": "6900–24900 CZK",
+      "vatID": "{{ site.company.dic }}",
+      "taxID": "{{ site.company.ico }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ site.company.street }}",
+        "postalCode": "{{ site.company.zip }}",
+        "addressLocality": "{{ site.company.city }}",
+        "addressCountry": "CZ"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}",
+      "name": "{{ site.name }}",
+      "inLanguage": "cs-CZ",
+      "publisher": { "@id": "{{ site.url }}/#business" }
+    },
+    {
+      "@type": "WebPage",
+      "url": "{{ page.url | absoluteUrl(site.url) }}",
+      "name": "{{ shareTitle }}",
+      "description": "{{ shareDesc }}",
+      "isPartOf": { "@id": "{{ site.url }}/#website" },
+      "inLanguage": "cs-CZ",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "{{ shareImg | absoluteUrl(site.url) }}",
+        "width": 1200,
+        "height": 630,
+        "caption": "{{ shareImgAlt }}"
+      }
+    }
+  ]
+}
+</script>

@@ -1,0 +1,72 @@
+---
+title: Mapa webu
+description: "Mapa webu 123stranky.cz — přehled všech stránek: tvorba webů podle měst v okolí Slaného i podle oboru, ceník, ukázky a kontakt."
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <span aria-current="page">Mapa webu</span>
+    </nav>
+    <h1>Mapa webu</h1>
+    <p class="lead">Všechny stránky na jednom místě. Když hledáte něco konkrétního a nechce se vám proklikávat menu, začněte tady.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="map-grid">
+      <div class="map-col">
+        <h2 class="map-title">Hlavní stránky</h2>
+        <ul class="map-list">
+          {% for item in site.nav %}
+          <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <h2 class="map-title">Informace</h2>
+        <ul class="map-list">
+          <li><a href="/zpracovani-osobnich-udaju/">Zpracování osobních údajů</a></li>
+          <li><a href="/sitemap.xml">Sitemap pro vyhledávače (XML)</a></li>
+        </ul>
+      </div>
+
+      <div class="map-col">
+        <h2 class="map-title"><a href="/webove-stranky/">Weby ve vašem městě</a></h2>
+        <ul class="map-list">
+          {% for l in lokalita %}
+          <li><a href="/webove-stranky/{{ l.slug }}/">Weby {{ l.in }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="map-col">
+        <h2 class="map-title"><a href="/web-pro/">Weby podle oboru</a></h2>
+        <ul class="map-list">
+          {% for o in obor %}
+          <li><a href="/web-pro/{{ o.slug }}/">{{ o.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="local-note">
+      <span class="local-note-icon">{{ icon("pin", 20) }}</span>
+      <p>Nenašli jste, co hledáte? Napište nám na <a href="{{ site.emailHref }}">{{ site.email }}</a> nebo zavolejte na <a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Pojďme postavit web, na který budete hrdí</h2>
+      <p>Napište nám pár vět o svém projektu. Ozveme se obvykle do 24 hodin s návrhem dalšího postupu.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Nezávazně poptat</a>
+      <a class="btn btn-ghost-light btn-lg" href="/cenik/">Prohlédnout ceník</a>
+    </div>
+  </div>
+</section>

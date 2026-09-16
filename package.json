@@ -1,0 +1,14 @@
+{
+  "name": "123stranky",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prezentační web 123stranky.cz — tvorba statických webových stránek",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "node -e \"require('fs').rmSync('_site',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

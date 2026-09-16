@@ -1,0 +1,22 @@
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="{{ site.name }} — úvod">
+      <span class="brand-num">123</span>
+      <span class="brand-badge">stránky<span aria-hidden="true">.</span></span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="nav-toggle-box"><span></span><span></span><span></span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Hlavní navigace" data-nav>
+      <ul>
+        {% for item in site.nav %}
+          <li><a href="{{ item.url }}"{% if page.url == item.url %} class="is-active" aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+      <a class="btn btn-primary nav-cta" href="/kontakt/">Nezávazně poptat</a>
+    </nav>
+  </div>
+</header>

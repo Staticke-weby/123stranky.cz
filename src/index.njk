@@ -1,0 +1,325 @@
+---
+title: ""
+description: "Postavíme vám profesionální web, který přivede nové zákazníky. Hotový do 7 dnů, od 9 990 Kč a se 3 hodinami spolupráce v ceně."
+---
+{% from "icon.njk" import icon %}
+
+<section class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ icon("spark", 16) }} Weby, které přivádějí zákazníky</p>
+      <h1>Web, díky kterému vás lidé najdou a zavolají</h1>
+      <p class="lead">Postavíme vám profesionální web, který skvěle vypadá na mobilu, rychle se načte a hlavně přivede nové poptávky. Postaráme se o všechno za vás.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg" href="/kontakt/">Chci nezávaznou nabídku <span class="btn-ico">{{ icon("arrow", 18) }}</span></a>
+        <a class="btn btn-outline btn-lg" href="/cenik/">Prohlédnout ceník</a>
+      </div>
+      <ul class="hero-points">
+        <li>{{ icon("check", 18) }} Hotovo do 7 dnů</li>
+        <li>{{ icon("check", 18) }} Od 9 990 Kč</li>
+        <li>{{ icon("check", 18) }} Bez měsíčních paušálů</li>
+      </ul>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-card">
+        <div class="hero-card-bar"><span></span><span></span><span></span></div>
+        <div class="hero-card-body">
+          <span class="hero-card-line hero-card-line--lg"></span>
+          <span class="hero-card-line"></span>
+          <span class="hero-card-line hero-card-line--sm"></span>
+          <span class="hero-card-cta">Nezávazně poptat</span>
+        </div>
+      </div>
+      <div class="hero-note">
+        <span class="hero-note-icon">{{ icon("mail", 18) }}</span>
+        <div><strong>Nová poptávka z webu</strong><span>před 2 minutami</span></div>
+      </div>
+      <div class="hero-review">
+        <div class="hero-stars">{{ icon("star", 15) }}{{ icon("star", 15) }}{{ icon("star", 15) }}{{ icon("star", 15) }}{{ icon("star", 15) }}</div>
+        <p>„Konečně web, který vypadá profesionálně a přivádí nám zákazníky."</p>
+        <span>Jana N., květinářství</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="strip">
+  <div class="container strip-inner">
+    <p class="strip-label">Vhodné pro</p>
+    <ul class="strip-list">
+      <li>Živnostníky</li>
+      <li>Malé a střední firmy</li>
+      <li>Restaurace a kavárny</li>
+      <li>Řemeslníky</li>
+      <li>Spolky a neziskovky</li>
+      <li>Portfolia a osobní weby</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Co pro vás uděláme</p>
+      <h2>Vše, co web potřebuje. Nic, co ho zdržuje.</h2>
+      <p class="section-lead">Postaráme se o celý proces od návrhu po spuštění. Vy se nemusíte učit žádné nástroje ani řešit technikálie.</p>
+    </div>
+
+    <div class="cards">
+      {% for item in services %}
+      <article class="card">
+        <span class="card-icon">{{ icon(item.icon, 22) }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="section-cta">
+      <a class="btn btn-outline" href="/proc/">Proč s námi {{ icon("arrow", 18) }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Jak to probíhá</p>
+      <h2>Od nápadu k hotovému webu ve čtyřech krocích</h2>
+    </div>
+
+    <ol class="steps">
+      <li class="step">
+        <span class="step-num">1</span>
+        <h3>Nezávazná konzultace</h3>
+        <p>Probereme, co potřebujete, komu je web určený a co od něj očekáváte. Poradíme s rozsahem i cenou.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">2</span>
+        <h3>Návrh a struktura</h3>
+        <p>Připravíme obsah, strukturu stránek a vizuální návrh. Vy jen odsouhlasíte, co se vám líbí.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">3</span>
+        <h3>Tvorba webu</h3>
+        <p>Postavíme stránky, doladíme detaily a otestujeme na všech zařízeních i prohlížečích.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">4</span>
+        <h3>Spuštění a podpora</h3>
+        <p>Nasadíme doménu, hosting a předáme vám hotový web. Zůstáváme k dispozici i po spuštění.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split split--reverse">
+      <div class="split-visual" aria-hidden="true">
+        <div class="admin-mock">
+          <div class="admin-mock-head">
+            <span class="admin-dot"></span>
+            <strong>Administrace webu</strong>
+          </div>
+          <div class="admin-field">
+            <span class="admin-label">Nadpis stránky</span>
+            <span class="admin-input">Vítejte v našem obchodě</span>
+          </div>
+          <div class="admin-field">
+            <span class="admin-label">Text</span>
+            <span class="admin-input admin-input--area">Nabízíme kvalitní služby pro zákazníky v okolí…</span>
+          </div>
+          <div class="admin-field">
+            <span class="admin-label">Cena</span>
+            <span class="admin-input">od 1 200 Kč</span>
+          </div>
+          <span class="admin-save">Uložit změny</span>
+        </div>
+      </div>
+      <div class="split-copy">
+        <p class="eyebrow">Jednoduchá administrace</p>
+        <h2>Texty si upravíte sami, kdykoliv potřebujete</h2>
+        <p>Ke každému webu dostanete jednoduchou administraci. Přepíšete v ní texty, ceny, otevírací dobu nebo kontakty — bez programování a bez čekání na nás.</p>
+        <ul class="check-list">
+          <li>{{ icon("check", 18) }} Jednoduché prostředí, které zvládne opravdu každý</li>
+          <li>{{ icon("check", 18) }} Žádné složité systémy ani pravidelné aktualizace</li>
+          <li>{{ icon("check", 18) }} Změny se na webu projeví okamžitě</li>
+          <li>{{ icon("check", 18) }} Když si nebudete vědět rady, poradíme a pomůžeme</li>
+        </ul>
+        <a class="btn btn-primary" href="/kontakt/">Chci web s administrací {{ icon("arrow", 18) }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Co říkají klienti</p>
+      <h2>Práce, která přináší výsledky</h2>
+      <p class="section-lead">Nejlepší reklamou jsou spokojení zákazníci. Tady je pár z nich.</p>
+    </div>
+
+    <div class="testimonials">
+      <figure class="testimonial">
+        <div class="testimonial-stars" aria-label="Hodnocení 5 z 5">{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}</div>
+        <blockquote>„Konečně máme web, který dělá naší farmě pořádnou vizitku. Zákazníci si najdou prodejnu i termíny samosběrů a nemusí se ptát po telefonu."</blockquote>
+        <figcaption>
+          <span class="testimonial-avatar" aria-hidden="true">HM</span>
+          <span class="testimonial-who"><strong>Hanka Muchová</strong><em>MUCHOVA — Ovocnářství a vinařství</em></span>
+        </figcaption>
+      </figure>
+
+      <figure class="testimonial">
+        <div class="testimonial-stars" aria-label="Hodnocení 5 z 5">{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}</div>
+        <blockquote>„Web je rychlý a přehledný, zákazníci si rovnou najdou ceník i kontakt. Poptávky nám od té doby pěkně vzrostly."</blockquote>
+        <figcaption>
+          <span class="testimonial-avatar" aria-hidden="true">RI</span>
+          <span class="testimonial-who"><strong>Radek Ingr</strong><em>Rychlé Čištění Praha</em></span>
+        </figcaption>
+      </figure>
+
+      <figure class="testimonial">
+        <div class="testimonial-stars" aria-label="Hodnocení 5 z 5">{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}{{ icon("star", 16) }}</div>
+        <blockquote>„Web nám pomohl srozumitelně vysvětlit, co biorezonance je a jak terapie probíhá. Klienti teď chodí připravení a objednávají se sami."</blockquote>
+        <figcaption>
+          <span class="testimonial-avatar" aria-hidden="true">MK</span>
+          <span class="testimonial-who"><strong>Mgr. Marika Kníže, DiS.</strong><em>Biorezonance BICOM Slaný</em></span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reference">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Reference</p>
+      <h2>Weby, které už fungují</h2>
+      <p class="section-lead">Podívejte se na weby, které jsme postavili skutečným klientům.</p>
+    </div>
+
+    <div class="showcase">
+      {% for r in references %}
+      <a class="showcase-item" href="{{ r.url }}" target="_blank" rel="noopener">
+        <span class="showcase-thumb">
+          <img src="{{ r.image }}" alt="Náhled webu {{ r.name }}" width="800" height="500" loading="lazy">
+        </span>
+        <span class="showcase-meta">
+          <h3>{{ r.name }}</h3>
+          <p>{{ r.desc }}</p>
+          <span class="showcase-link">Zobrazit web {{ icon("arrow", 16) }}</span>
+        </span>
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="section-cta">
+      <a class="btn btn-outline" href="/ukazky/">Všechny ukázky {{ icon("arrow", 18) }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Ceník</p>
+      <h2>Jasné ceny bez překvapení</h2>
+      <p class="section-lead">Jeden pokročilý web, tři časové fondy. Všechny balíčky mají stejné funkce a liší se jen časem, který vám věnujeme. Ceny jsou bez DPH.</p>
+    </div>
+
+    <div class="pricing">
+      {% for p in packages %}
+      <article class="price-card{% if p.featured %} price-card--featured{% endif %}">
+        {% if p.badge %}<span class="price-badge">{{ p.badge }}</span>{% endif %}
+        <h3 class="price-name">{{ p.name }}</h3>
+        <p class="price-desc">{{ p.desc }}</p>
+        <p class="price-amount"><strong>{{ p.price }}</strong> <span>{{ p.period }}</span></p>
+        <p class="price-fund"><strong>{{ p.hours }} hodin</strong> spolupráce v ceně</p>
+        <a class="btn {% if p.featured %}btn-primary{% else %}btn-outline{% endif %} price-cta" href="/kontakt/">{{ p.cta }}</a>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="section-cta">
+      <a class="btn btn-outline" href="/cenik/">Kompletní ceník včetně doplňků {{ icon("arrow", 18) }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-wrap">
+    <div class="section-head section-head--left">
+      <p class="eyebrow">Časté dotazy</p>
+      <h2>Na co se nás lidé ptají</h2>
+    </div>
+
+    <div class="faq">
+      <details class="faq-item">
+        <summary>Kolik web stojí a co je v ceně?</summary>
+        <p>Stavba webu začíná na 9 990 Kč. Každý balíček je pokročilý se stejnými funkcemi a liší se jen časovým fondem na spolupráci. Za hodiny v balíčku i nad jeho rámec účtujeme stejně, 990 Kč/hod. Přesné ceny najdete v ceníku.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Jak dlouho trvá, než je web hotový?</summary>
+        <p>Jednoduchý web zvládneme do 7 pracovních dnů od dodání podkladů. U rozsáhlejších projektů se termín domluvíme individuálně.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Budu moct obsah upravovat sám?</summary>
+        <p>Ano. Ke každému webu dostanete jednoduchou administraci, ve které si texty, ceny i kontakty upravíte sami — bez programování a bez čekání na nás. Když si nebudete vědět rady, rádi pomůžeme.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Musím platit měsíční paušál?</summary>
+        <p>Za tvorbu webu platíte jednorázově a žádný paušál platit nemusíte. Pravidelně se hradí jen provozní náklady — doména a hosting. Práci nad rámec balíčku účtujeme na hodiny (990 Kč/hod).</p>
+      </details>
+      <details class="faq-item">
+        <summary>Co když nemám texty ani fotky?</summary>
+        <p>Nevadí. Buď vám dáme jasný seznam, co dodat, nebo vám s texty a podklady pomůžeme — účtujeme 990 Kč/hod. Stačí nám říct, co děláte a pro koho.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft" id="lokality">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Kde působíme</p>
+      <h2>Weby pro firmy ve Slaném a okolí</h2>
+      <p class="section-lead">Zázemí máme v Tuřanech u Slaného a pravidelně dojíždíme do měst i menších obcí v okolí. Weby podle oboru stavíme pro klienty po celé České republice.</p>
+    </div>
+
+    <ul class="tag-list tag-list--links">
+      {% for l in lokalita %}
+      <li><a class="tag" href="/webove-stranky/{{ l.slug }}/">{{ l.name }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <ul class="tag-list tag-list--links">
+      {% for o in obor %}
+      <li><a class="tag" href="/web-pro/{{ o.slug }}/">{{ o.meta }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <div class="section-cta">
+      <div class="cta-row">
+        <a class="btn btn-outline" href="/webove-stranky/">Weby ve vašem městě {{ icon("arrow", 18) }}</a>
+        <a class="btn btn-outline" href="/web-pro/">Weby podle oboru {{ icon("arrow", 18) }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Pojďme postavit web, na který budete hrdí</h2>
+      <p>Napište nám pár vět o svém projektu. Ozveme se obvykle do 24 hodin s návrhem dalšího postupu.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Nezávazně poptat</a>
+      <a class="btn btn-ghost-light btn-lg" href="{{ site.emailHref }}">Napsat e-mail</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+{% macro icon(name, size) %}{% set solid = (name == "star") or (name == "whatsapp") %}<svg class="icon" width="{{ size or 24 }}" height="{{ size or 24 }}" viewBox="0 0 24 24" fill="{% if solid %}currentColor{% else %}none{% endif %}" stroke="{% if solid %}none{% else %}currentColor{% endif %}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+{%- if name == "layout" -%}
+<rect x="3" y="3" width="18" height="18" rx="2.5"/><path d="M3 9h18M9 21V9"/>
+{%- elif name == "device" -%}
+<rect x="4" y="3" width="16" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M15.5 6h2M9.5 13.5 8 15l1.5 1.5"/>
+{%- elif name == "gauge" -%}
+<path d="M12 21a9 9 0 1 0-9-9"/><path d="M12 12l4.5-2.5"/><path d="M3 12h2M12 3v2"/>
+{%- elif name == "search" -%}
+<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+{%- elif name == "pen" -%}
+<path d="M4 20h4l10.5-10.5a2.1 2.1 0 0 0-3-3L5 17v3Z"/><path d="m13.5 6.5 3 3"/>
+{%- elif name == "refresh" -%}
+<path d="M20 11a8 8 0 0 0-14-4.5L4 8"/><path d="M4 4v4h4"/><path d="M4 13a8 8 0 0 0 14 4.5L20 16"/><path d="M20 20v-4h-4"/>
+{%- elif name == "check" -%}
+<path d="m5 12 4.5 4.5L19 7"/>
+{%- elif name == "rocket" -%}
+<path d="M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2"/><path d="M14.5 4.5C18 3 21 3 21 3s0 3-1.5 6.5C17.5 14 13 17 10 17l-3-3c0-3 3-7.5 7.5-9.5Z"/><circle cx="15" cy="9" r="1.4"/>
+{%- elif name == "shield" -%}
+<path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3Z"/><path d="m9 12 2 2 4-4"/>
+{%- elif name == "wallet" -%}
+<rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 10h18M16 14h2"/>
+{%- elif name == "mail" -%}
+<rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/>
+{%- elif name == "phone" -%}
+<path d="M5 4h3l1.5 4-2 1.5a12 12 0 0 0 5.5 5.5l1.5-2 4 1.5V19a2 2 0 0 1-2.2 2A16 16 0 0 1 3 6.2 2 2 0 0 1 5 4Z"/>
+{%- elif name == "pin" -%}
+<path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/>
+{%- elif name == "arrow" -%}
+<path d="M5 12h14M13 6l6 6-6 6"/>
+{%- elif name == "star" -%}
+<path d="m12 3 2.6 5.6 6.1.8-4.5 4.2 1.2 6L12 16.8 6.6 19.6l1.2-6L3.3 9.4l6.1-.8L12 3Z"/>
+{%- elif name == "spark" -%}
+<path d="M12 3v4M12 17v4M5 12H3M21 12h-2M6.3 6.3 4.9 4.9M19.1 19.1l-1.4-1.4M17.7 6.3l1.4-1.4M4.9 19.1l1.4-1.4"/><circle cx="12" cy="12" r="3"/>
+{%- elif name == "whatsapp" -%}
+<path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.97L2 22.03l5.18-1.36A9.9 9.9 0 1 0 12.04 2Zm0 18.15a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 1 1 6.99 3.86Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/>
+{%- endif -%}
+</svg>{% endmacro %}

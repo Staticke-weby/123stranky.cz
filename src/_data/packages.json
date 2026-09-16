@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Start",
+    "hours": 3,
+    "price": "9 990 Kč",
+    "period": "jednorázově",
+    "desc": "Pro živnostníky a menší projekty.",
+    "cta": "Mám zájem",
+    "featured": false
+  },
+  {
+    "name": "Business",
+    "hours": 6,
+    "price": "12 490 Kč",
+    "period": "jednorázově",
+    "desc": "Pro firmy, které chtějí web dál rozvíjet.",
+    "cta": "Chci Business",
+    "featured": true,
+    "badge": "Nejoblíbenější"
+  },
+  {
+    "name": "Premium",
+    "hours": 10,
+    "price": "15 990 Kč",
+    "period": "jednorázově",
+    "desc": "Pro projekty, kde záleží na každém detailu.",
+    "cta": "Chci Premium",
+    "featured": false
+  }
+]

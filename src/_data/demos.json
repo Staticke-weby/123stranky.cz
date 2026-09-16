@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Služby a řemesla",
+    "desc": "Weby pro místní služby, řemeslníky a podnikatele.",
+    "items": [
+      {
+        "title": "Profesionální čištění Praha",
+        "url": "https://www.landingpage.cz/profesionalni-cisteni-praha",
+        "image": "/assets/ukazky/lp-profesionalni-cisteni-praha.jpg"
+      },
+      {
+        "title": "Rychlé čištění Praha",
+        "url": "https://www.staticweb.cz/cisteni-uklidy-praha",
+        "image": "/assets/ukazky/sw-cisteni-uklidy-praha.jpg"
+      }
+    ]
+  },
+  {
+    "name": "CRM a AI",
+    "desc": "Ukázky webů a témat kolem CRM systémů a AI agentů.",
+    "items": [
+      {
+        "title": "CRM pro servisní firmy",
+        "url": "https://www.landingpage.cz/crm-pro-servisni-firmy",
+        "image": "/assets/ukazky/lp-crm-pro-servisni-firmy.jpg"
+      },
+      {
+        "title": "Agentské CRM – Twenty pro AI agenty",
+        "url": "https://www.staticweb.cz/crm-pro-agenty",
+        "image": "/assets/ukazky/sw-crm-pro-agenty.jpg"
+      },
+      {
+        "title": "CRM pro AI agenty",
+        "url": "https://www.staticweb.cz/crm-pro-ai-agenty",
+        "image": "/assets/ukazky/sw-crm-pro-ai-agenty.jpg"
+      },
+      {
+        "title": "Field Service CRM pro české firmy",
+        "url": "https://www.staticweb.cz/field-service-crm-pro-ceske-firmy",
+        "image": "/assets/ukazky/sw-field-service-crm.jpg"
+      },
+      {
+        "title": "Twenty CRM",
+        "url": "https://www.staticweb.cz/twenty",
+        "image": "/assets/ukazky/sw-twenty.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Srovnání a průvodce",
+    "desc": "Delší obsahové stránky ve formě srovnání a průvodců.",
+    "items": [
+      {
+        "title": "Srovnání CRM systémů 2026",
+        "url": "https://www.staticweb.cz/srovnani-crm-2026",
+        "image": "/assets/ukazky/sw-srovnani-crm-2026.jpg"
+      },
+      {
+        "title": "Twenty CRM vs Raynet CRM",
+        "url": "https://www.staticweb.cz/srovnani-twenty-raynet",
+        "image": "/assets/ukazky/sw-srovnani-twenty-raynet.jpg"
+      },
+      {
+        "title": "Statické webové stránky – kontrolní seznam",
+        "url": "https://www.landingpage.cz/staticke-webove-stranky",
+        "image": "/assets/ukazky/lp-staticke-webove-stranky.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Oslavy a akce",
+    "desc": "Prezentace akcí, oslav a kurzů.",
+    "items": [
+      {
+        "title": "Tématické oslavy pro děti Slaný",
+        "url": "https://www.landingpage.cz/tematicle-oslavy-slany",
+        "image": "/assets/ukazky/lp-tematicke-oslavy.jpg"
+      },
+      {
+        "title": "Tématické oslavy pro děti – druhá varianta",
+        "url": "https://www.staticweb.cz/tematicle-oslavy-slany",
+        "image": "/assets/ukazky/sw-tematicke-oslavy.jpg"
+      }
+    ]
+  }
+]

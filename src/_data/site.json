@@ -1,0 +1,48 @@
+{
+  "name": "123stranky.cz",
+  "title": "123stranky.cz — tvorba webových stránek na míru",
+  "tagline": "Tvorba webových stránek na míru",
+  "description": "Stavíme moderní webové stránky, které přivedou nové zákazníky. Hotovo do 7 dnů, s jednoduchou administrací a bez měsíčních paušálů.",
+  "url": "https://www.123stranky.cz",
+  "email": "123stranky.cz@gmail.com",
+  "emailHref": "mailto:123stranky.cz@gmail.com?subject=Popt%C3%A1vka%20tvorby%20webu&body=Dobr%C3%BD%20den%2C%0A%0Am%C3%A1m%20z%C3%A1jem%20o%20tvorbu%20webov%C3%BDch%20str%C3%A1nek.%0A%0AJm%C3%A9no%3A%0A%C4%8C%C3%ADm%20se%20zab%C3%BDv%C3%A1m%3A%0ACo%20m%C3%A1%20web%20um%C4%9Bt%3A%0ATerm%C3%ADn%3A%0A%0AD%C4%9Bkuji",
+  "phone": "+420 731 819 760",
+  "phoneHref": "+420731819760",
+  "whatsapp": "+420 731 819 760",
+  "whatsappHref": "https://wa.me/420731819760?text=Dobr%C3%BD%20den%2C%20m%C3%A1m%20z%C3%A1jem%20o%20tvorbu%20webov%C3%BDch%20str%C3%A1nek.",
+  "contacts": [
+    {
+      "name": "Ing. Kamila Baloun",
+      "role": "Key Account Manager",
+      "phone": "+420 731 819 760",
+      "phoneHref": "+420731819760"
+    },
+    {
+      "name": "Ing. Petr Baloun",
+      "role": "Web Developer",
+      "phone": "+420 605 540 167",
+      "phoneHref": "+420605540167"
+    }
+  ],
+  "branch": {
+    "label": "Pobočka pro oblast Slaný",
+    "street": "Tuřany 77",
+    "zip": "273 79",
+    "city": "Tuřany u Slaného"
+  },
+  "company": {
+    "name": "HELL SOLUTIONS s.r.o.",
+    "street": "Budějovická 601",
+    "zip": "140 00",
+    "city": "Praha 4",
+    "ico": "28697278",
+    "dic": "CZ28697278"
+  },
+  "nav": [
+    { "label": "Úvod", "url": "/" },
+    { "label": "Proč s námi", "url": "/proc/" },
+    { "label": "Ukázky", "url": "/ukazky/" },
+    { "label": "Ceník", "url": "/cenik/" },
+    { "label": "Kontakt", "url": "/kontakt/" }
+  ]
+}

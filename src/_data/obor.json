@@ -1,0 +1,1602 @@
+[
+  {
+    "slug": "remeslniky",
+    "label": "Řemeslníci a stavbaři",
+    "meta": "Řemeslníci",
+    "h1": "Web pro řemeslníky a stavební firmy",
+    "description": "Web pro řemeslníky a stavební firmy, který přivede poptávky z okolí. Ukázky práce, jasný ceník a kontakt na mobilu při ruce.",
+    "lead": "Řemeslník nemá čas na složité weby. Potřebuje stránky, které na mobilu řeknou, co umí, ukážou hotové zakázky a dají se z nich dovolat jedním kliknutím.",
+    "intro": [
+      "Většina řemeslníků a stavebních firem žije z doporučení. Zákazník ale dnes dělá jednu věc dřív, než zavolá — vygooglí si vás. Když web nemáte, nebo tam naposledy něco přibylo před pěti lety, hledá dál.",
+      "Web pro řemeslníka nemusí být složitý. Musí rychle fungovat na mobilu, ukázat, co jste postavili nebo opravili, a dát zákazníkovi jasnou cestu: zavolat, napsat, poptat. Přesně takové weby stavíme."
+    ],
+    "problems": [
+      {
+        "title": "Chybí ukázky práce",
+        "text": "Bez fotek hotových zakázek působí i poctivá práce nedůvěryhodně. Zákazník se rozhoduje podle toho, co vidí."
+      },
+      {
+        "title": "Zákazník neví, kam dojedete",
+        "text": "Když na webu není jasně řečeno, jakou oblast obsluhujete, volají lidé ze špatného konce okresu a zbytečně vám zabíjejí čas."
+      },
+      {
+        "title": "Poptávka ve chvíli, kdy nemůžete mluvit",
+        "text": "Když máte ruce od malty nebo jste na lešení, telefon nezvednete. Web musí umět přijmout poptávku i v tu chvíli."
+      }
+    ],
+    "mustHave": [
+      "Telefon a WhatsApp na první obrazovce, aby stačilo jedno kliknutí",
+      "Ukázky hotových zakázek s krátkým popisem, co jste dělali",
+      "Přehled služeb — od rekonstrukcí po servis a menší opravy",
+      "Oblast působení včetně obcí, kam běžně dojíždíte",
+      "Otevírací doba a informace, kdy berete telefon",
+      "Ceny nebo cenové rozmezí, alespoň orientačně",
+      "Poptávkový formulář, který funguje i bez vaší přítomnosti"
+    ],
+    "features": [
+      {
+        "icon": "layout",
+        "title": "Web s ukázkami prací",
+        "text": "Připravíme galerii zakázek tak, aby se dala průběžně doplňovat. Klidně i z mobilu na stavbě."
+      },
+      {
+        "icon": "device",
+        "title": "Postavený pro mobil",
+        "text": "Řemeslníka lidé hledají ve chvíli, kdy něco potřebují řešit. Web proto stavíme od začátku jako mobilní."
+      },
+      {
+        "icon": "phone",
+        "title": "Kontakt na jeden klik",
+        "text": "Zavolat, napsat nebo poptat přes WhatsApp. Všechno bez opisování čísel a hledání ve formulářích."
+      },
+      {
+        "icon": "refresh",
+        "title": "Aktualizace bez programátora",
+        "text": "Přidáte novou zakázku, změníte cenu nebo otevírací dobu. Sami a kdykoliv."
+      }
+    ],
+    "content": [
+      {
+        "title": "Fotky místo slibů",
+        "text": "Prohlédneme, co máte, a pomůžeme vybrat fotky, které prodávají práci nejlépe. Když fotky nemáte, poradíme, jak je nafotit i mobilem."
+      },
+      {
+        "title": "Text, kterému zákazník rozumí",
+        "text": "Žádné odborné fráze. Napíšeme, co děláte, pro koho a proč si vybrat vás — lidsky a konkrétně."
+      },
+      {
+        "title": "Ceny, které neodradí",
+        "text": "Sepsat ceny u řemesel není vždy možné. Ukážeme vám, jak pracovat s rozmezím a s tím, co je v ceně."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro řemeslníka stojí?",
+        "a": "Stavba webu začíná na 9 990 Kč bez DPH. V ceně je kompletní web, administrace i čas na konzultace a korekce."
+      },
+      {
+        "q": "Nemám fotky zakázek, co teď?",
+        "a": "Poradíme, co a jak nafotit i mobilem, a pomůžeme s výběrem. Fotky pak doplňujete podle toho, jak zakázky přibývají."
+      },
+      {
+        "q": "Stihnu to vedle zakázek?",
+        "a": "Ano. Podklady vyřešíme v jednom rozhovoru, zbytek obstaráme my. Vaše účast je řádově hodiny, ne dny."
+      },
+      {
+        "q": "Budu moct přidávat nové zakázky?",
+        "a": "Samozřejmě. Administrace je jednoduchá, fotku i popis přidáte za pár minut."
+      },
+      {
+        "q": "Působím jen v okolí, vyplatí se web?",
+        "a": "Právě pro vás. Web musí jasně komunikovat oblast působení. Lokální weby si v hledání vedou výrazně lépe než anonymní prezentace."
+      }
+    ],
+    "related": [
+      "autoservisy",
+      "uklid",
+      "zahradnici"
+    ],
+    "short": "Web pro řemeslníky a stavební firmy, který přivede poptávky z okolí."
+  },
+  {
+    "slug": "restaurace",
+    "label": "Restaurace a kavárny",
+    "meta": "Restaurace",
+    "h1": "Web pro restaurace, kavárny a bistra",
+    "description": "Web pro restauraci, kavárnu nebo bistro s aktuálním menu, otevírací dobou a akcemi. Rychlý na mobilu a snadno se aktualizuje.",
+    "lead": "Hosté si dnes před cestou hledají tři věci: že máte otevřeno, co vaříte a kde zaparkovat. Web, který to řekne do deseti sekund, vám naplní stoly.",
+    "intro": [
+      "Hospoda bez webu dnes přichází o hosty, kteří by jinak přišli. Rozhoduje se totiž na mobilu, často pět minut předem — když člověk hledá, kam jít na oběd nebo na večeři.",
+      "Web pro gastro musí být hlavně aktuální a rychlý. Menu, denní nabídka, otevírací doba a akce musí být vidět okamžitě, a to i na malé obrazovce v šeru u vchodu."
+    ],
+    "problems": [
+      {
+        "title": "Zastaralé menu odrazuje",
+        "text": "Když má na webu někdo jídelní lístek z loňska, hosté raději jdou jinam. Aktuální menu je nejdůležitější věc na gastro webu."
+      },
+      {
+        "title": "Chybí otevírací doba",
+        "text": "Nejčastější dotaz po telefonu je, jestli máte otevřeno. Web, který to řekne hned, vám ušetří desítky zbytečných volání."
+      },
+      {
+        "title": "Fotky neprodávají",
+        "text": "Tmavé snímky ze šera nedělají jídlo atraktivní. Přitom právě jídlo rozhoduje o tom, kam host vyrazí."
+      }
+    ],
+    "mustHave": [
+      "Aktuální jídelní a nápojový lístek, klidně i jako PDF ke stažení",
+      "Denní menu nebo polední nabídka, kterou měníte sami",
+      "Otevírací doba přehledně podle dnů, včetně svátků",
+      "Možnost rezervace telefonem nebo formulářem",
+      "Fotky jídla, interiéru i zahrádky, které vyvolají chuť",
+      "Akce a sezónní nabídky",
+      "Kde zaparkovat nebo jak se dostat od nádraží",
+      "Odkaz na Google Mapy a recenze"
+    ],
+    "features": [
+      {
+        "icon": "refresh",
+        "title": "Menu, které si spravujete sami",
+        "text": "Denní menu přepíšete za minutu, i z mobilu v kuchyni. Bez čekání na dodavatele."
+      },
+      {
+        "icon": "device",
+        "title": "Rychlý na mobilu",
+        "text": "Host hledá na mobilu a má hlad. Web se musí načíst dřív, než si vzpomene, že má jinou možnost."
+      },
+      {
+        "icon": "pin",
+        "title": "Propojení s mapou a recenzemi",
+        "text": "Doplníme informace, které lidé hledají: adresu, otevírací dobu a odkaz na Google profil."
+      },
+      {
+        "icon": "pen",
+        "title": "Jídlo, které vypadá dobře",
+        "text": "Poradíme, jak jídlo vyfotit mobilem tak, aby na webu vypadalo jako z časopisu."
+      }
+    ],
+    "content": [
+      {
+        "title": "Jídelní lístek bez zbytečností",
+        "text": "Nejdřív to, co hosty zajímá: polévky, hlavní jídla, ceny. Všechno ostatní jde stranou a pod ně."
+      },
+      {
+        "title": "Akce, které přivedou lidi",
+        "text": "Připravíme prostor pro akce — víkendové menu, sezónní nabídku, hudební večery. Stačí říct, co se u vás děje."
+      },
+      {
+        "title": "Kontakt a rezervace",
+        "text": "Jasně vidět, jak se objednat. Telefon, e-mail i rezervační formulář na jednom místě."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik takový web stojí?",
+        "a": "Ceny začínají na 9 990 Kč bez DPH, včetně administrace pro menu i otevírací dobu."
+      },
+      {
+        "q": "Stihnete to před sezónou?",
+        "a": "Běžně web spouštíme do sedmi pracovních dnů od dodání podkladů. Když spěcháte, řekněte to při objednávce."
+      },
+      {
+        "q": "Kdo bude psát menu?",
+        "a": "Vy. Administrace je stavěná tak, aby se denní menu dalo přepsat během několika minut."
+      },
+      {
+        "q": "Můžeme zobrazit i aktuální akce?",
+        "a": "Ano. Sekci s akcemi si upravujete sami podle toho, co se právě děje."
+      },
+      {
+        "q": "Napojíte web i na rozvoz?",
+        "a": "Ano. Doplnit můžeme odkaz na rozvozové služby nebo vlastní objednávkový systém."
+      }
+    ],
+    "related": [
+      "farmari",
+      "obchody",
+      "svatby"
+    ],
+    "short": "Web pro restauraci, kavárnu nebo bistro s aktuálním menu, otevírací dobou a akcemi."
+  },
+  {
+    "slug": "autoservisy",
+    "label": "Autoservisy a doprava",
+    "meta": "Autoservisy",
+    "h1": "Web pro autoservisy a autodopravu",
+    "description": "Web pro autoservis, pneuservis nebo autodopravu. Přehled služeb, ceník, otevírací doba a objednání bez zbytečného telefonování.",
+    "lead": "Zákazník se servisem nechce telefonovat. Chce vědět, co opravujete, kolik to stojí a kdy s autem přijet. Přesně takový web mu dejte.",
+    "intro": [
+      "Servisů je v každém městě několik a zákazník si vybírá podle toho, jak snadné je se objednat. Když na webu nenajde ceník nebo otevírací dobu, zkouší dalšího.",
+      "Stavíme weby pro autoservisy, pneuservisy, autodopravce i půjčovny. Web má dát zákazníkovi jasnou odpověď, a to ideálně dřív, než se rozhodne zvednout telefon."
+    ],
+    "problems": [
+      {
+        "title": "Zákazník neví, co umíte",
+        "text": "Základní servis zvládne každý. Když na webu není vidět, že děláte i diagnostiku, klimatizace nebo přípravu na STK, přijdete o zakázky."
+      },
+      {
+        "title": "Objednávání po telefonu zdržuje",
+        "text": "Telefon zvoní nejvíc ve chvíli, kdy pracujete v dílně. Objednávkový formulář vyřídí objednávky i bez vás."
+      },
+      {
+        "title": "Ceny na dotaz",
+        "text": "U běžných úkonů lidé chtějí aspoň rozmezí. Jinak volají jinam, kde cenu najdou na webu."
+      }
+    ],
+    "mustHave": [
+      "Přehled služeb podle toho, co skutečně děláte",
+      "Ceník prací nebo alespoň orientační rozmezí",
+      "Objednávkový formulář s typem vozu a popisem závady",
+      "Otevírací dobu a informaci, jestli berete auta i bez objednání",
+      "Adresu s mapou a informace o parkování",
+      "Přehled značek, na které se specializujete",
+      "Fotky dílny a vybavení, které budují důvěru",
+      "Informaci o náhradním vozu, pokud ho nabízíte"
+    ],
+    "features": [
+      {
+        "icon": "device",
+        "title": "Objednávka z mobilu",
+        "text": "Zákazník zadá typ vozu, popíše závadu a odešle. Všechno ostatní vyřešíte vy."
+      },
+      {
+        "icon": "gauge",
+        "title": "Ceník bez dohadování",
+        "text": "Přehledné ceny prací snižují zbytečné dotazy a zvyšují ochotu zákazníka přijet."
+      },
+      {
+        "icon": "search",
+        "title": "Najdou vás i v okolí",
+        "text": "Postaráme se o to, aby vás lidé ve vaší oblasti našli, když hledají servis nebo pneumatiky."
+      },
+      {
+        "icon": "refresh",
+        "title": "Aktuální informace",
+        "text": "Otevírací dobu, akce nebo odstávku dílny si změníte sami během chvíle."
+      }
+    ],
+    "content": [
+      {
+        "title": "Služby srozumitelně",
+        "text": "Rozdělíme nabídku na běžný servis, diagnostiku, pneuservis a speciální práce, aby zákazník hned viděl, jestli jste pro něj ti praví."
+      },
+      {
+        "title": "Důvěra na prvním místě",
+        "text": "Fotky dílny, informace o vybavení a zkušenostech. U servisu rozhoduje důvěra víc než u kohokoli jiného."
+      },
+      {
+        "title": "Objednání, které nikoho nezdrží",
+        "text": "Formulář srozumitelně popíše, co od zákazníka potřebujete — vůz, závadu a ideální termín."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro servis stojí?",
+        "a": "Od 9 990 Kč bez DPH podle rozsahu. Cenu znáte předem a platíte na dvě části."
+      },
+      {
+        "q": "Umíte i evidenci vozů?",
+        "a": "Můžeme doplnit jednoduchou evidenci zakázek nebo napojení na systém, který už používáte."
+      },
+      {
+        "q": "Budu moct přidávat akce, třeba přezouvání?",
+        "a": "Ano. Sekci s akcemi i otevírací dobou si upravíte sami, kdykoliv potřebujete."
+      },
+      {
+        "q": "Kolik času mi to vezme?",
+        "a": "Podklady vyřešíme v jednom rozhovoru. Zbytek obsahu zpracujeme za vás."
+      },
+      {
+        "q": "Mám provozovnu mimo velké město, má smysl web?",
+        "a": "Právě proto. Čím menší město, tím méně konkurence a tím snáz vás lidé najdou."
+      }
+    ],
+    "related": [
+      "remeslniky",
+      "obchody",
+      "uklid"
+    ],
+    "short": "Web pro autoservis, pneuservis nebo autodopravu."
+  },
+  {
+    "slug": "krasa",
+    "label": "Kosmetika a kadeřnictví",
+    "meta": "Kosmetika a vlasy",
+    "h1": "Web pro kosmetiku, kadeřnictví a barbershopy",
+    "description": "Web pro kosmetický salon, kadeřnictví nebo barbershop s ceníkem, fotkami a online objednáním. Krásný na mobilu i na počítači.",
+    "lead": "V kráse rozhoduje první dojem. Web je vaše výkladní skříň — musí ukázat výsledky, ceny a cestu k objednání dřív, než klientka klikne jinam.",
+    "intro": [
+      "Salony, kadeřnictví a barbershopy prodávají přes obraz. Klient se rozhoduje podle fotek výsledků, ceníku a toho, jak snadno se objedná.",
+      "Stavíme weby pro studia krásy, kadeřnictví, nehtová studia i barbershopy. Zaměřujeme se na to, aby web působil stejně dobře jako vaše práce — a aby se z něj dalo objednat bez telefonování."
+    ],
+    "problems": [
+      {
+        "title": "Bez fotek není co obdivovat",
+        "text": "Portfolio je pro salon důležitější než sebelepší popis. Web musí fotky ukazovat velké, čisté a na první pohled."
+      },
+      {
+        "title": "Ceník schovaný v příspěvcích",
+        "text": "Klientky nechtějí psát a ptát se na cenu. Ceník na webu šetří čas vám i jim."
+      },
+      {
+        "title": "Objednávání mimo pracovní dobu",
+        "text": "Když máte ruce v barvě, nemůžete brát telefon. Online objednávka vyřídí klientky i večer."
+      }
+    ],
+    "mustHave": [
+      "Galerii prací rozdělenou podle typu služby",
+      "Ceník služeb včetně délky trvání",
+      "Online objednání nebo jasný odkaz na rezervační systém",
+      "Představení týmu a jeho specializací",
+      "Seznam značek a produktů, se kterými pracujete",
+      "Informace o dárkových poukazech, pokud je nabízíte",
+      "Adresu, otevírací dobu a odkaz na Google profil",
+      "Sekci s novinkami a sezónními akcemi"
+    ],
+    "features": [
+      {
+        "icon": "layout",
+        "title": "Portfolio, které prodává",
+        "text": "Galerie navržená tak, aby vynikla každá fotka. Snímky doplňujete sami podle toho, jak přibývají klienti."
+      },
+      {
+        "icon": "phone",
+        "title": "Objednání na jeden klik",
+        "text": "Telefon, WhatsApp i odkaz na rezervační systém na jednom místě."
+      },
+      {
+        "icon": "star",
+        "title": "Důvěra a recenze",
+        "text": "Prostor pro reference a hodnocení. U služeb krásy je důvěra tím, co rozhoduje."
+      },
+      {
+        "icon": "refresh",
+        "title": "Ceník vždy aktuální",
+        "text": "Změna ceny nebo přidání nové služby je otázkou chvilky. Bez programátora."
+      }
+    ],
+    "content": [
+      {
+        "title": "Fotky, které se povedly",
+        "text": "Poradíme, jak fotit výsledky tak, aby vypadaly profesionálně — a jak je na webu srovnat, aby galerie nebyla chaos."
+      },
+      {
+        "title": "Texty, které zní jako vy",
+        "text": "Popíšeme služby a přístup tak, aby z webu bylo cítit, jak u vás práce vypadá."
+      },
+      {
+        "title": "Méně dotazů, více objednávek",
+        "text": "Délka služby, cena i příprava před návštěvou. Když to klient najde na webu, nemusíte to řešit po telefonu."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro salon stojí?",
+        "a": "Od 9 990 Kč bez DPH včetně administrace a času na konzultace."
+      },
+      {
+        "q": "Napojíte web na rezervační systém?",
+        "a": "Ano. Propojíme web s rezervačním systémem, který používáte, nebo doporučíme vhodný."
+      },
+      {
+        "q": "Můžu si fotky doplňovat sama?",
+        "a": "Ano. Administrace je jednoduchá, fotku i popis přidáte za pár minut."
+      },
+      {
+        "q": "Jak rychle bude web hotový?",
+        "a": "Obvykle do sedmi pracovních dnů od dodání fotek a textů."
+      },
+      {
+        "q": "Mám jen malý salon doma, stojí to za to?",
+        "a": "Stojí. Právě malé salony získávají klienty podle toho, jak dobře vypadají online."
+      }
+    ],
+    "related": [
+      "zdravi",
+      "bio",
+      "svatby"
+    ],
+    "short": "Web pro kosmetický salon, kadeřnictví nebo barbershop s ceníkem, fotkami a online objednáním."
+  },
+  {
+    "slug": "zdravi",
+    "label": "Zdraví a terapie",
+    "meta": "Zdraví a terapie",
+    "h1": "Web pro fyzioterapii, masáže a zdravotní služby",
+    "description": "Web pro fyzioterapii, masáže, výživové poradenství a zdravotní služby. Důvěryhodně, srozumitelně a s objednáním na jednom místě.",
+    "lead": "Ve zdravotních službách klient hledá důvěru. Web musí vysvětlit, jak pracujete, kolik to stojí a jak se objednat — bez omáčky a bez nedorozumění.",
+    "intro": [
+      "Lidé vybírají terapeuta nebo fyzioterapeuta opatrně. Hledají na internetu, čtou si, co kdo dělá, a rozhodují se podle toho, jestli působíte kompetentně a srozumitelně.",
+      "Stavíme weby pro fyzioterapeuty, maséry, výživové poradce i další zdravotní služby. Web musí vzbudit důvěru, vysvětlit metodu a odstranit obavy z neznámého."
+    ],
+    "problems": [
+      {
+        "title": "Nevysvětlená metoda",
+        "text": "Když klient netuší, co terapie obnáší, raději nic nezkusí. Jasné vysvětlení včetně průběhu sezení odbourá obavy."
+      },
+      {
+        "title": "Chybějící ceny",
+        "text": "U zdravotních služeb lidé často nechtějí volat a ptát se na cenu. Když ji nenajdou, hledají jinam."
+      },
+      {
+        "title": "Složité objednání",
+        "text": "Když se klient nemůže objednat samostatně, odkládá to. Jednoduchý formulář nebo rezervace rozhodne."
+      }
+    ],
+    "mustHave": [
+      "Vysvětlení metody a toho, jak sezení probíhá",
+      "Seznam situací, se kterými lidé chodí nejčastěji",
+      "Představení terapeuta včetně vzdělání a praxe",
+      "Ceník s délkou sezení",
+      "Objednání telefonem i online",
+      "Informace o storno podmínkách a přípravě před návštěvou",
+      "Odpovědi na nejčastější obavy a otázky",
+      "Adresu, dopravu a parkování"
+    ],
+    "features": [
+      {
+        "icon": "shield",
+        "title": "Důvěra na prvním místě",
+        "text": "Srozumitelné texty, informace o vzdělání a praxi, jasné ceny. Web, ze kterého je cítit odbornost."
+      },
+      {
+        "icon": "pen",
+        "title": "Metoda vysvětlená lidsky",
+        "text": "Popíšeme, co terapie znamená a jak probíhá, aby se klient nebál přijít."
+      },
+      {
+        "icon": "phone",
+        "title": "Objednání bez překážek",
+        "text": "Telefon, e-mail, formulář nebo napojení na rezervační systém. Klient se objedná, kdy mu to vyjde."
+      },
+      {
+        "icon": "refresh",
+        "title": "Ceník a termíny aktuálně",
+        "text": "Změny v ceníku i volné termíny si upravíte sami."
+      }
+    ],
+    "content": [
+      {
+        "title": "Texty, které uklidní",
+        "text": "Napíšeme, co sezení obnáší a jak dlouho trvá, aby klient nepřicházel s obavami."
+      },
+      {
+        "title": "Etika a soukromí",
+        "text": "Zdravotní služby pracují s citlivými informacemi. Web nastavíme tak, aby byl v souladu s pravidly a chránil soukromí klientů."
+      },
+      {
+        "title": "Zkušenosti, které přesvědčí",
+        "text": "Prostor pro reference, popisy případů a časté dotazy. Právě ty nejvíc pomáhají k prvnímu objednání."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro zdravotní službu stojí?",
+        "a": "Od 9 990 Kč bez DPH. Součástí je i čas na konzultace o obsahu a srozumitelnosti textů."
+      },
+      {
+        "q": "Řešíte i souhlasy a osobní údaje?",
+        "a": "Ano. Vysvětlíme, co na webu potřebujete, a doplníme informace o zpracování osobních údajů u kontaktního formuláře."
+      },
+      {
+        "q": "Napojíte web na rezervační systém?",
+        "a": "Ano, propojíme web s rezervačním systémem, který používáte."
+      },
+      {
+        "q": "Kolik času mi to vezme?",
+        "a": "Podklady vyřešíme v jednom rozhovoru, zbytek obstaráme. Vaše účast je v řádu hodin."
+      },
+      {
+        "q": "Umíte i weby pro ordinace s více terapeuty?",
+        "a": "Ano. Postavíme web i pro tým, s představením lidí a společným objednáním."
+      }
+    ],
+    "related": [
+      "bio",
+      "krasa",
+      "kurzy"
+    ],
+    "short": "Web pro fyzioterapii, masáže, výživové poradenství a zdravotní služby."
+  },
+  {
+    "slug": "bio",
+    "label": "Biorezonance a bio",
+    "meta": "Biorezonance a bio",
+    "h1": "Web pro biorezonanci a alternativní terapii",
+    "description": "Web pro biorezonanci, energetickou a alternativní terapii. Srozumitelné vysvětlení metody, ceník sezení a snadné objednání.",
+    "lead": "Alternativní terapii lidé buď neznají, nebo jí nedůvěřují. Web je proto půlka práce — musí metodu vysvětlit, zbavit obav a dovést klienta k objednání.",
+    "intro": [
+      "U alternativních metod narazíte na dvě skupiny lidí: ty, kteří o metodě nikdy neslyšeli, a ty, kteří ji hledají cíleně. Web musí posloužit oběma — vysvětlit, co terapie je, a rychle ukázat, jak se objednat.",
+      "Zkušenosti máme i z praxe. Stavěli jsme web pro biorezonanční praxi, která díky srozumitelnému webu přestala klientům vysvětlovat všechno po telefonu.",
+      "Web pro biorezonanci proto nestavíme jako e-shop ani jako katalog. Je to stránka, která buduje důvěru, odpovídá na časté otázky a umožní objednat se v klidu a bez tlaku."
+    ],
+    "problems": [
+      {
+        "title": "Lidé o metodě nic nevědí",
+        "text": "Bez vysvětlení přijdou jen ti, kdo metodu znají. Srozumitelný text otevírá dveře i novým klientům."
+      },
+      {
+        "title": "Mnoho dotazů po telefonu",
+        "text": "Když web odpoví na ceny, průběh a indikace, ubude volání, u kterých se jen vysvětluje, co děláte."
+      },
+      {
+        "title": "Obavy a pochybnosti",
+        "text": "Otázky typu „bolí to?“ nebo „kolik sezení budu potřebovat?“ patří na web, ne do telefonního rozhovoru."
+      }
+    ],
+    "mustHave": [
+      "Vysvětlení metody jednoduchým jazykem a bez nepodložených slibů",
+      "Co sezení obnáší — délka, průběh, co si vzít na sebe",
+      "Seznam situací, se kterými lidé chodí nejčastěji",
+      "Ceník sezení a balíčků",
+      "Reference a zkušenosti klientů",
+      "Objednání telefonem i formulářem",
+      "Časté otázky a odkazy na další zdroje",
+      "Informace o vzdělání a praxi terapeuta"
+    ],
+    "features": [
+      {
+        "icon": "pen",
+        "title": "Srozumitelné vysvětlení",
+        "text": "Napíšeme texty, kterým porozumí i ten, kdo o metodě slyší poprvé."
+      },
+      {
+        "icon": "shield",
+        "title": "Důvěra bez zázraků",
+        "text": "Držíme se reality. Web působí profesionálně, ne jako inzerát na zázraky."
+      },
+      {
+        "icon": "phone",
+        "title": "Snadné objednání",
+        "text": "Objednávka bez registrace, telefon i e-mail na jednom místě."
+      },
+      {
+        "icon": "search",
+        "title": "Viditelnost v okolí",
+        "text": "Postaráme se o to, aby vás lidé ve vašem okolí našli, když metodu hledají."
+      }
+    ],
+    "content": [
+      {
+        "title": "Metoda především",
+        "text": "Vysvětlení metody patří na první místo. Klient musí pochopit, co sezení znamená a co od něj může čekat."
+      },
+      {
+        "title": "Otázky místo dohadů",
+        "text": "Sepsali jsme s klienty nejčastější otázky. Právě díky nim web ušetří hodiny telefonátů."
+      },
+      {
+        "title": "Kontakty a provozovna",
+        "text": "Adresa, dostupnost, parkování a případně i informace o dojíždění za klientem."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro biorezonanci stojí?",
+        "a": "Od 9 990 Kč bez DPH. Cena je stejná pro všechny obory, liší se jen časový fond, který si vyberete."
+      },
+      {
+        "q": "Mám obavy z prezentace metody?",
+        "a": "Rozumíme. Texty stavíme tak, aby popisovaly, co děláte, bez přehnaných tvrzení a bez slibů, které nelze doložit."
+      },
+      {
+        "q": "Zvládnu web spravovat?",
+        "a": "Ano. Ceník, termíny i texty si upravíte sami v jednoduché administraci."
+      },
+      {
+        "q": "Napojíte web na objednávkový systém?",
+        "a": "Ano. Napojíme web na systém, který používáte, nebo navrhneme jednoduché řešení."
+      },
+      {
+        "q": "Jak dlouho tvorba trvá?",
+        "a": "Běžně do sedmi pracovních dnů od dodání podkladů."
+      }
+    ],
+    "related": [
+      "zdravi",
+      "krasa",
+      "kurzy"
+    ],
+    "short": "Web pro biorezonanci, energetickou a alternativní terapii."
+  },
+  {
+    "slug": "farmari",
+    "label": "Farmáři a vinaři",
+    "meta": "Farmáři a vinaři",
+    "h1": "Web pro farmáře, ovocnáře a vinaře",
+    "description": "Web pro farmu, ovocnářství, vinařství nebo prodej ze dvora. Sezónní nabídka, termíny samosběrů a informace pro zákazníky.",
+    "lead": "Farmy dnes prodávají přes web. Termíny samosběrů, sezónní nabídka i otevírací doba prodejny musí být aktuální a hlavně na mobilu.",
+    "intro": [
+      "Prodej ze dvora a samosběry potřebují jednu věc nad všechny ostatní: aktuální informace. Zákazník se totiž ptá, kdy má přijet a co zrovna máte.",
+      "Stavíme weby pro farmy, ovocnářství, vinařství i pěstitele. Web drží v ruce zákazník na cestě, takže se v něm musí rychle vyznat — a vy v něm musíte umět sezónní nabídku rychle měnit."
+    ],
+    "problems": [
+      {
+        "title": "Sezóna se mění každý týden",
+        "text": "Co platilo minulý týden, už neplatí. Web musí jít upravit během chvíle, i z pole nebo ze sklepa."
+      },
+      {
+        "title": "Zákazníci volají, kdy se dá přijet",
+        "text": "Termíny samosběrů a otevírací dobu prodejny hledají lidé neustále. Když je najdou na webu, nevolají."
+      },
+      {
+        "title": "Web zůstal o pět let zpátky",
+        "text": "Zákazníci farmy vyhledávají na mobilu a hodnotí podle vzhledu i aktuálnosti. Zastaralý web odrazuje i od prodeje ze dvora."
+      }
+    ],
+    "mustHave": [
+      "Sezónní nabídku, kterou měníte sami podle toho, co právě dozrává",
+      "Termíny samosběrů a informace o tom, jak to na místě chodí",
+      "Otevírací dobu prodejny nebo stánku",
+      "Fotky ovoce, výrobků, sadu i sklepa",
+      "Ceny nebo cenové rozpětí podle druhu zboží",
+      "Informace o dopravě, parkování a placení",
+      "Možnost nabídnout mošty, vína a další výrobky",
+      "Kontakt pro odběratele a restaurace"
+    ],
+    "features": [
+      {
+        "icon": "refresh",
+        "title": "Sezóna na jednom místě",
+        "text": "Sekci s aktuální nabídkou přepíšete za pár minut. Bez programátora a bez čekání."
+      },
+      {
+        "icon": "device",
+        "title": "Rychlý na mobilu v autě",
+        "text": "Zákazník si vás najde na cestě. Web se musí načíst okamžitě a ukázat hlavní informace hned."
+      },
+      {
+        "icon": "pin",
+        "title": "Dostanete lidi na místo",
+        "text": "Doplníme mapu, navigaci a jasné instrukce k prodejně, sadu nebo sklepu."
+      },
+      {
+        "icon": "star",
+        "title": "Prodáno dřív, než dozraje",
+        "text": "Jasná sezónní nabídka pomáhá lidem plánovat a vám vyprodávat úrodu včas."
+      }
+    ],
+    "content": [
+      {
+        "title": "Sezónní kalendář",
+        "text": "Připravíme přehled, kdy co vrcholí. Zákazník si naplánuje návštěvu a vy prodáváte plynule."
+      },
+      {
+        "title": "Fotky ze sadu a sklepa",
+        "text": "Ukážeme, jak fotky vybírat a řadit, aby web působil svěže a důvěryhodně, i když se fotí mobilem."
+      },
+      {
+        "title": "Kontakt a odběr",
+        "text": "Kromě zákazníků na samosběr patří na web i informace pro restaurace a odběratele."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro farmu stojí?",
+        "a": "Od 9 990 Kč bez DPH včetně administrace, ve které si sezónní nabídku upravíte sami."
+      },
+      {
+        "q": "Budu moct měnit sezónní nabídku sám?",
+        "a": "Ano. Je to jedna z hlavních věcí, na které weby pro farmy stavíme."
+      },
+      {
+        "q": "Umíte nastavit i objednávky?",
+        "a": "Ano, doplníme jednoduchý objednávkový formulář nebo napojení na systém, který používáte."
+      },
+      {
+        "q": "Máme jen malé hospodářství, vyplatí se web?",
+        "a": "Vyplatí. Právě malé farmy prodávají ze dvora a zákazníky hledají online."
+      },
+      {
+        "q": "Jak rychle bude hotový?",
+        "a": "Obvykle do sedmi dnů od dodání podkladů, mimo sezónu často i rychleji."
+      }
+    ],
+    "related": [
+      "restaurace",
+      "obchody",
+      "veterina"
+    ],
+    "short": "Web pro farmu, ovocnářství, vinařství nebo prodej ze dvora."
+  },
+  {
+    "slug": "uklid",
+    "label": "Úklid a čištění",
+    "meta": "Úklid a čištění",
+    "h1": "Web pro úklidové služby a čištění",
+    "description": "Web pro úklidovou firmu, čistírnu nebo mobilní čištění. Ceník, oblasti působení a poptávka, která se vyřídí i bez vás.",
+    "lead": "U úklidových služeb rozhoduje cena, oblast a rychlost odpovědi. Web, který řekne všechny tři věci, přivede poptávky i mimo sezónu.",
+    "intro": [
+      "Úklidové služby si lidé hledají ve chvíli potřeby — po stěhování, po rekonstrukci nebo při generálním úklidu. Rozhoduje rychlost a jasná cena.",
+      "Stavíme weby pro úklidové firmy, čistírny i mobilní čištění. Web musí unést hodně dotazů dopředu: co uklízíte, kde působíte a kolik to stojí."
+    ],
+    "problems": [
+      {
+        "title": "Cena na dotaz",
+        "text": "U úklidu se počítá z metrů a rozsahu. Bez orientačního ceníku nebo kalkulace volá méně lidí, než by mohlo."
+      },
+      {
+        "title": "Nejasná oblast působení",
+        "text": "Když z webu není jasné, kam dojíždíte, přicházejí poptávky z daleka, které vám jen zabírají čas."
+      },
+      {
+        "title": "Práce mimo domov",
+        "text": "Zatímco uklízíte, nemůžete brát telefon. Poptávkový formulář registruje zakázky i bez vás."
+      }
+    ],
+    "mustHave": [
+      "Přehled služeb — od běžného úklidu po generální a po rekonstrukci",
+      "Orientační ceník nebo jednoduchou kalkulaci podle metrů",
+      "Oblasti působení s výčtem měst a obcí",
+      "Poptávkový formulář s rozsahem a termínem",
+      "Nabídku pro firmy a bytové domy",
+      "Fotky týmu, techniky a výsledků",
+      "Reference a hodnocení od zákazníků",
+      "Jasné podmínky a informaci o rychlosti odpovědi"
+    ],
+    "features": [
+      {
+        "icon": "wallet",
+        "title": "Ceník, který neodradí",
+        "text": "Nastavíme ceník nebo kalkulaci podle metrů, aby zákazník věděl, s čím počítá."
+      },
+      {
+        "icon": "device",
+        "title": "Poptávka z mobilu",
+        "text": "Formulář postavený tak, aby se dal vyplnit na telefonu během minuty."
+      },
+      {
+        "icon": "pin",
+        "title": "Oblasti působení",
+        "text": "Přehledně ukážeme, kam dojíždíte. Zbytek republiky tak neposílá poptávky mimo."
+      },
+      {
+        "icon": "star",
+        "title": "Důvěra přes reference",
+        "text": "U vstupu do domácnosti je důvěra klíčová. Reference a fotky týmu ji budují."
+      }
+    ],
+    "content": [
+      {
+        "title": "Typy úklidu srozumitelně",
+        "text": "Každý úklid má jiný rozsah. Rozdělíme nabídku tak, aby se zákazník okamžitě poznal."
+      },
+      {
+        "title": "Kalkulace místo dohadování",
+        "text": "Jednoduchý výpočet podle metrů a četnosti zabrání desítkám zbytečných e-mailů."
+      },
+      {
+        "title": "Pro firmy i pro domácnosti",
+        "text": "Na web dáme obě části odděleně. Jiné požadavky mají kanceláře a jiné domácnosti."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro úklidovou firmu stojí?",
+        "a": "Od 9 990 Kč bez DPH. Cena zahrnuje i administraci, ve které si měníte ceník i oblasti působení."
+      },
+      {
+        "q": "Umíte napojit kalkulaci?",
+        "a": "Ano. Doplníme jednoduchou kalkulaci podle metrů a četnosti úklidu."
+      },
+      {
+        "q": "Jak přivedete poptávky?",
+        "a": "Web postavíme tak, aby ho lidé našli ve vašem okolí, a propojíme ho s vaším Google profilem."
+      },
+      {
+        "q": "Můžu si upravit ceník sám?",
+        "a": "Ano, změny provedete v administraci během chvilky."
+      },
+      {
+        "q": "Kolik času mi tvorba vezme?",
+        "a": "Jeden rozhovor na podklady, zbytek obstaráme za vás."
+      }
+    ],
+    "related": [
+      "remeslniky",
+      "obchody",
+      "autoservisy"
+    ],
+    "short": "Web pro úklidovou firmu, čistírnu nebo mobilní čištění."
+  },
+  {
+    "slug": "advokati",
+    "label": "Advokáti a poradci",
+    "meta": "Advokáti a účetní",
+    "h1": "Web pro advokáty, účetní a poradce",
+    "description": "Web pro advokáta, účetní firmu nebo daňového poradce. Odborně, důvěryhodně a s jednoduchým prvním kontaktem pro klienty.",
+    "lead": "Odborné služby prodává důvěryhodnost. Web musí působit seriózně, vysvětlit, s čím vám lidé chodí, a nabídnout jednoduchý první kontakt.",
+    "intro": [
+      "Advokáta, účetní nebo poradce si klient vybírá obezřetně. Web často rozhodne o prvním telefonátu — musí být věcný, srozumitelný a bez zbytečné omáčky.",
+      "Stavíme weby pro advokátní kanceláře, účetní firmy a poradce. Zaměřujeme se na odborný tón, přehled oblastí praxe a na to, aby bylo snadné se ozvat."
+    ],
+    "problems": [
+      {
+        "title": "Nepřehledné oblasti praxe",
+        "text": "Když klient nepozná, jestli řešíte jeho problém, hledá dál. Struktura oblastí praxe je základ."
+      },
+      {
+        "title": "Popisy bez konkrétnosti",
+        "text": "Obecné formulace o profesionalitě nikoho nepřesvědčí. Konkrétní texty ano."
+      },
+      {
+        "title": "Složitý první kontakt",
+        "text": "Klient chce nejdřív napsat nebo zavolat. Web musí tuhle cestu co nejvíc zjednodušit."
+      }
+    ],
+    "mustHave": [
+      "Přehled oblastí praxe srozumitelným jazykem",
+      "Představení kanceláře, lidí a vzdělání",
+      "Průběh první konzultace a co si k ní připravit",
+      "Ceník nebo způsob odměny, alespoň obecně",
+      "Kontakt s možností diskrétní poptávky",
+      "Provozní informace a dostupnost",
+      "Ukázky typických případů nebo reference",
+      "Případně blog s odbornými články"
+    ],
+    "features": [
+      {
+        "icon": "shield",
+        "title": "Seriózní a věcný web",
+        "text": "Žádné efekty navíc. Web působí klidně, stabilně a profesionálně."
+      },
+      {
+        "icon": "pen",
+        "title": "Texty bez paragrafů",
+        "text": "Popíšeme, s čím lidem pomáháte. Bez zbytečných citací zákonů a bez slibů."
+      },
+      {
+        "icon": "mail",
+        "title": "Diskrétní poptávka",
+        "text": "Formulář nebo e-mail pro první kontakt, včetně informace, jak nakládáte s údaji."
+      },
+      {
+        "icon": "search",
+        "title": "Odborné vyhledávání",
+        "text": "Web nastavíme tak, aby vás lidé našli pro konkrétní situaci, kterou řeší."
+      }
+    ],
+    "content": [
+      {
+        "title": "Oblasti praxe jako pilíř",
+        "text": "Každá oblast má vlastní oddíl s tím, co obnáší. Právě sem míří vyhledávání i odkazy z okolí."
+      },
+      {
+        "title": "První kontakt bez stresu",
+        "text": "Vysvětlíme, co si připravit a jak konzultace probíhá, aby klient přišel připravený."
+      },
+      {
+        "title": "Obsah, který se vyplatí",
+        "text": "Když chcete, připravíme i odborné články, které dlouhodobě přivádějí klienty."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro kancelář stojí?",
+        "a": "Od 9 990 Kč bez DPH, včetně administrace pro oblasti praxe i články."
+      },
+      {
+        "q": "Umíte blog s články?",
+        "a": "Ano. Články a novinky si publikujete sami, nebo je připravíme za vás."
+      },
+      {
+        "q": "Řešíte ochranu osobních údajů?",
+        "a": "Ano. Doplníme informační stránky i popis u kontaktního formuláře."
+      },
+      {
+        "q": "Můžeme web rozšiřovat postupně?",
+        "a": "Samozřejmě. Web můžete spustit a obsah doplňovat podle toho, jak budete mít čas."
+      },
+      {
+        "q": "Jak vypadá spolupráce?",
+        "a": "Konzultace, návrh struktury, tvorba, spuštění. Platíte polovinu při objednání a polovinu po dodání."
+      }
+    ],
+    "related": [
+      "reality",
+      "kurzy",
+      "zdravi"
+    ],
+    "short": "Web pro advokáta, účetní firmu nebo daňového poradce."
+  },
+  {
+    "slug": "reality",
+    "label": "Reality a pronájmy",
+    "meta": "Reality a pronájmy",
+    "h1": "Web pro realitní makléře a pronájmy",
+    "description": "Web pro realitního makléře, pronájmy a pronajímatele. Přehledné nabídky, jednoduchá správa a poptávky přímo od zájemců.",
+    "lead": "U nemovitostí se rozhoduje podle fotek a přehlednosti. Web musí ukázat, co nabízíte, a dovést zájemce k prohlídce.",
+    "intro": [
+      "Realitní nabídky se lidé učí číst online. Neprohlédnou si web, kde se nedá rychle zorientovat nebo kde chybí fotky a klíčové údaje.",
+      "Stavíme weby pro makléře, pronajímatele i menší realitní kanceláře. Web musí udržet pozornost, rychle nabídnout orientaci a dovést zájemce k prohlídce."
+    ],
+    "problems": [
+      {
+        "title": "Nepřehledná nabídka",
+        "text": "Bez filtru a jasné struktury se zájemce v nabídce ztratí. Zvlášť když máte nemovitostí víc najednou."
+      },
+      {
+        "title": "Fotky bez kontextu",
+        "text": "Dispozice, lokalita, doprava ani občanská vybavenost často chybí a zájemce se přestane ptát."
+      },
+      {
+        "title": "Poptávky mimo web",
+        "text": "Když je poptávka jen na telefonu, zmeškáte ty, které přijdou mimo úřední hodiny."
+      }
+    ],
+    "mustHave": [
+      "Přehled nemovitostí s orientací podle typu a lokality",
+      "Fotogalerii a půdorysy",
+      "Klíčové údaje: dispozice, výměra, cena, energetická náročnost",
+      "Lokalitu a dostupnost — doprava, škola, obchody",
+      "Poptávkový formulář a možnost domluvit prohlídku",
+      "Představení makléře a zkušeností",
+      "Sekci pro pronajímatele: proč vaše služby využít",
+      "Reference od klientů"
+    ],
+    "features": [
+      {
+        "icon": "layout",
+        "title": "Nabídka, která se čte",
+        "text": "Karty nemovitostí s jasnými údaji a fotkou, kterou zájemce uvidí okamžitě."
+      },
+      {
+        "icon": "pin",
+        "title": "Lokalita jako argument",
+        "text": "Lokality popíšeme tak, aby se zájemce v místě vyznal dřív, než se přijede podívat."
+      },
+      {
+        "icon": "phone",
+        "title": "Prohlídka bez prodlevy",
+        "text": "Formulář nebo telefon s možností rychle domluvit termín."
+      },
+      {
+        "icon": "pen",
+        "title": "Obsah, který buduje jméno",
+        "text": "Články a popisy lokalit, které vám časem pomáhají být pro dané místo autoritou."
+      }
+    ],
+    "content": [
+      {
+        "title": "Fotky a popisy, které prodávají",
+        "text": "Poradíme, jak fotky řadit a jak psát popisy bez zbytečné omáčky."
+      },
+      {
+        "title": "Pronájmy zvlášť",
+        "text": "Jiné požadavky má prodej a jiné pronájem. Připravíme oddělené části podle toho, co nabízíte."
+      },
+      {
+        "title": "Pro majitele",
+        "text": "Vlastní sekci pro majitele nemovitostí, kteří si vybírají makléře."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro realitního makléře stojí?",
+        "a": "Od 9 990 Kč bez DPH podle rozsahu nabídky."
+      },
+      {
+        "q": "Můžu si nabídky přidávat sám?",
+        "a": "Ano. Administrace je stavěná tak, aby se nemovitost přidala i s fotkami za pár minut."
+      },
+      {
+        "q": "Napojíte web na realitní systém?",
+        "a": "Ano, můžeme napojit data z vašeho systému nebo připravit jednoduchou vlastní správu."
+      },
+      {
+        "q": "Umíte i jiný jazyk?",
+        "a": "Ano, na vyžádání připravíme web i v angličtině."
+      },
+      {
+        "q": "Jak rychle bude hotový?",
+        "a": "Obvykle do sedmi pracovních dnů od dodání podkladů."
+      }
+    ],
+    "related": [
+      "advokati",
+      "obchody",
+      "svatby"
+    ],
+    "short": "Web pro realitního makléře, pronájmy a pronajímatele."
+  },
+  {
+    "slug": "svatby",
+    "label": "Svatby a eventy",
+    "meta": "Svatby a eventy",
+    "h1": "Web pro svatby, eventy a fotografy",
+    "description": "Web pro svatební služby, eventy a fotografy. Portfolio, ceník a poptávka pro páry, které si vás vybírají podle fotek a pocitu.",
+    "lead": "U svateb se lidé rozhodují srdcem a web je první dojem. Portfolio, ceny a rychlá odpověď rozhodují o tom, jestli pár napíše právě vám.",
+    "intro": [
+      "Svatební služby se vybírají měsíce předem a podle pocitu. Pár si prohlédne desítky webů — vyhraje ten, který je krásný, rychlý a jasně řekne, co nabízí.",
+      "Stavíme weby pro svatební fotografy, koordinátory, květinářství i prostory pro akce. Web musí být dojem a zároveň praktický: volné termíny, ceny, kontakt."
+    ],
+    "problems": [
+      {
+        "title": "Portfolio bez struktury",
+        "text": "Stovky fotek bez řádu působí chaoticky. Uspořádáme je tak, aby vyprávěly příběh."
+      },
+      {
+        "title": "Chybějící ceny",
+        "text": "Páry porovnávají i podle ceny. Pokud ji nikde nemáte, část jich ani nenapíše."
+      },
+      {
+        "title": "Pomalý web s velkými fotkami",
+        "text": "Krásné velké fotky dokážou web zničit. Vyřešíme to tak, aby vypadal skvěle a přitom se rychle načetl."
+      }
+    ],
+    "mustHave": [
+      "Portfolio rozdělené podle typu zakázky",
+      "Ceníkové balíčky nebo alespoň rozpětí",
+      "Informace o průběhu spolupráce od poptávky po dodání",
+      "Kalendář nebo informaci o volných termínech",
+      "Reference a hodnocení od párů",
+      "Kontakt a poptávkový formulář",
+      "Informaci, kde působíte a kam dojedete",
+      "Vlastní styl — typografii a barvy podle vaší značky"
+    ],
+    "features": [
+      {
+        "icon": "spark",
+        "title": "Design, který má styl",
+        "text": "Web vypadá jako vy. Barvy i typografie vycházejí z vaší vizuální identity."
+      },
+      {
+        "icon": "device",
+        "title": "Nádherný i na mobilu",
+        "text": "Páry si vás prohlížejí na telefonu. Portfolio musí vypadat skvěle na malé obrazovce."
+      },
+      {
+        "icon": "gauge",
+        "title": "Rychlost u velkých fotek",
+        "text": "Vyřešíme optimalizaci fotek tak, aby se web načítal hned, i když má náhledů desítky."
+      },
+      {
+        "icon": "mail",
+        "title": "Poptávka na míru",
+        "text": "Formulář zjistí datum, místo a představy dřív, než se sejdete."
+      }
+    ],
+    "content": [
+      {
+        "title": "Portfolio s příběhem",
+        "text": "Uspořádáme fotky tak, aby každá zakázka měla jasný začátek a konec."
+      },
+      {
+        "title": "Ceny bez tajností",
+        "text": "Balíčky s tím, co obsahují, a odpovědi na to, co páry nejčastěji řeší."
+      },
+      {
+        "title": "Kontakt, který nezdrží",
+        "text": "Jasná poptávka, průměrná doba odpovědi a odkazy na sociální sítě."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro svatební služby stojí?",
+        "a": "Od 9 990 Kč bez DPH. Cena zahrnuje i úpravu fotek pro rychlé načítání."
+      },
+      {
+        "q": "Zvládnu si doplňovat fotky sám?",
+        "a": "Ano. Přidání nové zakázky i fotek je otázka několika minut."
+      },
+      {
+        "q": "Můžu mít vlastní styl?",
+        "a": "Ano, web přizpůsobíme vaší značce — barvy, typografii i celkovému dojmu."
+      },
+      {
+        "q": "Jde napojit rezervace?",
+        "a": "Ano. Můžeme doplnit poptávkový formulář nebo kalendář s volnými termíny."
+      },
+      {
+        "q": "Jak dlouho tvorba trvá?",
+        "a": "Obvykle do sedmi pracovních dnů od dodání fotek a textů."
+      }
+    ],
+    "related": [
+      "krasa",
+      "restaurace",
+      "spolky"
+    ],
+    "short": "Web pro svatební služby, eventy a fotografy."
+  },
+  {
+    "slug": "kurzy",
+    "label": "Kurzy a vzdělávání",
+    "meta": "Kurzy a školy",
+    "h1": "Web pro kurzy, školy a doučování",
+    "description": "Web pro kurzy, školky, jazykové školy a doučování. Přehled termínů, ceník a přihlášky, které fungují i mimo pracovní dobu.",
+    "lead": "U kurzů a vzdělávání se lidé přihlašují podle termínů a ceny. Web musí nabídnout rozvrh, jasné podmínky a jednoduchou přihlášku.",
+    "intro": [
+      "Kurzy, kroužky a doučování si lidé vybírají podle rozvrhu a ceny, ale také podle toho, jak seriózně web vypadá. Rodiče nechtějí nikam volat, chtějí se rozhodnout sami.",
+      "Stavíme weby pro jazykové školy, kroužky, školky, lektory a doučování. Web řeší přihlášky, termíny a opakované dotazy typu „kdy kurz začíná“."
+    ],
+    "problems": [
+      {
+        "title": "Termíny se neustále mění",
+        "text": "Rozvrh kurzů je živý organismus. Web s jednoduchou administrací zvládne změny bez čekání na dodavatele."
+      },
+      {
+        "title": "Přihlášky po telefonu",
+        "text": "Přihlašování telefonicky zabírá čas a vyžaduje, abyste byli stále k zastižení. Formulář funguje i večer."
+      },
+      {
+        "title": "Rodiče chtějí vědět, co platí",
+        "text": "Ceny, omluvy, pomůcky a podmínky patří na web. Snižuje to dotazy a zvyšuje důvěru."
+      }
+    ],
+    "mustHave": [
+      "Přehled kurzů a termínů s volnými místy",
+      "Ceník a informaci o tom, co je v ceně",
+      "Přihlášku nebo přihlašovací formulář",
+      "Informace o lektorech a jejich praxi",
+      "Podmínky, omluvy a storno pravidla",
+      "Ukázky z výuky a fotky z kurzů",
+      "Kontakt na kancelář a adresu výuky",
+      "Odpovědi na časté otázky rodičů a účastníků"
+    ],
+    "features": [
+      {
+        "icon": "refresh",
+        "title": "Rozvrh vždy aktuální",
+        "text": "Termíny, obsazenost i nové kurzy si upravíte sami a bez programátora."
+      },
+      {
+        "icon": "mail",
+        "title": "Přihlášky přes web",
+        "text": "Přihlašovací formulář vyřídí přihlášky i mimo pracovní dobu."
+      },
+      {
+        "icon": "device",
+        "title": "Rodiče na mobilu",
+        "text": "Přihláška musí jít vyplnit na mobilu při čekání na dítě. Tak ji stavíme."
+      },
+      {
+        "icon": "star",
+        "title": "Důvěra a reference",
+        "text": "Fotky z výuky, hodnocení účastníků a informace o lektorech."
+      }
+    ],
+    "content": [
+      {
+        "title": "Kurzy podle kategorií",
+        "text": "Rozdělíme nabídku podle jazyka, věku nebo úrovně, aby se každý rychle zorientoval."
+      },
+      {
+        "title": "Podmínky bez dohadů",
+        "text": "Omluvenky, platby a storno pravidla sepíšeme srozumitelně, aby zmizely opakované dotazy."
+      },
+      {
+        "title": "Obsah pro rodiče i dospělé",
+        "text": "Rodiče hledají jiné informace než dospělí účastníci. Připravíme web pro obě skupiny."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro kurz nebo školu stojí?",
+        "a": "Od 9 990 Kč bez DPH včetně administrace pro kurzy a přihlášky."
+      },
+      {
+        "q": "Můžu si rozvrh spravovat sám?",
+        "a": "Ano. Termíny, ceny i obsazenost měníte v jednoduché administraci."
+      },
+      {
+        "q": "Napojíte web na evidenci účastníků?",
+        "a": "Ano. Poptávky z webu doručíme tam, kam potřebujete, nebo doplníme jednoduchou evidenci."
+      },
+      {
+        "q": "Zvládnu dodat texty?",
+        "a": "Nemusíte. Podklady připravíme společně, jako se všemi klienty."
+      },
+      {
+        "q": "Jak dlouho tvorba trvá?",
+        "a": "Běžně do sedmi pracovních dnů od dodání podkladů."
+      }
+    ],
+    "related": [
+      "spolky",
+      "zdravi",
+      "krasa"
+    ],
+    "short": "Web pro kurzy, školky, jazykové školy a doučování."
+  },
+  {
+    "slug": "spolky",
+    "label": "Spolky a kluby",
+    "meta": "Spolky a kluby",
+    "h1": "Web pro spolky, kluby a neziskovky",
+    "description": "Web pro spolek, sportovní klub nebo neziskovku. Program, fotogalerie, nábor členů a přehled akcí bez zbytečné administrativy.",
+    "lead": "Spolek tvoří dobrovolníci, kteří na weby nemají čas. Postavíme vám stránky, které zvládnete spravovat sami a které přivedou nové členy.",
+    "intro": [
+      "Spolky, kluby a neziskovky se potýkají se dvěma věcmi: málo času a málo peněz. Web přitom často dělá rozdíl mezi spolkem, o kterém lidé vědí, a tím, o kterém nikdo neslyšel.",
+      "Stavíme weby pro sportovní kluby, kulturní spolky, dobrovolníky i rodičovské iniciativy. Zaměřujeme se na jednoduchou správu, přehledný program a nábor nových členů."
+    ],
+    "problems": [
+      {
+        "title": "Program jen na Facebooku",
+        "text": "Sociální sítě nepomůžou s hledáním rozvrhů, přihlášek a kontaktů. Ty patří na web."
+      },
+      {
+        "title": "Správa spoléhá na jednoho člověka",
+        "text": "Když se web nedá snadno převzít, padá s odchodem správce. Administraci proto stavíme jednoduchou."
+      },
+      {
+        "title": "Nábor bez informací",
+        "text": "Nový člen potřebuje vědět, kdy má přijít, kolik to stojí a koho se zeptat."
+      }
+    ],
+    "mustHave": [
+      "Program nebo rozpis tréninků a akcí",
+      "Informace o tom, jak se stát členem",
+      "Ceník členských příspěvků",
+      "Kontakty na vedení a trenéry",
+      "Fotogalerii z akcí a tréninků",
+      "Novinky a aktuality",
+      "Prostor pro sponzory a partnery",
+      "Informace o podpoře a dotacích, pokud je máte"
+    ],
+    "features": [
+      {
+        "icon": "refresh",
+        "title": "Aktuality za pár minut",
+        "text": "Novinky, výsledky nebo změny v rozvrhu zapíše i ten, kdo webu moc nerozumí."
+      },
+      {
+        "icon": "wallet",
+        "title": "Náklady pod kontrolou",
+        "text": "Statický web je levný na provoz. Neplatíte za systémy, které spolku nic nepřinesou."
+      },
+      {
+        "icon": "device",
+        "title": "Rodiče i fanoušci na mobilu",
+        "text": "Rozpis i fotky se zobrazí dobře na telefonu, odkud se na web dívá nejvíc lidí."
+      },
+      {
+        "icon": "star",
+        "title": "Nábor členů",
+        "text": "Přehledná stránka pro zájemce s tím, co mají udělat a kam napsat."
+      }
+    ],
+    "content": [
+      {
+        "title": "Program a rozvrh",
+        "text": "Nejdůležitější část webu klubu. Přehledně, včetně kategorií a kontaktů na trenéry."
+      },
+      {
+        "title": "Fotky a výsledky",
+        "text": "Galerie a přehled výsledků. Drží komunitu aktivní a dělá spolku radost."
+      },
+      {
+        "title": "Podpora a sponzoři",
+        "text": "Prostor pro ty, kdo spolek podporují. Pomáhá při jednání s partnery i obcí."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro spolek stojí?",
+        "a": "Od 9 990 Kč bez DPH. U spolků vždy hledáme řešení odpovídající rozpočtu."
+      },
+      {
+        "q": "Umí se o web starat víc lidí?",
+        "a": "Ano, přístupy nastavíme tak, aby se mohlo střídat více správců."
+      },
+      {
+        "q": "Zvládneme to bez počítačových znalostí?",
+        "a": "Určitě. Administraci vysvětlíme jednoduše a máte na nás kontakt."
+      },
+      {
+        "q": "Umíte napojit platby členských příspěvků?",
+        "a": "Ano, můžeme doplnit informace o platbách nebo odkaz na platební bránu."
+      },
+      {
+        "q": "Máme starý web, převezmete ho?",
+        "a": "Připravíme web nový a přeneseme z něj, co dává smysl."
+      }
+    ],
+    "related": [
+      "kurzy",
+      "svatby",
+      "zdravi"
+    ],
+    "short": "Web pro spolek, sportovní klub nebo neziskovku."
+  },
+  {
+    "slug": "obchody",
+    "label": "Obchody a e-shopy",
+    "meta": "Obchody a e-shopy",
+    "h1": "Web pro obchody a e-shopy",
+    "description": "Web pro kamenný obchod, výrobce nebo menší e-shop. Produkty, ceník a objednávky pro zákazníky z vašeho města i z celé ČR.",
+    "lead": "Obchod bez webu přichází o zákazníky, kteří si nejdřív hledají, co máte, kolik to stojí a jestli mají otevřeno.",
+    "intro": [
+      "Ať už prodáváte v kamenné prodejně, z dílny nebo přes e-shop, web je místo, kde se zákazník rozhoduje. Zjistí, co máte, kolik to stojí a jestli se dá na místo dojet.",
+      "Stavíme weby pro menší obchody, výrobce a regionální prodejce. Web umí být jednoduchý katalog s poptávkou, ale i plnohodnotný e-shop, pokud ho potřebujete."
+    ],
+    "problems": [
+      {
+        "title": "Sortiment jen na sociálních sítích",
+        "text": "Sociální sítě neumí filtrovat, hledat ani nahradit ceník. Web ano."
+      },
+      {
+        "title": "Nejasná otevírací doba",
+        "text": "Zákazník přijede přes celé město a najde zavřeno. Web s aktuální dobou tomu zabrání."
+      },
+      {
+        "title": "Zmeškané objednávky",
+        "text": "Objednávky přicházející mimo provozní dobu vyřídí katalog nebo e-shop i bez vás."
+      }
+    ],
+    "mustHave": [
+      "Přehled produktů s fotkami a cenami",
+      "Možnost procházet nabídku podle kategorií",
+      "Otevírací dobu prodejny a mapu",
+      "Informace o dopravě, platbě a odběru",
+      "Možnost objednávky nebo poptávky",
+      "Informace o výrobci nebo příběhu značky",
+      "Podmínky reklamace a vrácení",
+      "Prostor pro akce, slevy a novinky"
+    ],
+    "features": [
+      {
+        "icon": "layout",
+        "title": "Katalog, který se dá číst",
+        "text": "Produkty rozdělíme do kategorií, doplníme fotky a ceny, které se snadno aktualizují."
+      },
+      {
+        "icon": "wallet",
+        "title": "Podle rozsahu a rozpočtu",
+        "text": "Nemusíte hned e-shop. Někdy stačí katalog s poptávkou — navrhneme, co dává smysl."
+      },
+      {
+        "icon": "search",
+        "title": "Najdou vás i z okolí",
+        "text": "Web nastavíme tak, aby vás lidé našli, když hledají produkt nebo obchod ve vašem městě."
+      },
+      {
+        "icon": "refresh",
+        "title": "Sortiment aktuální",
+        "text": "Nové produkty i slevy přidáte sami podle toho, jak se mění nabídka."
+      }
+    ],
+    "content": [
+      {
+        "title": "Produkty přehledně",
+        "text": "Fotky, popis a cena. Právě tady se rozhoduje, jestli zákazník zůstane, nebo odejde."
+      },
+      {
+        "title": "Kamenný obchod i e-shop",
+        "text": "Propojíme obojí — zákazník, který si vás najde na webu, může přijít i objednat online."
+      },
+      {
+        "title": "Důvěra a informace",
+        "text": "Reklamace, vrácení, doprava, platba. Vše přehledně, aby zbytečně nevolali."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Má smysl web, když prodávám přes sociální sítě?",
+        "a": "Má. Sociální sítě vás ukážou lidem, kteří už o vás vědí. Web přivede i ty, kteří vás teprve hledají."
+      },
+      {
+        "q": "Umíte e-shop?",
+        "a": "Ano. Postavíme jednoduchý katalog nebo napojení na e-shopovou platformu podle rozsahu vašeho sortimentu."
+      },
+      {
+        "q": "Kolik to stojí?",
+        "a": "Web začíná na 9 990 Kč bez DPH. E-shop navrhneme podle rozsahu a napojení."
+      },
+      {
+        "q": "Kdo bude spravovat produkty?",
+        "a": "Vy, a bude to jednoduché. Při předání vše vysvětlíme."
+      },
+      {
+        "q": "Jak rychle bude web hotový?",
+        "a": "Obvykle do sedmi pracovních dnů u jednoduššího katalogu."
+      }
+    ],
+    "related": [
+      "farmari",
+      "restaurace",
+      "uklid"
+    ],
+    "short": "Web pro kamenný obchod, výrobce nebo menší e-shop."
+  },
+  {
+    "slug": "zahradnici",
+    "label": "Zahradnictví a zeleň",
+    "meta": "Zahradnictví",
+    "h1": "Web pro zahradnictví a údržbu zeleně",
+    "description": "Web pro zahradnictví, údržbu zeleně a realizace zahrad. Ukázky realizací, ceník a poptávka pro zákazníky z okolí.",
+    "lead": "U zahrad a zeleně rozhodují fotky před a po, sezónnost a dostupnost. Web, který tohle ukáže, přivede zakázky na celou sezónu.",
+    "intro": [
+      "Zahradnické firmy a údržba zeleně žijí ze sezóny a z referencí. Zákazník se ale nejdřív podívá na web — hledá, jak vypadají realizace a jestli vůbec děláte to, co potřebuje.",
+      "Stavíme weby pro zahradnictví, realizační firmy i firmy na údržbu zeleně. Web musí ukázat výsledky, oblasti působení a dát jasně najevo, co zvládne při pravidelných návštěvách."
+    ],
+    "problems": [
+      {
+        "title": "Realizace nikde k vidění",
+        "text": "Zahrady se prodávají očima. Bez fotek před a po je těžké přesvědčit."
+      },
+      {
+        "title": "Sezónu nejde stihnout",
+        "text": "Na jaře chodí nejvíc poptávek. Web musí sbírat poptávky i v době, kdy pracujete na zahradách celý den."
+      },
+      {
+        "title": "Nejasný rozsah služeb",
+        "text": "Údržba je něco jiného než realizace. Když web nerozliší obojí, dostáváte poptávky mimo svůj obor."
+      }
+    ],
+    "mustHave": [
+      "Ukázky realizací s fotkami před a po",
+      "Rozdělení nabídky na realizace a pravidelnou údržbu",
+      "Oblast působení a dojezdovou vzdálenost",
+      "Ceník nebo orientační cenu za hodinu, metr či sezónu",
+      "Otevírací dobu a sezónní informace",
+      "Poptávkový formulář s popisem pozemku",
+      "Odkaz na reference a hodnocení",
+      "Informace o odbornosti a vybavení"
+    ],
+    "features": [
+      {
+        "icon": "layout",
+        "title": "Fotky před a po",
+        "text": "Takové galerie přesvědčí za vás. Připravíme je tak, aby se daly jednoduše doplňovat."
+      },
+      {
+        "icon": "refresh",
+        "title": "Sezónní nabídka",
+        "text": "V sezóně změníte, čemu se věnujete, a na webu to bude hned."
+      },
+      {
+        "icon": "phone",
+        "title": "Poptávka i mimo pracovní dobu",
+        "text": "Formulář s popisem pozemku usnadní první domluvu."
+      },
+      {
+        "icon": "pin",
+        "title": "Místo, kam dojíždíte",
+        "text": "Přehled obcí a vzdálenosti, aby poptávky přicházely odsud, kam opravdu jezdíte."
+      }
+    ],
+    "content": [
+      {
+        "title": "Realizace jako portfolio",
+        "text": "Každá zahrada jako příběh — zadání, postup a výsledek."
+      },
+      {
+        "title": "Údržba a pravidelná péče",
+        "text": "Samostatná část pro zákazníky, kteří chtějí pravidelnou péči o zahradu."
+      },
+      {
+        "title": "Sezónní tipy",
+        "text": "Články a doporučení, které vám pomohou být pro vaše okolí odborníkem."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro zahradnictví stojí?",
+        "a": "Od 9 990 Kč bez DPH. Součástí je i příprava galerie realizací."
+      },
+      {
+        "q": "Můžu si doplňovat fotky sám?",
+        "a": "Ano. V administraci přidáte novou realizaci včetně fotek za pár minut."
+      },
+      {
+        "q": "Má smysl web mimo sezónu?",
+        "a": "Právě v zimě se rozhoduje o jaře. Web sbírá poptávky celý rok."
+      },
+      {
+        "q": "Umíte poptávkový formulář s metry?",
+        "a": "Ano, doplníme formulář, který hned zjistí rozsah a typ pozemku."
+      },
+      {
+        "q": "Jak rychle bude hotový?",
+        "a": "Běžně do sedmi pracovních dnů od dodání podkladů."
+      }
+    ],
+    "related": [
+      "remeslniky",
+      "farmari",
+      "uklid"
+    ],
+    "short": "Web pro zahradnictví, údržbu zeleně a realizace zahrad."
+  },
+  {
+    "slug": "veterina",
+    "label": "Veterina",
+    "meta": "Veterina",
+    "h1": "Web pro veterinární ordinace",
+    "description": "Web pro veterinární ordinaci, kliniku nebo zvířecí salon. Služby, ceník, ordinační hodiny a objednání pro majitele zvířat.",
+    "lead": "Majitel zvířete hledá rychle: ordinační hodiny, co ordinace umí a jak se objednat. Web, který to zodpoví, přivede víc pacientů než pouhá vizitka.",
+    "intro": [
+      "Veterinární péče se hledá ve stresu. Majitel potřebuje rychle zjistit, jestli má ordinace otevřeno, jestli zvládne jeho druh zvířete a jestli se dá objednat.",
+      "Stavíme weby pro veterinární ordinace i kliniky. Cílem je, aby web odpověděl během několika sekund a majitel nemusel volat do ordinace, kde se zrovna ošetřuje."
+    ],
+    "problems": [
+      {
+        "title": "Nevíte, jestli zvládnou vaše zvíře",
+        "text": "Jestli ordinace ošetřuje i exotická nebo hospodářská zvířata, musí být na webu jasné a hned."
+      },
+      {
+        "title": "Telefon v ordinaci zvoní zbytečně",
+        "text": "Ordinační hodiny, pohotovost a ceník pokryjí většinu dotazů."
+      },
+      {
+        "title": "Nouzové situace",
+        "text": "Majitel v panice musí rychle najít, kam jet. Kontakt a pohotovost patří na první obrazovku."
+      }
+    ],
+    "mustHave": [
+      "Ordinační hodiny a informaci o pohotovosti",
+      "Přehled služeb — od preventivních prohlídek po operace",
+      "Ceník úkonů nebo cenové rozpětí",
+      "Informaci o druzích zvířat, které ošetřujete",
+      "Objednání telefonem i formulářem",
+      "Adresu s mapou a informace o parkování",
+      "Představení veterináře a týmu",
+      "Informace o možnostech platby"
+    ],
+    "features": [
+      {
+        "icon": "phone",
+        "title": "Kontakt a pohotovost na očích",
+        "text": "Majitel v nouzi nesmí nic hledat. Kontakt dáme na první obrazovku."
+      },
+      {
+        "icon": "shield",
+        "title": "Důvěra a odbornost",
+        "text": "Představení týmu, vybavení a služeb. U zvířat rozhoduje důvěra stejně jako u lidí."
+      },
+      {
+        "icon": "refresh",
+        "title": "Ordinační hodiny aktuální",
+        "text": "Změny hodin, dovolené i akce si upravíte sami."
+      },
+      {
+        "icon": "mail",
+        "title": "Objednání bez telefonátu",
+        "text": "Formulář zjistí druh zvířete a důvod návštěvy."
+      }
+    ],
+    "content": [
+      {
+        "title": "Služby bez zmatku",
+        "text": "Rozdělíme, co děláte běžně, co v rámci prevence a co nadstandardně."
+      },
+      {
+        "title": "Ceník a platby",
+        "text": "Předem dané ceny a způsoby platby snižují nejistotu majitelů."
+      },
+      {
+        "title": "Provoz a pohotovost",
+        "text": "Jasné informace o tom, kdy se na vás obrátit a co dělat mimo ordinační hodiny."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kolik web pro veterinu stojí?",
+        "a": "Od 9 990 Kč bez DPH včetně administrace pro ordinační hodiny a ceník."
+      },
+      {
+        "q": "Můžu si hodiny upravovat sám?",
+        "a": "Ano, kdykoliv. Stačí pár kliknutí."
+      },
+      {
+        "q": "Umíte napojit objednávkový systém?",
+        "a": "Ano, propojíme web s rezervačním nebo objednávkovým systémem."
+      },
+      {
+        "q": "Zvládne web i více ordinací?",
+        "a": "Ano. Postavíme web pro více poboček s vlastními hodinami i kontakty."
+      },
+      {
+        "q": "Jak dlouho tvorba trvá?",
+        "a": "Běžně do sedmi pracovních dnů od dodání podkladů."
+      }
+    ],
+    "related": [
+      "zdravi",
+      "farmari",
+      "bio"
+    ],
+    "short": "Web pro veterinární ordinaci, kliniku nebo zvířecí salon."
+  }
+]

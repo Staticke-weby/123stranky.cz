@@ -1,0 +1,134 @@
+---
+title: Proč s námi
+description: "Proč svěřit tvorbu webu právě nám. Rychlost, bezpečnost, férové ceny a lidský přístup. Podívejte se, co pro vás umíme zařídit."
+---
+{% from "icon.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Drobečková navigace">
+      <a href="/">Úvod</a> <span>/</span> <span aria-current="page">Proč s námi</span>
+    </nav>
+    <h1>Proč si vybrat právě nás</h1>
+    <p class="lead">Postaráme se o celý proces — od prvního nápadu přes design a tvorbu až po spuštění a další rozvoj. Vy se staráte o svůj byznys, my o web.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cards cards--wide">
+      {% for item in services %}
+      <article class="card">
+        <span class="card-icon">{{ icon(item.icon, 22) }}</span>
+        <h2 class="card-title">{{ item.title }}</h2>
+        <p>{{ item.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Výhody</p>
+      <h2>Rychlejší, bezpečnější a levnější na provoz</h2>
+      <p class="section-lead">Váš web bude rychlý, bezpečný a levný na provoz. O všechny technikálie se postaráme my, vy se věnujete svým zákazníkům.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon">{{ icon("gauge", 22) }}</span>
+        <h3>Okamžité načtení</h3>
+        <p>Stránky jsou na obrazovce hned. Návštěvník nemá čas odejít ke konkurenci, než se web stihne načíst.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("shield", 22) }}</span>
+        <h3>Vyšší bezpečnost</h3>
+        <p>O váš web se nemá kdo nabourat. Žádné pluginy ani aktualizace, o které byste se museli starat.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("wallet", 22) }}</span>
+        <h3>Nízké náklady</h3>
+        <p>Neplatíte za provoz, který nikdo nevyužije. Peníze tak můžete dát do toho, co vám skutečně vydělává.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">{{ icon("rocket", 22) }}</span>
+        <h3>Připraven na růst</h3>
+        <p>Web kdykoliv rozšíříme o nové stránky, blog, galerii nebo napojení na další služby.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Postup</p>
+      <h2>Jak spolupráce probíhá</h2>
+    </div>
+    <ol class="steps">
+      <li class="step">
+        <span class="step-num">1</span>
+        <h3>Nezávazná konzultace</h3>
+        <p>Probereme cíle, rozsah a obsah. Doporučíme vhodné řešení a připravíme nabídku.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">2</span>
+        <h3>Návrh a struktura</h3>
+        <p>Navrhneme strukturu stránek a vizuální podobu. Vše odsouhlasíte před samotnou tvorbou.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">3</span>
+        <h3>Tvorba webu</h3>
+        <p>Postavíme stránky, doladíme texty, obrázky a otestujeme vše na mobilu i počítači.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">4</span>
+        <h3>Spuštění a podpora</h3>
+        <p>Nasadíme doménu a hosting, web zveřejníme a předáme vám přístupy. Zůstáváme k dispozici.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="split">
+      <div class="split-copy">
+        <p class="eyebrow">Doplňkové služby</p>
+        <h2>Když potřebujete víc než jen web</h2>
+        <p>K tvorbě webu můžete přidat další služby, které vám pomohou růst.</p>
+        <ul class="check-list">
+          <li>{{ icon("check", 18) }} Psaní textů a copywriting</li>
+          <li>{{ icon("check", 18) }} Založení a správa domény a hostingu</li>
+          <li>{{ icon("check", 18) }} Napojení na rezervační nebo objednávkový systém</li>
+          <li>{{ icon("check", 18) }} E-mailové schránky na vaší doméně</li>
+          <li>{{ icon("check", 18) }} Pravidelné úpravy a rozvoj webu</li>
+        </ul>
+        <a class="btn btn-primary" href="/kontakt/">Nezávazně poptat {{ icon("arrow", 18) }}</a>
+      </div>
+      <div class="split-visual" aria-hidden="true">
+        <div class="kv-card">
+          <span class="kv-row"><em>01</em> Konzultace zdarma</span>
+          <span class="kv-row"><em>02</em> Návrh do 3 dnů</span>
+          <span class="kv-row"><em>03</em> Spuštění do 7 dnů</span>
+          <span class="kv-row"><em>04</em> Podpora po předání</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Nejste si jistí, co potřebujete?</h2>
+      <p>Napište nám, co řešíte. Poradíme vám zdarma a bez závazků, jakou cestu zvolit.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-light btn-lg" href="/kontakt/">Napsat nám</a>
+      <a class="btn btn-ghost-light btn-lg" href="/cenik/">Zobrazit ceník</a>
+    </div>
+  </div>
+</section>
