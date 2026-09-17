@@ -1,69 +1,84 @@
 [
   {
-    "name": "Služby a řemesla",
-    "desc": "Weby pro místní služby, řemeslníky a podnikatele.",
+    "name": "Restaurace a jídlo",
+    "desc": "Weby pro restaurace, bistra a rozvoz.",
     "items": [
       {
-        "title": "Profesionální čištění Praha",
+        "title": "BurgerLab — smash burgery s rozvozem",
+        "url": "https://www.landingpage.cz/burger-restaurant-ds",
+        "image": "/assets/ukazky/lp-burger-restaurant-ds.jpg"
+      },
+      {
+        "title": "Burger restaurant — menu a rozvoz",
+        "url": "https://www.landingpage.cz/burger-restaurant-ms",
+        "image": "/assets/ukazky/lp-burger-restaurant-ms.jpg"
+      },
+      {
+        "title": "Pizzeria Italia — pece na dřevo",
+        "url": "https://www.landingpage.cz/pizza-italia-ds",
+        "image": "/assets/ukazky/lp-pizza-italia-ds.jpg"
+      },
+      {
+        "title": "Pizzeria Italia — polední menu a rozvoz",
+        "url": "https://www.landingpage.cz/pizza-italia-ms",
+        "image": "/assets/ukazky/lp-pizza-italia-ms.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Zdraví a krása",
+    "desc": "Ordinace, dentální hygiena a kadeřnictví.",
+    "items": [
+      {
+        "title": "Zubní ordinace — prevence a implantáty",
+        "url": "https://www.landingpage.cz/zubni-ordinace-ds",
+        "image": "/assets/ukazky/lp-zubni-ordinace-ds.jpg"
+      },
+      {
+        "title": "Zubní ordinace — moderní stomatologie",
+        "url": "https://www.landingpage.cz/zubni-ordinace-ms",
+        "image": "/assets/ukazky/lp-zubni-ordinace-ms.jpg"
+      },
+      {
+        "title": "Dentální hygiena — zubní kámen a AirFlow",
+        "url": "https://www.landingpage.cz/dentalni-hygiena-ds",
+        "image": "/assets/ukazky/lp-dentalni-hygiena-ds.jpg"
+      },
+      {
+        "title": "Dentální hygiena — bělení a zdravé dásně",
+        "url": "https://www.landingpage.cz/dentalni-hygiena-ms",
+        "image": "/assets/ukazky/lp-dentalni-hygiena-ms.jpg"
+      },
+      {
+        "title": "Kadeřnictví Studio Vlna",
+        "url": "https://www.landingpage.cz/kadernictvi-ds",
+        "image": "/assets/ukazky/lp-kadernictvi-ds.jpg"
+      },
+      {
+        "title": "Kadeřnictví Elegance",
+        "url": "https://www.landingpage.cz/kadernictvi-ms",
+        "image": "/assets/ukazky/lp-kadernictvi-ms.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Služby a řemesla",
+    "desc": "Autoservisy, úklid a služby, které jezdí za vámi.",
+    "items": [
+      {
+        "title": "PneuPuls — pneuservis a geometrie",
+        "url": "https://www.landingpage.cz/pneuservis-ds",
+        "image": "/assets/ukazky/lp-pneuservis-ds.jpg"
+      },
+      {
+        "title": "Pneuservis — přezutí a hotel pneumatik",
+        "url": "https://www.landingpage.cz/pneuservis-ms",
+        "image": "/assets/ukazky/lp-pneuservis-ms.jpg"
+      },
+      {
+        "title": "Profesionální čištění — mytí aut a úklid",
         "url": "https://www.landingpage.cz/profesionalni-cisteni-praha",
         "image": "/assets/ukazky/lp-profesionalni-cisteni-praha.jpg"
-      },
-      {
-        "title": "Rychlé čištění Praha",
-        "url": "https://www.staticweb.cz/cisteni-uklidy-praha",
-        "image": "/assets/ukazky/sw-cisteni-uklidy-praha.jpg"
-      }
-    ]
-  },
-  {
-    "name": "CRM a AI",
-    "desc": "Ukázky webů a témat kolem CRM systémů a AI agentů.",
-    "items": [
-      {
-        "title": "CRM pro servisní firmy",
-        "url": "https://www.landingpage.cz/crm-pro-servisni-firmy",
-        "image": "/assets/ukazky/lp-crm-pro-servisni-firmy.jpg"
-      },
-      {
-        "title": "Agentské CRM – Twenty pro AI agenty",
-        "url": "https://www.staticweb.cz/crm-pro-agenty",
-        "image": "/assets/ukazky/sw-crm-pro-agenty.jpg"
-      },
-      {
-        "title": "CRM pro AI agenty",
-        "url": "https://www.staticweb.cz/crm-pro-ai-agenty",
-        "image": "/assets/ukazky/sw-crm-pro-ai-agenty.jpg"
-      },
-      {
-        "title": "Field Service CRM pro české firmy",
-        "url": "https://www.staticweb.cz/field-service-crm-pro-ceske-firmy",
-        "image": "/assets/ukazky/sw-field-service-crm.jpg"
-      },
-      {
-        "title": "Twenty CRM",
-        "url": "https://www.staticweb.cz/twenty",
-        "image": "/assets/ukazky/sw-twenty.jpg"
-      }
-    ]
-  },
-  {
-    "name": "Srovnání a průvodce",
-    "desc": "Delší obsahové stránky ve formě srovnání a průvodců.",
-    "items": [
-      {
-        "title": "Srovnání CRM systémů 2026",
-        "url": "https://www.staticweb.cz/srovnani-crm-2026",
-        "image": "/assets/ukazky/sw-srovnani-crm-2026.jpg"
-      },
-      {
-        "title": "Twenty CRM vs Raynet CRM",
-        "url": "https://www.staticweb.cz/srovnani-twenty-raynet",
-        "image": "/assets/ukazky/sw-srovnani-twenty-raynet.jpg"
-      },
-      {
-        "title": "Statické webové stránky – kontrolní seznam",
-        "url": "https://www.landingpage.cz/staticke-webove-stranky",
-        "image": "/assets/ukazky/lp-staticke-webove-stranky.jpg"
       }
     ]
   },
@@ -74,12 +89,7 @@
       {
         "title": "Tématické oslavy pro děti Slaný",
         "url": "https://www.landingpage.cz/tematicle-oslavy-slany",
-        "image": "/assets/ukazky/lp-tematicke-oslavy.jpg"
-      },
-      {
-        "title": "Tématické oslavy pro děti – druhá varianta",
-        "url": "https://www.staticweb.cz/tematicle-oslavy-slany",
-        "image": "/assets/ukazky/sw-tematicke-oslavy.jpg"
+        "image": "/assets/ukazky/lp-tematicle-oslavy-slany.jpg"
       }
     ]
   }

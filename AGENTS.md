@@ -26,7 +26,7 @@ src/
     packages.json        # Start/Business/Premium (hours, price, desc, cta, featured, badge)
     includes.json        # sdílený seznam "V každém balíčku"
     references.json      # reference (name, desc, url, image)
-    demos.json           # ukázky: skupiny (name, url, desc) + pages (title, url)
+    demos.json           # ukázky: skupiny (name, desc) + items (title, url, image)
     services.json        # služby (icon, title, text)
     redirects.json       # přesměrování ze starých URL (from, to, note)
     lokalita.json        # 12 měst u Slaného pro /webove-stranky/<slug>/
@@ -100,11 +100,15 @@ eleventy.config.js            # filtry, kolekce, transform relativeLinks (root-r
 
 ## Ukázky
 
-- Stránka `/ukazky/` (`src/ukazky.njk`) vypisuje demo stránky **podle témat** (Služby a řemesla, CRM a AI, Srovnání a průvodce, Oslavy a akce).
+- Stránka `/ukazky/` (`src/ukazky.njk`) vypisuje demo stránky **podle oboru** (Restaurace a jídlo, Zdraví a krása, Služby a řemesla, Oslavy a akce) — zdroj je nabídka `landingpage.cz`, obory mají po dvou designech (`-ds`/`-ms` = jiná firma i copy, ne dvě varianty téhož).
 - Data v `src/_data/demos.json`: pole témat (`name`, `desc`, `items[]` s `title`/`url`/`image`).
-- Náhledy v `src/assets/ukazky/*.jpg` (800×500) — screenshoty přes headless Chrome.
-- **Domény (landingpage.cz, staticweb.cz) se nepropagují** — žádné odkazy na jejich homepage, žádné názvy domén v textu. Odkazuje se jen na konkrétní ukázkové stránky (`target="_blank" rel="noopener"`).
+- Náhledy v `src/assets/ukazky/*.jpg` (800×500, `lp-<slug>.jpg`) — screenshoty přes headless Chrome.
+- **Doména (landingpage.cz) se nepropaguje** — žádné odkazy na její homepage, žádné názvy domén v textu. Odkazuje se jen na konkrétní ukázkové stránky (`target="_blank" rel="noopener"`). Odkazy na `staticweb.cz` ani na `/crm-*`, `/srovnani-*` (404) sem nepatří.
 - Karty používají `.showcase` / `.showcase-item` (stejné jako reference), na mobilu 1 sloupec.
+- **Aktualizace nabídky (recept)**: zdrojem pravdy je `https://www.landingpage.cz/sitemap.xml`, ne homepage — ta v „Související" vypisuje i stránky, které v nabídce nejsou. U každé URL ověřit 200; mrtvé slugy se objevují postupně (našel jsem `/crm-pro-servisni-firmy`, `/staticke-webove-stranky` a `/srovnani-crm-2026` — všechny 404, ale v datech ještě byly). `-ds`/`-ms` = **dva designy téhož oboru** (jiná firma i copy; `-ds` delší, 10–15 sekcí, `-ms` kratší, 7–13), ne dvě varianty jednoho webu.
+- **Náhledy** se generují z živých stránek na 1280×800 (poměr 16:10, stejný jako `aspect-ratio` karty) a zmenšují na 800×500 JPEG q78; jméno `lp-<slug>.jpg` podle URL. Při odebrání ukázky náhled z `src/assets/ukazky/` smazat a dát `npm run clean` — build `_site` nečistí (gotcha 13), takže by se staré JPEG nasazovaly dál.
+- Po každé aktualizaci zkontrolovat: karet = `items` v JSON, každý `image` existuje v `_site`, v `_site/**/*.html` není `staticweb.cz` ani odkaz na homepage, a **externí** odkazy vrací 200 (interní audit je nekontroluje).
+- Skupina s jedinou kartou nechává v třísloupcové mřížce prázdné místo vpravo — buď ji spojit s jinou, nebo to nechat (konzistentní).
 
 ## Gotchas (na co jsem narazil)
 
@@ -129,6 +133,7 @@ eleventy.config.js            # filtry, kolekce, transform relativeLinks (root-r
 18. **Paginované stránky nejsou v kolekcích**, dokud nemá paginace `addAllPagesToCollections: true`. Bez toho `collections.sitemapPages` vidí od každé šablony **jen první** vygenerovanou stránku (sitemap pak měla 10 URL místo 36). Platí pro `lokalita.njk` i `obor.njk`.
 19. **`{% set %}` platí pro celý zbytek šablony** — proměnné nastavené pro jeden `{% include %}` musí další include vždy přenastavit (i na `false`), jinak zdědí staré hodnoty. Týká se hlavně parametrů `link-*.njk`.
 20. **Interní odkazy v šablonách jsou root-relative** (`/kontakt/`) a teprve transform `relativeLinks` z nich při buildu udělá relativní (`../kontakt/`). Nikdy nepočítej hloubku ručně a nepiš `../` přímo do šablony — rozbilo by to build na kořeni domény. Nový atribut s cestou musíš přidat do regexu v transformu.
+21. **Ukládání JPEG přes .NET**: `$bmp.Save($path, $codec, (New-Object System.Drawing.Imaging.EncoderParameters(0)))` spadne na `Parameter is not valid` — bez parametrů použij `Save($path, [System.Drawing.Imaging.ImageFormat]::Jpeg)`, s kvalitou až `EncoderParameters(1)` (`EncoderParameter(Quality, 78)`). Stejně tak `New-Object System.Drawing.Rectangle(0,0,$w,$h)` s výrazem uvnitř rozbije parsování — hodnoty předpočítej do proměnných (viz i OG obrázky).
 
 ## Kontrola kvality (audit)
 
@@ -137,9 +142,8 @@ Opakovaně použitelný postup (skripty se píšou dočasně a mažou):
 1. **Kontrast** — Node skript: spočítat WCAG poměr pro všechny dvojice text/pozadí včetně alfakanálu (`over(fg, alpha, bg)`; práh 4,5:1 pro text, 3:1 pro velký text/grafiku).
 2. **Struktura/SEO/přístupnost** — Node skript nad `_site/**/*.html`: 1× `h1`, žádné skoky v nadpisech, žádná duplicitní `id`, každý odkaz/tlačítko má název, `img` má `alt`, `nav` má `aria-label`, `target="_blank"` má `rel="noopener"`, délka meta description.
 3. **Tenký obsah** — ve stejném skriptu spočítat slova v `<main>` (bez `svg`/`script`, tagy pryč) a hlídat **≥ 500 slov** u detailních stránek lokalit/oborů; zároveň zkontrolovat, že `title` a canonical sedí na URL.
-4. **Odkazy a JSON-LD** — projít všechny `href="/..."` a ověřit, že cíl existuje v `_site` (pozor: indexovat i ne-HTML soubory, jinak `css`/`assets` hlásí falešné chyby), a `JSON.parse` na každý `<script type="application/ld+json">`.
-3. **JSON-LD** — `JSON.parse` na obsah `<script type="application/ld+json">`.
-4. **Mobil** — viz iframe trik v gotcha 11, pak zkontrolovat header/hamburger, zalamování a přesahy.
+4. **Odkazy a JSON-LD** — projít všechny `href="/..."` a ověřit, že cíl existuje v `_site` (pozor: indexovat i ne-HTML soubory, jinak `css`/`assets` hlásí falešné chyby), a `JSON.parse` na každý `<script type="application/ld+json">` (externí odkazy tenhle audit nekontroluje — ty se ověřují zvlášť, vrací 200).
+5. **Mobil** — viz iframe trik v gotcha 11, pak zkontrolovat header/hamburger, zalamování a přesahy.
 
 ## Vizuální kontrola (headless Chrome)
 
