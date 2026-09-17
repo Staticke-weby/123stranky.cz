@@ -79,7 +79,7 @@ eleventy.config.js            # filtry, kolekce, transform relativeLinks (root-r
 - **Umami** (self-hosted `navstevnost.pikapod.net`), konfigurace v `_data/site.json` pod `analytics` (`script` + `websiteId`). `head.njk` z toho vygeneruje `<script defer src="…" data-website-id="…">` na všech stránkách s layoutem (38 stránek) — **nepřesměrovací** stránky a `404` mají `layout: false`/redirect šablonu, takže skript nemají.
 - Umami je **bez cookies** a nesbírá osobní údaje → není potřeba cookie lišta ani souhlas.
 - **Kontaktní odkazy nesou události** (bez dalšího JS, Umami je sbírá z atributů): `data-umami-event="kontakt-telefon|kontakt-whatsapp|kontakt-email"` + `data-umami-event-misto="mobilni-lista|paticka|cta|kontakt|kontakt-osoby|kontakt-formular|sekce|mapa-webu"`. **Nový kontaktní odkaz musí atributy dostat taky**, jinak se v datech neobjeví (kontrola: v `_site/**/*.html` nesmí být `<a href="tel:|mailto:|wa.me/">` bez `data-umami-event`).
-- Skript běží na všech doménách, takže se v datech objeví i `staticke-weby.github.io` a `localhost` (v Umami se dají odfiltrovat podle hostname). Když se má měřit jen na produkci, přidej do `head.njk` atribut `data-domains="www.123stranky.cz"`.
+- Skript běží na všech doménách, takže se v datech objeví i `localhost` (v Umami se dá odfiltrovat podle hostname). Web už běží na `www`, takže `data-domains="www.123stranky.cz"` v `head.njk` je teď na místě, kdybys chtěl měřit jen produkci — pozor, vypne i tvoje vlastní testování z `localhost`.
 - **Návštěvnost se neměří na přesměrovacích stránkách** (staré URL) — jsou záměrně mimo layout.
 
 ## Kontakty a provozovatel (reálné)
@@ -134,6 +134,7 @@ eleventy.config.js            # filtry, kolekce, transform relativeLinks (root-r
 19. **`{% set %}` platí pro celý zbytek šablony** — proměnné nastavené pro jeden `{% include %}` musí další include vždy přenastavit (i na `false`), jinak zdědí staré hodnoty. Týká se hlavně parametrů `link-*.njk`.
 20. **Interní odkazy v šablonách jsou root-relative** (`/kontakt/`) a teprve transform `relativeLinks` z nich při buildu udělá relativní (`../kontakt/`). Nikdy nepočítej hloubku ručně a nepiš `../` přímo do šablony — rozbilo by to build na kořeni domény. Nový atribut s cestou musíš přidat do regexu v transformu.
 21. **Ukládání JPEG přes .NET**: `$bmp.Save($path, $codec, (New-Object System.Drawing.Imaging.EncoderParameters(0)))` spadne na `Parameter is not valid` — bez parametrů použij `Save($path, [System.Drawing.Imaging.ImageFormat]::Jpeg)`, s kvalitou až `EncoderParameters(1)` (`EncoderParameter(Quality, 78)`). Stejně tak `New-Object System.Drawing.Rectangle(0,0,$w,$h)` s výrazem uvnitř rozbije parsování — hodnoty předpočítej do proměnných (viz i OG obrázky).
+22. **Nasazení se ověřuje na `www`** — `staticke-weby.github.io` dělá 301 na `http://www.123stranky.cz` a PowerShell na tom spadne (`nelze pokračovat přes nezabezpečené přesměrování`, protože `Invoke-WebRequest` odmítá https → http). Vypadá to pak jako rozbitý deploy, i když je vše v pořádku; použij `curl.exe` (s `-L`) nebo míř rovnou na www.
 
 ## Kontrola kvality (audit)
 
@@ -204,15 +205,12 @@ Cíl: být relevantní tvůrce webů pro **města a obce kolem Slaného** (Praha
 
 ## Nasazení (GitHub Pages)
 
-- Repozitář: `https://github.com/Staticke-weby/123stranky.cz` (veřejný, výchozí branch `main`), lokálně `origin`. GitHub Pages jsou zapnuté (Source = GitHub Actions); web běží na `https://staticke-weby.github.io/123stranky.cz/`, vlastní doména `www.123stranky.cz` se teprve nastavuje (DNS na ni zatím míří na starý Google Sites). `gh` (GitHub CLI) na stroji **není** — pracuje se přes `git` + web GitHubu.
+- Repozitář: `https://github.com/Staticke-weby/123stranky.cz` (veřejný, výchozí branch `main`), lokálně `origin`. GitHub Pages jsou zapnuté (Source = GitHub Actions) a **web běží na `https://www.123stranky.cz/`** (vlastní doména nastavená v Settings → Pages, přes Cloudflare, HTTPS vynucené). `https://staticke-weby.github.io/123stranky.cz/…` i `http://www…` na www **301 přesměrovávají** — proto se nasazení ověřuje **na www**, ne na github.io. `gh` (GitHub CLI) na stroji **není** — pracuje se přes `git` + web GitHubu.
 - Nasadit ručně: `git push origin main` (běží workflow `.github/workflows/pages.yml`: build `_site` → `actions/upload-pages-artifact` → `actions/deploy-pages`).
 - Akce ve workflow musí cílit na **Node 24** (`checkout@v5`, `setup-node@v5`, `configure-pages@v6`, `upload-pages-artifact@v5`, `deploy-pages@v5`). Starší verze běží na Node 20 a GitHub u nich hlásí deprecation warning (`target Node.js 20 but are being forced to run on Node.js 24`).
 - Vlastní doména: `src/CNAME` = `www.123stranky.cz` (kopíruje se do kořene `_site`), ale **nasadit ji musíš v Settings → Pages → Custom domain** — při deployi přes Actions se soubor `CNAME` do nastavení nepropíše (nasazený `/CNAME` je prázdný, dokud doména není vyplněná v nastavení). `site.url` je `https://www.123stranky.cz`, canonical, OG i sitemap míří na www.
 - **Web funguje z kořene domény i z podadresáře.** V šablonách se interní odkazy píšou root-relative (`/kontakt/`), ale transform `relativeLinks` v `eleventy.config.js` je při buildu přepíše na relativní podle hloubky stránky (`./`, `../`, `../../`). Díky tomu funguje jak `https://www.123stranky.cz/…`, tak `https://staticke-weby.github.io/123stranky.cz/…`. Když přidáš nový atribut s cestou (`data-bg`, `srcset`…), musíš ho přidat i do regexu v transformu.
-- DNS je na **Cloudflare** (NS `ajay.ns`/`zoe.ns.cloudflare.com`, provoz přes Google Sites). Pro GitHub Pages:
-  - apex `123stranky.cz`: `A` na `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (+ volitelně `AAAA 2606:50c0:8000::153` … `::803`)
-  - `www`: `CNAME` na `staticke-weby.github.io`
-  - Nejdřív nechat **DNS only** (šedý mrak), ať GitHub vystaví certifikát, pak teprve případně zapnout proxy. Zapnout **Enforce HTTPS**.
+- DNS je na **Cloudflare**, přepnuté na GitHub Pages a **proxované** (odpovědi mají `Server: cloudflare`): `www` jde na `staticke-weby.github.io` (CNAME, v odpovědi se ale jeví jako Cloudflare IP), apex `123stranky.cz` je 301 na `https://www.123stranky.cz` a `http://www` je 301 na https (Enforce HTTPS i Always Use HTTPS fungují). Starý Google Sites se už needseruje. Historicky (kdyby bylo potřeba vrátit): apex `A` na `185.199.108.153`…`185.199.111.153`, `www` CNAME na `staticke-weby.github.io`, nejdřív **DNS only**, pak zapnout proxy a **Enforce HTTPS**.
 - **Přesměrování ze starých URL** (GitHub Pages neumí serverové redirecty): `_data/redirects.json` + šablony `redirecty.njk` (`/{{ from }}/index.html`) a `redirecty-bez-lomitka.njk` (`/{{ from }}.html`). Generují se obě varianty, protože se liší chování statického serveru. Stránka má `meta refresh`, `canonical` na cíl a `noindex`.
 - Namapované staré adresy (Google Sites, ověřeno, že vracely 200):
 
